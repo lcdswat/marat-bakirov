@@ -70,6 +70,6 @@
 	<!-- EOF Инфобот попарт -->
 
 	
-
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>
 </html>
