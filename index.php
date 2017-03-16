@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Портфолио Марата Бакирова</title>
+	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
 </head>
@@ -69,7 +70,10 @@
 	<img src="/i/infobot-popart.jpg" class="grid-i">
 	<!-- EOF Инфобот попарт -->
 
+	<!-- Футер -->
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
 	
+	<!-- Метрика -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>
 </html>
