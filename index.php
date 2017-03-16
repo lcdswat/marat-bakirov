@@ -67,7 +67,9 @@
 	Постер для сервиса «Инфобот»<br>
 	Дата разработки: 20.12.2016 г.
 	</p>
-	<img src="/i/infobot-popart.jpg" class="grid-i">
+	<div class="grid">
+		<img src="/i/infobot-popart.jpg">
+	</div>
 	<!-- EOF Инфобот попарт -->
 
 	<!-- Футер -->
