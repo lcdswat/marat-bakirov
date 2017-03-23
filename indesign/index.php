@@ -107,5 +107,20 @@
 $.stellar();
 </script>
 
+<script type="text/javascript">
+	guides = 0;
+	$(document).keyup(function(e) {
+    	if(e.keyCode == 87) {guides++};
+	    if (guides & 1) {
+	    	$("#grid-bg").css("background-image","none");
+	    	$(".parallax__layer--back").css("background-image","none");
+	    };
+	    if (guides & 2) {
+	    	$("#grid-bg").css("background-image","url(grid.png)");
+	    	$(".parallax__layer--back").css("background-image","url(bg-new.svg)");
+	    };
+	});
+</script>
+
 </body>
 </html>
