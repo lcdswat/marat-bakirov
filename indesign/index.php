@@ -4,16 +4,18 @@
 	<title></title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="indesign.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="jquery.stellar.js"></script>
 </head>
 <body>
 
 <div class="parallax">
 	<div class="parallax__layer parallax__layer--back">
-		<div></div>
+		<img src="bg.svg">
 	</div>
 	
 	<!-- Контент -->
-	<div class="parallax__layer parallax__layer--base">
+	<div class="parallax__layer parallax__layer--base" data-stellar-background-ratio="0.5">
 		<div id="grid-bg">
 			<div class="grid">
 				<!-- Заголовок -->
@@ -67,9 +69,9 @@
 
 				<div id="about-me">
 					<h2>Немного обо мне &mdash;</h2>
-					<p>Меня зовут Марат Бакиров. Так уж случилось, что последние 10 лет каждый рабочий день первая программа, которую я запускаю на компьютере — это индизайн.
+					<p>Меня зовут Марат Бакиров. Так уж случилось, что последние 10 лет каждый рабочий день первая программа, которую я запускаю на компьютере - это индизайн.
 					<br><br>
-					Впервые с многостраничной вёрсткой я столкнулся в 2007 году, когда случайно занял место уволившегося верстальщика в местном журнале. Свой первый номер я верстал 4 суток почти без перерывов на сон и еду и уже тогда понял — тут что-то не так.
+					Впервые с многостраничной вёрсткой я столкнулся в 2007 году, когда случайно занял место уволившегося верстальщика в местном журнале. Свой первый номер я верстал 4 суток почти без перерывов на сон и еду и уже тогда понял - тут что-то не так.
 					<br><br>
 					С тех пор прошло много тысяч проведенных за вёрсткой часов и теперь я хочу поделиться некоторыми советами и приемами которые знаю с начинающими дизайнерами.</p>
 				</div>
@@ -101,6 +103,11 @@
 	</div>
 </div>
 
+<script type="text/javascript">
+$(function(){	
+	$('.parallax__layer--back').stellar();
+});
 </script>
+
 </body>
 </html>
