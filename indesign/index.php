@@ -5,17 +5,17 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="indesign.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="jquery.stellar.js"></script>
+	<script type="text/javascript" src="jquery.stellar.min.js"></script>
 </head>
 <body>
 
-<div class="parallax">
-	<div class="parallax__layer parallax__layer--back">
-		<img src="bg.svg">
+	<div class="parallax__layer parallax__layer--back" data-stellar-ratio="1.2">
+		
 	</div>
+<div class="parallax">
 	
 	<!-- Контент -->
-	<div class="parallax__layer parallax__layer--base" data-stellar-background-ratio="0.5">
+	<div class="parallax__layer parallax__layer--base">
 		<div id="grid-bg">
 			<div class="grid">
 				<!-- Заголовок -->
@@ -104,9 +104,7 @@
 </div>
 
 <script type="text/javascript">
-$(function(){	
-	$('.parallax__layer--back').stellar();
-});
+$.stellar();
 </script>
 
 </body>
