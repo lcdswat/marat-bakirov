@@ -61,6 +61,8 @@ h1 {
   line-height: 100px;
   font-family: 'Gotham Pro Bold', Arial;
   float: left;
+  font-weight: normal;
+  position: relative;
 }
 
 h2 {
@@ -69,12 +71,15 @@ h2 {
   font-size: 38px;
   line-height: 25px;
   font-family: 'Gotham Pro Bold', Arial;
+  font-weight: normal;
+  position: relative;
 }
 
 #place-count {
   padding: 152px 0 0 0;
   width: 303px;
   float: left;
+  position: relative;
 }
 
 #place-count span {
@@ -90,6 +95,7 @@ h2 {
   width: 302px;
   margin: 125px 42px 0 0;
   font-family: 'Gotham Pro Bold', Arial;
+  font-weight: normal;
 }
 
 #for-who {
@@ -137,7 +143,6 @@ h2 {
   margin: 175px 0 0 0;
   z-index: 999;
   font-family: 'Gotham Pro Italic', Arial;
-  font-style: italic;
   font-size: 16px;
 }
 

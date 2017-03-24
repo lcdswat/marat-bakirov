@@ -186,6 +186,17 @@ $("#typograf").click(function(){
 });
 </script>
 
+<!-- Костыль для винды -->
+<script type="text/javascript">
+var os = 0;
+if (navigator.userAgent.indexOf ('Windows') != -1) os = 1;
+if (os == 1) {
+	$("h1").css('bottom' , '7px');
+	$("h2").css('bottom' , '4px');
+	$("place-count").css('bottom' , '4px');
+}
+</script>
+
 </body>
 </html>
 
