@@ -113,11 +113,9 @@ $.stellar();
     	if(e.keyCode == 87) {guides = !guides};
 	    if (!guides) {
 	    	$("#grid-bg").css("background-image","none");
-	    	$(".parallax__layer--back").css("background-image","none");
 	    }
 	    else {
 	    	$("#grid-bg").css("background-image","url(grid.png)");
-	    	$(".parallax__layer--back").css("background-image","url(bg-new.svg)");
 	    }
 	});
 </script>
