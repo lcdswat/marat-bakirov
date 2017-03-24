@@ -96,6 +96,7 @@ h2 {
   margin: 125px 42px 0 0;
   font-family: 'Gotham Pro Bold', Arial;
   font-weight: normal;
+  position: relative;
 }
 
 #for-who {

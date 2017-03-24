@@ -193,7 +193,9 @@ if (navigator.userAgent.indexOf ('Windows') != -1) os = 1;
 if (os == 1) {
 	$("h1").css('bottom' , '7px');
 	$("h2").css('bottom' , '4px');
-	$("place-count").css('bottom' , '4px');
+	$("#place-count").css('bottom' , '4px');
+	$("#about-me h2").css('bottom' , '3px');
+	$(".column").css('bottom' , '2px');
 }
 </script>
 
