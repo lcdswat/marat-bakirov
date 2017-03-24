@@ -72,8 +72,8 @@
 			<span id="typograf"></span>
 		</div>
 
-		<div id="about-me">
-			<h2>Немного обо мне &mdash;</h2>
+		<div class="about-me" id="szamedless">
+			<h2>Немного обо мне -</h2>
 			<p>Меня зовут Марат Бакиров. Так уж случилось, что последние 10 лет каждый рабочий день первая программа, которую я запускаю на компьютере - это индизайн.
 			<br><br>
 			Впервые с многостраничной вёрсткой я столкнулся в 2007 году, когда случайно занял место уволившегося верстальщика в местном журнале. Свой первый номер я верстал 4 суток почти без перерывов на сон и еду и уже тогда понял - тут что-то не так.
@@ -81,9 +81,18 @@
 			С тех пор прошло много тысяч проведенных за вёрсткой часов и теперь я хочу поделиться некоторыми советами и приемами которые знаю с начинающими дизайнерами.</p>
 		</div>
 
+		<div class="about-me" id="szamed" style="display: none;">
+			<h2>Немного обо мне &mdash;</h2>
+			<p>Меня зовут Марат Бакиров. Так уж случилось, что&nbsp;последние 10&nbsp;лет каждый рабочий день первая программа, которую я запускаю на компьютере&nbsp;&mdash; это&nbsp;индизайн.
+			<br><br>
+			Впервые с многостраничной вёрсткой я столкнулся в&nbsp;2007 году, когда случайно занял место уволившегося верстальщика в местном журнале. Свой первый номер я верстал 4 суток почти без перерывов на&nbsp;сон и&nbsp;еду&nbsp;и уже тогда понял&nbsp;&mdash; тут что-то не так.
+			<br><br>
+			С тех пор прошло много тысяч проведенных за&nbsp;вёрсткой часов&nbsp;и теперь я хочу поделиться некоторыми советами&nbsp;и приемами которые знаю с начинающими дизайнерами.</p>
+		</div>
+
 		<div id="photo"></div>
 
-		<div id="photo-text">Волосяные шпации преследуют меня во сне</div>
+		<div id="photo-text">Волосяные шпации преследуют меня во&nbsp;сне</div>
 
 		<div class="clean"></div>
 
@@ -91,13 +100,15 @@
 		<p>
 			Чтобы записаться на&nbsp;интенсив<br>
 			свяжитесь со&nbsp;мной любым способом:<br>
-			&mdash;&nbsp;вконтакте vk.com/lcdswat;<br>
-			&mdash;&nbsp;по&nbsp;телефону +7&nbsp;999&nbsp;133 15 96;<br>
-			&mdash;&nbsp;по&nbsp;электронной почте lcd-swat@yandex.ru.
+			&mdash;&nbsp;вконтакте <span class="data-merge"><a href="https://vk.com/lcdswat">vk.com/lcdswat</a></span><span class="data-no-merge"><<Линк vk>></span>;<br>
+			&mdash;&nbsp;по&nbsp;электронной почте <span class="data-merge"><a href="mailto:lcd-swat@yandex.ru">lcd-swat@yandex.ru</a></span><span class="data-no-merge"><<Почта>></span>.<br>
+			&mdash;&nbsp;по&nbsp;телефону <span class="data-merge">+7&nbsp;999&nbsp;133 15 96</span><span class="data-no-merge"><<Телефон>></span>;
 		</p>
 
 		<!-- Панель данных -->
-		<div id="panel-three"></div>
+		<div id="panel-three">
+			<span id="data-merge-checked"></span>
+		</div>
 
 		<div class="clean"></div>
 
@@ -105,6 +116,15 @@
 
 	</div>
 </div>
+
+<!-- Объединение данных -->
+<script type="text/javascript">
+$("#data-merge-checked").click(function(){
+	$("#panel-three").toggleClass("panel-three-checked");
+	$(".data-no-merge").toggleClass("data-merge-yes");
+	$(".data-merge").toggleClass("data-merge-no");
+});
+</script>
 
 <!-- Паралакс -->
 <script type="text/javascript">
@@ -158,5 +178,14 @@ $("#style-six").click(function(){
 });
 </script>
 
+<!-- Типограф -->
+<script type="text/javascript">
+$("#typograf").click(function(){
+	$("#szamedless").css('display' , 'none');
+	$("#szamed").css('display' , 'block');
+});
+</script>
+
 </body>
 </html>
+

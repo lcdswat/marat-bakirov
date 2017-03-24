@@ -24,7 +24,7 @@ a {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid black;
-  padding: 0 0 4px 0;
+  padding: 0 0 2px 0;
 }
 
 p {margin: 0; padding: 0;}
@@ -98,35 +98,23 @@ h2 {
   float: left;
 }
 
-#panel-three {
-  width: 213px;
-  height: 196px;
-  float: right;
-  margin: -196px 0 0 0;
-  position: relative;
-  bottom: 0px;
-  right: 62px;
-  background-image: url(panel-3.png);
-  background-repeat: no-repeat;
-}
-
 .programm-column {
   width: 474px;
   margin: 220px 42px 0 0;
   float: left;
 }
 
-#about-me {
+.about-me {
   width: 474px;
   margin: 194px 0 220px 0;
   float: left;
 }
 
-#about-me h2 {
+.about-me h2 {
   padding: 0 0 56px 0;
 }
 
-#about-me p {
+.about-me p {
   font-size: 16px;
 }
 
@@ -245,4 +233,42 @@ h2 {
   height: 20px;
   margin: 213px 0 0 0;
   cursor: pointer;
+}
+
+/*Объединение данных*/
+#panel-three {
+  width: 213px;
+  height: 196px;
+  float: right;
+  margin: -196px 0 0 0;
+  position: relative;
+  bottom: 0px;
+  right: 62px;
+  background-image: url(panel-3.png);
+  background-repeat: no-repeat;
+  background-position-x: -213px;
+}
+
+.panel-three-checked {
+  background-position-x: 0px !important; 
+}
+
+#panel-three span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 171px 0 0 2px;
+  cursor: pointer;
+}
+
+.data-no-merge {
+  display: none;
+}
+
+.data-merge-no {
+  display: none;
+}
+
+.data-merge-yes {
+  display: inline !important;
 }
