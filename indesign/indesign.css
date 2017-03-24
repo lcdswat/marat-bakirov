@@ -161,6 +161,7 @@ h2 {
   background-repeat: no-repeat;
   background-color: lightgray;
   background-position-x: -486px;
+  z-index: 999;
 }
 
 #panel-one span {
