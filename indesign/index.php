@@ -196,8 +196,8 @@ if (os == 1) {
 	$("#place-count").css('bottom' , '4px');
 	$(".about-me h2").css('bottom' , '3px');
 	$(".column").css('bottom' , '2px');
-	$(".style-one").css('bottom' , '0px');
-	$(".style-two").css('bottom' , '7px');
+	$(".style-one").css('bottom' , '0px', '!important');
+	$(".style-two").css('bottom' , '7px !important');
 	$(".style-four").css('bottom' , '2px');
 	$(".style-five").css('bottom' , '0px');
 	$(".style-six").css('bottom' , '0px');
