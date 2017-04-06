@@ -24,7 +24,7 @@
 				<p><a href="/">Автоматическая вёрстка оглавления</a></p>
 			</div>
 			<div class="col" id="me">
-				<img src="/site-files/me-pixel.svg">
+				<img src="/site-files/me-pixel.gif">
 				<a href="/">
 					<div>
 						Обо мне
@@ -35,8 +35,26 @@
 		</div>
 	</div>
 
+	<div id="menu-close-area"></div>
+
+	<!-- Кнопка меню -->
 	<script type="text/javascript">
 		$('#menu-button').click(function() {
    			$('#menu').toggleClass('show');
+   			$('#menu-close-area').toggleClass('show');
+		});
+		$('#menu-close-area').click(function() {
+   			$('#menu').toggleClass('show');
+   			$('#menu-close-area').toggleClass('show');
+		});
+	</script>
+
+	<!-- Меню на кнопке W -->
+	<script type="text/javascript">
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 87) {
+	    		$('#menu').toggleClass('show');
+	    		$('#menu-close-area').toggleClass('show');
+	    	};
 		});
 	</script>

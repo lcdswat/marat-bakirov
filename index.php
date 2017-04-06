@@ -23,7 +23,7 @@
 						<span>&mdash;&nbsp;Да, вот:</span>';
 			$quotes[] = '<span>&mdash;&nbsp;Где можно ваши работы посмотреть?</span>
 						<span>&mdash;&nbsp;Здесь:</span>';
-			$quotes[] = '<span>&mdash;&nbsp;Портфолио покажите?</span>
+			$quotes[] = '<span>&mdash;&nbsp;Портфолио покажете?</span>
 						<span>&mdash;&nbsp;Да, пожалуйста:</span>';
 			srand ((double) microtime() * 1000000);
 		    $random_number = rand(0,count($quotes)-1);
