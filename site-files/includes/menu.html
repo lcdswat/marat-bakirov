@@ -25,11 +25,13 @@
 			</div>
 			<div class="col" id="me">
 				<img src="/site-files/me-pixel.gif">
-				<a href="/">
-					<div>
-						Обо мне
-					</div>
-				</a>
+				<div>
+					Привет!<br>Меня зовут <a href="/">Марат Бакиров</a>
+				</div>
+			</div>
+			<div class="col" id="me-short">
+				<img src="/site-files/me-pixel-short.png"><br>
+				<a href="/">Обо мне</a>
 			</div>
 			<div class="clean"></div>
 		</div>
@@ -57,4 +59,22 @@
 	    		$('#menu-close-area').toggleClass('show');
 	    	};
 		});
+		
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 27) {
+	    		$('#menu').removeClass('show');
+	    		$('#menu-close-area').removeClass('show');
+	    	};
+		});
+	</script>
+
+	<!-- Цвет кнопки меню -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+       		$(window).scroll(function(){
+				var bo = $("body").scrollTop();
+				if ( bo > 560 ) {$("#menu-button span").addClass('bg');}
+				else {$("#menu-button span").removeClass('bg');}
+       		 })
+    	})
 	</script>

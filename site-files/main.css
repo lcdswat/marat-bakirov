@@ -6,6 +6,11 @@
 	font-family: 'Gotham Pro Bold';
 	src: url(/site-files/gotham-b.ttf);
 }
+@font-face {
+	font-family: 'Gotham Pro Italic';
+	src: url(/site-files/gotham-i.ttf);
+}
+
 
 html {margin: 0; padding: 0; height: 100%;}
 body {
@@ -116,21 +121,31 @@ img {
 	display: block;
 	width: 45px;
 	height: 41px;
-	margin: 0 0 -41px 0;
+	margin: -10px 0 -41px 0;
+	padding: 10px;
 	background-image: url(/site-files/menu.svg);
 	background-repeat: no-repeat;
+	background-position: center center;
 	float: right;
 	cursor: pointer;
+	-webkit-transition: background-color ease 0.5s;
+	-moz-transition: background-color ease 0.5s;
+	-o-transition: background-color ease 0.5s;
+	transition: background-color ease 0.5s;
+}
+
+#menu-button span.bg {
+	background-color: #ec2c42;
 }
 
 #menu {
 	width: 100%;
 	padding: 60px 0 40px 0;
-	background-color: #E2001A;
+	background-color: #ec2c42;
 	color: white;
 	position: fixed;
 	z-index: 998;
-	top: -265px;
+	top: -300px;
 	-webkit-transition: top ease 0.2s;
 	-moz-transition: top ease 0.2s;
 	-o-transition: top ease 0.2s;
@@ -164,32 +179,44 @@ img {
 	font-family: 'Gotham Pro Bold', Arial;
 }
 
-#menu #me {
-	margin: -20px 0 0 0;
+#menu #me-short {
+	width: 130px;
+	display: none;
+	text-align: center;
 }
 
-#menu #me a {
-	margin: 0; padding: 0; border: none;
+#menu #me-short img {
+	margin: -10px 0 10px 0;
+}
+
+#menu #me-short a {
+	font-size: 13px;
+	font-family: 'Gotham Pro Italic', Arial;
+}
+
+#menu #me {
+	margin: 0 0 0 0;
 }
 
 #menu #me img {
 	display: block;
 	float: left;
-	margin: 0 40px 0 0;
+	margin: -20px 30px 0 0;
 }
 
 #menu #me div {
-	width: 116px;
-	padding: 15px 0 15px 0;
-	border-radius: 10px;
-	border: 2px solid white;
+	width: 102px;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid white;
 	float: left;
-	text-align: center;
+	font-size: 13px;
+	line-height: 16px;
+	font-family: 'Gotham Pro Italic', Arial;
 }
 
-#menu #me div:hover {
-	background-color: white;
-	color: black;
+#menu #me a {
+	font-size: 13px;
 }
 
 #menu-close-area {
@@ -203,5 +230,10 @@ img {
 
 #menu-close-area.show {
 	display: block;
+}
+
+@media all and (max-width: 1460px) {
+	#me {display: none;}
+	#me-short {display: block !important;}
 }
 /*EOF меню*/
