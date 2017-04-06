@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="60px" height="180px" viewBox="0 0 60 180" enable-background="new 0 0 60 180" xml:space="preserve">
+<defs>
+</defs>
+<rect x="20" fill="#8B6239" width="5" height="5"/>
+<polygon fill="#8B6239" points="55,20 55,15 50,15 50,10 45,10 45,5 25,5 25,10 30,10 30,15 45,15 45,20 50,20 "/>
+<rect x="55" y="10" fill="#8B6239" width="5" height="5"/>
+<rect x="10" y="10" fill="#64472B" width="5" height="5"/>
+<polygon fill="#64472B" points="15,30 20,30 20,25 30,25 30,20 40,20 40,15 30,15 30,10 20,10 20,15 15,15 "/>
+<rect x="50" y="20" fill="#64472B" width="5" height="5"/>
+<polygon fill="#FCC588" points="50,40 50,20 45,20 45,15 40,15 40,20 30,20 30,25 25,25 25,30 30,30 30,35 40,35 45,35 45,40 "/>
+<rect x="30" y="25" fill="#1A171B" width="5" height="5"/>
+<rect x="40" y="25" fill="#1A171B" width="5" height="5"/>
+<polygon fill="#CE9F6B" points="40,55 40,50 30,50 30,55 30,60 35,60 35,55 "/>
+<rect x="35" y="55" fill="#FCC588" width="5" height="10"/>
+<rect x="20" y="85" fill="#362F2D" width="5" height="5"/>
+<rect x="25" y="80" fill="#362F2D" width="10" height="5"/>
+<rect x="45" y="65" fill="#8CC53F" width="5" height="5"/>
+<path fill="#76A534" d="M25,90h-5v5h5V90z M35,85H25v5h10V85z"/>
+<path fill="#EDBA81" d="M15,85h5V75h-5V85z M55,75h-5v5h5V75z"/>
+<path fill="#FCC588" d="M15,120h5V85h-5V120z M55,80h-5v30h5V80z"/>
+<rect x="50" y="115" fill="#FCC588" width="5" height="5"/>
+<rect x="50" y="110" fill="#1A171B" width="5" height="5"/>
+<polygon fill="#362F2D" points="50,130 50,105 40,105 30,105 20,105 20,130 30,130 30,120 40,120 40,130 "/>
+<rect x="20" y="120" fill="#423A37" width="5" height="5"/>
+<rect x="20" y="105" fill="#4D4441" width="5" height="5"/>
+<rect x="30" y="110" fill="#4D4441" width="5" height="5"/>
+<rect x="45" y="115" fill="#4D4441" width="5" height="5"/>
+<rect x="45" y="120" fill="#584E4B" width="5" height="5"/>
+<rect x="20" y="110" fill="#584E4B" width="5" height="5"/>
+<rect x="25" y="110" fill="#423A37" width="5" height="5"/>
+<rect x="45" y="105" fill="#423A37" width="5" height="5"/>
+<rect x="35" y="105" fill="#423A37" width="5" height="5"/>
+<rect x="40" y="110" fill="#423A37" width="5" height="5"/>
+<rect x="30" y="105" fill="#584E4B" width="5" height="5"/>
+<rect x="40" y="125" fill="#584E4B" width="5" height="5"/>
+<rect x="25" y="120" fill="#584E4B" width="5" height="5"/>
+<path fill="#EDBA81" d="M20,160h5v-20h-5V160z M45,140h-5v20h5V140z"/>
+<path fill="#FCC588" d="M25,160h5v-30h-5V160z M50,130h-5v35h5V130z"/>
+<path fill="#CE9F6B" d="M20,140h5v-10h-5V140z M45,130h-5v10h5V130z"/>
+<rect x="20" y="160" fill="#362F2D" width="10" height="5"/>
+<polygon fill="#362F2D" points="50,170 50,165 45,165 45,160 40,160 40,170 45,170 "/>
+<path fill="#534741" d="M20,170h10v-5H20V170z M55,165h-5v5h5V165z"/>
+<path fill="#ABD273" d="M20,175h10v-5H20V175z M55,170H40v5h15V170z"/>
+<polygon fill="#64472B" points="30,50 45,50 45,45 30,45 30,40 35,40 35,35 30,35 25,35 25,30 20,30 20,45 25,45 25,50 "/>
+<polygon fill="#8B6239" points="45,35 35,35 35,40 40,40 40,45 50,45 50,40 45,40 "/>
+<rect x="30" y="40" fill="#F59579" width="10" height="5"/>
+<rect x="25" y="30" fill="#CE9F6B" width="5" height="5"/>
+<rect x="20" y="25" fill="#CE9F6B" width="5" height="5"/>
+<polygon fill="#8CC53F" points="30,65 35,65 35,60 30,60 30,55 25,55 20,55 15,55 15,70 20,70 20,85 25,85 25,75 30,75 "/>
+<rect x="35" y="80" fill="#8CC53F" width="5" height="5"/>
+<rect x="40" y="75" fill="#8CC53F" width="5" height="5"/>
+<path fill="#AEE24C" d="M40,65h5V55h-5V65z M40,75V65H30v10h-5v5h10v-5H40z M50,105V70h-5v10h-5v5h-5v5h-5v5h5v5h5v5h5H50z M55,55
+	h-5v15h5V55z"/>
+<rect x="35" y="75" fill="#362F2D" width="5" height="5"/>
+<rect x="40" y="65" fill="#362F2D" width="5" height="10"/>
+<rect x="45" y="55" fill="#362F2D" width="5" height="10"/>
+<polygon fill="#8CC53F" points="25,95 20,95 20,105 25,105 30,105 35,105 40,105 40,100 35,100 35,95 30,95 30,90 25,90 "/>
+<path fill="#CE9F6B" d="M15,75h5v-5h-5V75z M55,70h-5v5h5V70z"/>
+<polygon fill="#A55043" points="55,175 40,175 40,170 30,170 30,175 20,175 20,170 10,170 10,175 15,175 15,180 55,180 "/>
+<polygon fill="#CD6E52" points="0,170 0,174.999 5,174.999 5,180 15,180 15,174.999 10,174.999 10,170 "/>
+</svg>

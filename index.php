@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>Портфолио Марата Бакирова</title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+
+	<!-- Меню -->
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
 	<div id="black-bg"></div>
 	<div class="grid" id="header">

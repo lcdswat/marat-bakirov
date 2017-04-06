@@ -2,6 +2,10 @@
 	font-family: 'Gotham Pro';
 	src: url(/site-files/gotham.ttf);
 }
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url(/site-files/gotham-b.ttf);
+}
 
 html {margin: 0; padding: 0; height: 100%;}
 body {
@@ -92,3 +96,99 @@ img {
 	margin: 0 auto 100px auto;
 }
 /*EOF Футер*/
+
+/*Меню*/
+#menu-button-wrapper {
+	display: block;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+}
+
+#menu-button {
+	width: 80%;
+	min-width: 1000px;
+	max-width: 1600px;
+	margin: 60px auto 0 auto;
+}
+
+#menu-button span {
+	display: block;
+	width: 45px;
+	height: 41px;
+	margin: 0 0 -41px 0;
+	background-image: url(/site-files/menu.svg);
+	background-repeat: no-repeat;
+	float: right;
+	cursor: pointer;
+}
+
+#menu {
+	width: 100%;
+	padding: 60px 0 40px 0;
+	background-color: #E2001A;
+	color: white;
+	position: fixed;
+	z-index: 998;
+	top: -265px;
+	-webkit-transition: top ease 0.2s;
+	-moz-transition: top ease 0.2s;
+	-o-transition: top ease 0.2s;
+	transition: top ease 0.2s;
+}
+
+#menu.show {
+	top: 0px;
+}
+
+#menu .col {
+	width: 220px;
+	margin: 0 40px 0 0;
+	float: left;
+}
+
+#menu a {
+	font-size: 16px;
+	color: white;
+	border-color: white;
+}
+
+#menu p {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#menu span {
+	font-size: 18px;
+	font-family: 'Gotham Pro Bold', Arial;
+}
+
+#menu #me {
+	margin: -20px 0 0 0;
+}
+
+#menu #me a {
+	margin: 0; padding: 0; border: none;
+}
+
+#menu #me img {
+	display: block;
+	float: left;
+	margin: 0 40px 0 0;
+}
+
+#menu #me div {
+	width: 116px;
+	padding: 15px 0 15px 0;
+	border-radius: 10px;
+	border: 2px solid white;
+	float: left;
+	text-align: center;
+}
+
+#menu #me div:hover {
+	background-color: white;
+	color: black;
+}
+/*EOF меню*/

@@ -1,0 +1,42 @@
+	<div id="menu-button-wrapper">
+		<div id="menu-button">
+			<span></span>
+		</div>
+	</div>
+
+	<div id="menu">
+		<div class="grid">
+			<div class="col">
+				<a href="/"><span>Портфолио</span></a><br><br>
+				<p><a href="/">Сайты</a></p>
+				<p><a href="/">Вёрстка</a></p>
+				<p><a href="/">Дизайн</a></p>
+			</div>
+			<div class="col">
+				<a href="/"><span>Горячее</span></a><br><br>
+				Интенсив по&nbsp;индизайну
+				&laquo;<a href="/indesign">Верстаем быстро</a>&raquo;
+				Уфа,&nbsp;23&mdash;24&nbsp;апреля
+			</div>
+			<div class="col">
+				<a href="/"><span>Заметки</span></a><br><br>
+				<p><a href="/">Объединение данных в&nbsp;индизайне</a></p>
+				<p><a href="/">Автоматическая вёрстка оглавления</a></p>
+			</div>
+			<div class="col" id="me">
+				<img src="/site-files/me-pixel.svg">
+				<a href="/">
+					<div>
+						Обо мне
+					</div>
+				</a>
+			</div>
+			<div class="clean"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$('#menu-button').click(function() {
+   			$('#menu').toggleClass('show');
+		});
+	</script>
