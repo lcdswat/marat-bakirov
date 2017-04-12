@@ -9,6 +9,8 @@
 </head>
 <body>
 
+	<a name="top"></a>
+
 	<!-- Меню -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
@@ -72,7 +74,7 @@
 	Дата разработки: 20.12.2016 г.
 	</p>
 	<div class="grid">
-		<img src="/i/infobot-popart.jpg">
+		<img src="/i/infobot-popart.jpg" class="shadow">
 	</div>
 	<!-- EOF Инфобот попарт -->
 

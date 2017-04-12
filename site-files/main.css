@@ -96,9 +96,22 @@ img {
 	width: 80%;
 	min-width: 1000px;
 	max-width: 1600px;
-	border: 10px solid black;
-	padding: 40px;
-	margin: 0 auto 100px auto;
+	margin: 0 auto 0 auto;
+	text-align: right;
+}
+
+#footer div {
+	display: inline-block;
+	width: 37px;
+	height: 61px;
+	background-image: url(the-end.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 100px 0 100px 0;
+}
+
+#footer a {
+	border: none;
 }
 /*EOF Футер*/
 
@@ -237,3 +250,20 @@ img {
 	#me-short {display: block !important;}
 }
 /*EOF меню*/
+
+/*Заметки*/
+.notes p {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	display: block;
+	width: 700px;
+	font-family: 'Merriweather', Serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-indent: 20px;
+	text-align: justify;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
+}
+/*EOF Заметки*/
