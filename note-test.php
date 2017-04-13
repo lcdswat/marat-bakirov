@@ -7,9 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Хипернатор -->
-	<script src="/site-files/hypernator/hyphernator.js"></script>
-	<!-- Типограф -->
-	<script src="/site-files/typograf/dist/typograf.min.js"></script>
+	<script src="/site-files/hyphenation.js"></script>
 
 </head>
 <body>
