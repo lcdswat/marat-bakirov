@@ -117,40 +117,41 @@ img {
 /*EOF Футер*/
 
 /*Меню*/
-/*#menu-button-wrapper {
+#menu-button-wrapper {
 	display: block;
 	width: 100%;
+	margin: 0 0 0 0;
 	z-index: 999;
 	position: fixed;
+	background-color: yellow;
 }
-*/
-/*#menu-button {
+
+#menu-button {
 	width: 80%;
 	min-width: 1000px;
 	max-width: 1600px;
-	margin: 60px auto 0 auto;
-}*/
+	margin: -61px auto 0 auto;
+	background-color: gray;
+}
 
 #menu-button span {
 	display: block;
+	float: right;
 	width: 45px;
 	height: 41px;
-	/*margin: -10px 0 -41px 0;*/
+	margin: 0 0 0 0;
 	padding: 10px;
+	margin: 0;
 	background-image: url(/site-files/menu.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	float: right;
 	cursor: pointer;
 	-webkit-transition: background-color ease 0.5s;
 	-moz-transition: background-color ease 0.5s;
 	-o-transition: background-color ease 0.5s;
 	transition: background-color ease 0.5s;
-	background-color: #ec2c42;
-	position: fixed;
-	right: 10%;
-	top: 60px;
-	z-index: 999;
+	position: relative;
+	top: 122px;
 }
 
 #menu-button span.bg {
@@ -263,9 +264,9 @@ img {
 	width: 80%;
 	min-width: 1000px;
 	max-width: 1600px;
-	margin: 60px auto 60px auto;
+	margin: 0 auto 0 auto;
+	padding: 60px 0 60px 0;
 	border: none;
-
 }
 
 .notes p {
@@ -298,6 +299,17 @@ img {
 	font-weight: normal;
 }
 
+.notes h2 {
+	width: 700px;
+	font-size: 28px;
+	line-height: 30px;
+	margin: 0 auto 0 auto;
+	padding: 60px 0 20px 0;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Gotham Pro Bold';
+}
+
 .notes h3 {
 	width: 700px;
 	font-size: 14px;
@@ -307,5 +319,20 @@ img {
 	text-align: center;
 	font-family: 'Merriweather', Serif;
 	font-weight: normal;
+}
+
+.notes img {
+	display: block;
+	margin: 30px auto 30px auto;
+	width: 80%;
+	max-width: 1600px;
+	min-width: 1000px;
+}
+
+.notes .orig {
+	display: block;
+	width: auto;
+	margin: 30px auto 30px auto;
+	min-width: 100px;
 }
 /*EOF Заметки*/
