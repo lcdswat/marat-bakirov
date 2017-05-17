@@ -29,14 +29,14 @@ a {
 	text-decoration: none;
 	border-bottom: 1px solid #008FCB;
 	padding: 0 0 1px 0; margin: 0 0 -1px 0;
-	-webkit-transition: opacity ease-out 0.3s;
-	-moz-transition: opacity ease-out 0.3s;
-	-o-transition: opacity ease-out 0.3s;
-	transition: opacity ease-out 0.3s;
+	-webkit-transition: color ease-out 0.3s;
+	-moz-transition: color ease-out 0.3s;
+	-o-transition: color ease-out 0.3s;
+	transition: color ease-out 0.3s;
 }
 
 a:hover {
-	opacity: 0.6;
+	color: #ec2c42;
 }
 
 .fleft {float: left;}
@@ -154,6 +154,10 @@ img {
 	top: 122px;
 }
 
+#menu-button #menu-button-en {
+	background-image: url(/site-files/menu-en.svg);
+}
+
 #menu-button span.bg {
 	background-color: #ec2c42;
 }
@@ -197,6 +201,10 @@ img {
 	font-size: 16px;
 	color: white;
 	border-color: white;
+}
+
+#menu a:hover {
+	color: #aee24c;
 }
 
 #menu p {
