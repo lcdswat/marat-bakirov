@@ -356,3 +356,22 @@ img {
 	min-width: 100px;
 }
 /*EOF Заметки*/
+
+/*Обо мне*/
+#aboutme {
+	display: block;
+	width: 500px;
+	height: 200px;
+	margin: 100px auto 0 auto;
+}
+
+#aboutme .message {
+	display: none;
+	width: 300px;
+	padding: 20px;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+}
+/*EOF Обо мне*/
