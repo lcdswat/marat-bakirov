@@ -9,7 +9,7 @@
 	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
 	<style type="text/css">
-		body {background-color: #ec2c42;}
+		body {background-color: #1c222a;}
 	</style>
 </head>
 <body>

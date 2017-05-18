@@ -388,8 +388,9 @@ img {
 	color: white;
 	font-size: 14px;
 	line-height: 20px;
-	border: 1px solid white;
+	border: 1px solid #ec2c42;
 	border-radius: 5px;
+	background-color: #ec2c42;
 }
 
 #aboutme #messages #one {
