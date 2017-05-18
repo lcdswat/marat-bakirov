@@ -22,16 +22,53 @@
 			<div class="bubles" id="3">bla</div>
 			<div class="bubles" id="4">Message</div>
 			<div class="bubles" id="5">Message</div>
+			<span id="wait"></span>
 		</div>
 	</div>
 
 	<script type="text/javascript">
-		$(function(){
-			setTimeout(function() {$('#one').show(400);}, 1000);
-			setTimeout(function() {$('#2').show(400);}, 2000);
-			setTimeout(function() {$('#3').show(400);}, 3000);
-			setTimeout(function() {$('#one').hide(400); $('#4').show(400);}, 4000);
-			setTimeout(function() {$('#2').hide(400); $('#5').show(400);}, 5000);
+		$(function() {
+
+		  $('#wait').hide();
+
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 5000);		  
+
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#2').show(400);
+		  }, 6000);
+
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 11000);		
+
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#3').show(400);
+		  }, 12000);
+
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 17000);
+
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#one').hide(400);
+		    $('#4').show(400);
+		  }, 18000);
+
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 23000);
+
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#2').hide(400);
+		    $('#5').show(400);
+		  }, 25000);
+
 		});
 	</script>
 

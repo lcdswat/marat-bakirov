@@ -360,7 +360,7 @@ img {
 /*Обо мне*/
 #aboutme {
 	display: block;
-	width: 700px;
+	width: 620px;
 	margin: -200px 0 0 -350px;
 	top: 50%;
 	left: 50%;
@@ -377,6 +377,7 @@ img {
 
 #aboutme #messages {
 	float: right;
+	margin: 60px 0 0 0;
 }
 
 #aboutme #messages .bubles {
@@ -401,5 +402,14 @@ img {
 	background-repeat: no-repeat;
 	border: none;
 	border-radius: 0px;
+}
+
+#messages #wait {
+	display: block;
+	width: 23px; height: 5px;
+	background-image: url(/site-files/about-buble-wait.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 0 0 0 10px;
 }
 /*EOF Обо мне*/
