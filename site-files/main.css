@@ -388,21 +388,23 @@ img {
 	color: white;
 	font-size: 14px;
 	line-height: 20px;
-	border: 1px solid #ec2c42;
 	border-radius: 5px;
 	background-color: #ec2c42;
 }
 
 #aboutme #messages #one {
-	width: 402px;
-	margin: 0 0 10px 0;
-	padding: 18px 20px 18px 30px;
 	display: block;
-	background-image: url(/site-files/about-buble.svg);
-	background-position: 0px -0;
-	background-repeat: no-repeat;
-	border: none;
-	border-radius: 0px;
+}
+
+.bubles span {
+	display: block;
+	position: relative;
+	width: 19px;
+	height: 10px;
+	margin: -10px 0 0 -19px;
+	top: -8px;
+	right: 11px;
+	background-image: url(/site-files/about-buble-first.svg);
 }
 
 #messages #wait {
@@ -411,7 +413,7 @@ img {
 	background-image: url(/site-files/about-buble-wait.gif);
 	background-repeat: no-repeat;
 	background-position: top right;
-	padding: 0 0 0 10px;
+	margin: 0 0 0 10px;
 }
 
 #messages a {

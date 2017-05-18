@@ -1,11 +1,12 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>Обо мне | Портфолио Марата Бакирова</title>
+	<title>About Me | Marat Bakirov</title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
 	<style type="text/css">
 		body {background-color: #201723;}
@@ -52,17 +53,17 @@
 	<div id="aboutme">
 		<img src="/site-files/me-pixel-about.gif">
 		<div id="messages">
-			<div class="bubles" id="one"><span></span>Привет! Меня зовут Марат Бакиров</div>
-			<div class="bubles" id="2">Я занимаюсь графическим дизайном<br>и вёрсткой более 10 лет</div>
-			<div class="bubles" id="3">Люблю индизайн и хорошую вёрстку</div>
-			<div class="bubles" id="4">Ещё я делаю сайты и всякое такое</div>
-			<div class="bubles" id="5">Если что&nbsp;&mdash; пишите на почту <a href="mailto:lcd-swat@yandex.ru">lcd-swat@yandex.ru</a><br>или в <a href="https://t.me/lcdswat">телеграм</a></div>
+			<div class="bubles" id="one"><span></span>Hi! My name is Marat Bakirov</div>
+			<div class="bubles" id="2">I'm graphic designer and layout maker<br>with 10 years of experience</div>
+			<div class="bubles" id="3">I love indesign and nice layouts</div>
+			<div class="bubles" id="4">I also make web sites and know HTML and CSS</div>
+			<div class="bubles" id="5">Contact me with <a href="mailto:lcd-swat@yandex.ru">email</a> or <a href="https://t.me/lcdswat">telegram</a></div>
 			<span id="wait"></span>
 		</div>
 	</div>
 
 	<!-- Меню -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu-en.html'); ?>
 
 	<!-- Метрика -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
