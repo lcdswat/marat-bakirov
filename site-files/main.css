@@ -412,4 +412,13 @@ img {
 	background-position: top right;
 	padding: 0 0 0 10px;
 }
+
+#messages a {
+	border-color: white;
+	color: white;
+}
+
+#messages a:hover {
+	color: #aee24c;
+}
 /*EOF Обо мне*/

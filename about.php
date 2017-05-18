@@ -17,11 +17,11 @@
 	<div id="aboutme">
 		<img src="/site-files/me-pixel-about.gif">
 		<div id="messages">
-			<div class="bubles" id="one">bla-bla</div>
-			<div class="bubles" id="2">bla-bla-bla</div>
-			<div class="bubles" id="3">bla</div>
-			<div class="bubles" id="4">Message</div>
-			<div class="bubles" id="5">Message</div>
+			<div class="bubles" id="one">Hi! My name is Marat Bakirov</div>
+			<div class="bubles" id="2">I'm graphical designer and layout maker<br>for about 10 years</div>
+			<div class="bubles" id="3">I love indesign and nice layouts</div>
+			<div class="bubles" id="4">I also make web sites and know HTML and CSS</div>
+			<div class="bubles" id="5">Contact me with <a href="mailto:lcd-swat@yandex.ru">email</a> or <a href="https://t.me/lcdswat">telegram</a></div>
 			<span id="wait"></span>
 		</div>
 	</div>
@@ -33,41 +33,41 @@
 
 		  setTimeout(function() {
 		    $('#wait').show(400);
-		  }, 5000);		  
+		  }, 2000);		  
 
 		  setTimeout(function() {
 		    $('#wait').hide();
 		    $('#2').show(400);
-		  }, 6000);
+		  }, 3000);
 
 		  setTimeout(function() {
 		    $('#wait').show(400);
-		  }, 11000);		
+		  }, 6000);		
 
 		  setTimeout(function() {
 		    $('#wait').hide();
 		    $('#3').show(400);
-		  }, 12000);
+		  }, 8000);
 
 		  setTimeout(function() {
 		    $('#wait').show(400);
-		  }, 17000);
+		  }, 11000);
 
 		  setTimeout(function() {
 		    $('#wait').hide();
 		    $('#one').hide(400);
 		    $('#4').show(400);
-		  }, 18000);
+		  }, 13000);
 
 		  setTimeout(function() {
 		    $('#wait').show(400);
-		  }, 23000);
+		  }, 13500);
 
 		  setTimeout(function() {
 		    $('#wait').hide();
 		    $('#2').hide(400);
 		    $('#5').show(400);
-		  }, 25000);
+		  }, 14000);
 
 		});
 	</script>
