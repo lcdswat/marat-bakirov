@@ -1,13 +1,8 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me | Marat Bakirov</title>
-	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
-	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
+	<title>Marat Bakirov</title>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 	<style type="text/css">
 		body {background-color: #201723;}
 	</style>

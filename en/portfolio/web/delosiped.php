@@ -5,28 +5,21 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 </head>
 <body>
+
+	<a name="top"></a>
+
 	<!-- Меню -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu-en.html'); ?>
 
 	<div id="black-bg"></div>
 
-	<!-- Диалог -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/hello-text-en.html'); ?>
-
 	<!-- Контент -->
-	<div class="portfolio-thumbs">
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
-
-		<span class="clean"></span>
-	</div>
+	<img src="/i/delosiped.jpg" class="grid-i">
 	<!-- EOF Контент -->
 
 	<!-- Футер -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer-en.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
+	
 	<!-- Метрика -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>

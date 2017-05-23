@@ -1,0 +1,9 @@
+	<div class="grid" id="header">
+		<?php
+			$quotes[] =	'<span>&mdash;&nbsp;Can I see your portfolio?</span>
+						<span>&mdash;&nbsp;Yeah, sure:</span>';
+			srand ((double) microtime() * 1000000);
+		    $random_number = rand(0,count($quotes)-1);
+			echo ($quotes[$random_number]);  
+		?>
+	</div>

@@ -39,9 +39,13 @@ a:hover {
 	color: #ec2c42;
 }
 
+b {
+	font-family: 'Gotham Pro Bold';
+}
+
 .fleft {float: left;}
 .fright {float: right;}
-.clean {clear: both;}
+.clean {display: block; clear: both;}
 .grid-wide {width: 80%; min-width: 1000px; max-width: 1600px; margin: 0 auto 0 auto;}
 .grid {width: 1000px; margin: 0 auto 0 auto;}
 .white {color: white;}
@@ -116,247 +120,6 @@ img {
 }
 /*EOF Футер*/
 
-/*Меню*/
-#menu-button-wrapper {
-	display: block;
-	width: 100%;
-	margin: 0 0 0 0;
-	z-index: 999;
-	position: fixed;
-	background-color: yellow;
-}
-
-#menu-button {
-	width: 80%;
-	min-width: 1000px;
-	max-width: 1600px;
-	margin: -61px auto 0 auto;
-	background-color: gray;
-}
-
-#menu-button span {
-	display: block;
-	float: right;
-	width: 45px;
-	height: 41px;
-	margin: 0 0 0 0;
-	padding: 10px;
-	margin: 0;
-	background-image: url(/site-files/menu.svg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	cursor: pointer;
-	-webkit-transition: background-color ease 0.5s;
-	-moz-transition: background-color ease 0.5s;
-	-o-transition: background-color ease 0.5s;
-	transition: background-color ease 0.5s;
-	position: relative;
-	top: 122px;
-}
-
-#menu-button #menu-button-en {
-	background-image: url(/site-files/menu-en.svg);
-}
-
-#menu-button span.bg {
-	background-color: #ec2c42;
-}
-
-#menu {
-	width: 100%;
-	padding: 60px 0 40px 0;
-	background-color: #ec2c42;
-	color: white;
-	position: fixed;
-	z-index: 998;
-	top: -300px;
-	-webkit-transition: top ease 0.2s;
-	-moz-transition: top ease 0.2s;
-	-o-transition: top ease 0.2s;
-	transition: top ease 0.2s;
-}
-
-#menu.show {
-	top: 0px;
-}
-
-#menu .col {
-	margin: 0 40px 0 0;
-	float: left;
-}
-
-#menu #one {
-	width: 150px;
-}
-
-#menu #two {
-	width: 220px;
-}
-
-#menu #three {
-	width: 290px;
-}
-
-#menu a {
-	font-size: 16px;
-	color: white;
-	border-color: white;
-}
-
-#menu a:hover {
-	color: #aee24c;
-}
-
-#menu p {
-	width: 100%;
-	margin: 0;
-	padding: 0 0 10px 0;
-}
-
-#menu span {
-	font-size: 18px;
-	font-family: 'Gotham Pro Bold', Arial;
-}
-
-#menu #me-short {
-	width: 130px;
-	display: none;
-	text-align: center;
-}
-
-#menu #me-short img {
-	margin: -10px 0 10px 0;
-}
-
-#menu #me-short a {
-	font-size: 13px;
-	font-family: 'Gotham Pro Italic', Arial;
-}
-
-#menu #me {
-	margin: 0 0 0 0;
-}
-
-#menu #me img {
-	display: block;
-	float: left;
-	margin: -20px 30px 0 0;
-}
-
-#menu #me div {
-	width: 102px;
-	padding: 12px;
-	border-radius: 5px;
-	border: 1px solid white;
-	float: left;
-	font-size: 13px;
-	line-height: 16px;
-	font-family: 'Gotham Pro Italic', Arial;
-}
-
-#menu #me a {
-	font-size: 13px;
-}
-
-#menu-close-area {
-	display: none;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	z-index: 900;
-	cursor: pointer;
-}
-
-#menu-close-area.show {
-	display: block;
-}
-
-@media all and (max-width: 1460px) {
-	#me {display: none;}
-	#me-short {display: block !important;}
-}
-/*EOF меню*/
-
-/*Заметки*/
-.back-to-notes {
-	display: block;
-	width: 80%;
-	min-width: 1000px;
-	max-width: 1600px;
-	margin: 0 auto 0 auto;
-	padding: 60px 0 60px 0;
-	border: none;
-}
-
-.notes p {
-	margin: 0 auto 0 auto;
-	padding: 0;
-	display: block;
-	width: 700px;
-	font-family: 'Merriweather', Serif;
-	font-size: 18px;
-	line-height: 30px;
-	text-indent: 20px;
-	text-align: justify;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	-webkit-hyphens: auto;
-}
-
-.notes .first {
-	text-indent: 0px;
-}
-
-.notes h1 {
-	width: 700px;
-	font-size: 34px;
-	line-height: 40px;
-	margin: 0 auto 0 auto;
-	padding: 0 0 45px 0;
-	text-align: center;
-	font-family: 'Merriweather', Serif;
-	font-weight: normal;
-}
-
-.notes h2 {
-	width: 700px;
-	font-size: 24px;
-	line-height: 30px;
-	margin: 0 auto 0 auto;
-	padding: 60px 0 20px 0;
-	text-align: left;
-	font-weight: bolder;
-	font-family: 'Merriweather', Serif;
-
-}
-
-.notes h3 {
-	width: 700px;
-	font-size: 14px;
-	line-height: 20px;
-	margin: 0 auto 0 auto;
-	padding: 0 0 60px 0;
-	text-align: center;
-	font-family: 'Merriweather', Serif;
-	font-weight: normal;
-}
-
-.notes img {
-	display: block;
-	margin: 30px auto 30px auto;
-	width: 80%;
-	max-width: 1600px;
-	min-width: 1000px;
-}
-
-.notes .orig {
-	display: block;
-	width: auto;
-	margin: 30px auto 30px auto;
-	min-width: 100px;
-}
-/*EOF Заметки*/
-
 /*Обо мне*/
 #aboutme {
 	display: block;
@@ -425,3 +188,33 @@ img {
 	color: #aee24c;
 }
 /*EOF Обо мне*/
+
+/*Тамбы портфолио*/
+.portfolio-thumbs {
+	width: 80%;
+	min-width: 1000px;
+	max-width: 1600px;
+	margin: 100px auto 0 auto;
+}
+
+.portfolio-thumbs a {
+	margin: 0; padding: 0;
+	border-bottom: none;
+}
+
+.portfolio-thumbs div {
+	display: block;
+	float: left;
+	margin: 0; padding: 0;
+	width: 25%;
+	background-color: lightgray;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.portfolio-thumbs div img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+/*EOF портфолио*/

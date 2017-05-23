@@ -1,0 +1,17 @@
+	<div class="grid" id="header">
+		<?php
+			$quotes[] =	'<span>&mdash;&nbsp;А&nbsp;есть портфолио?</span>
+						<span>&mdash;&nbsp;Да, конечно:</span>';
+			$quotes[] = '<span>&mdash;&nbsp;Можно портфолио посмотреть?</span>
+						<span>&mdash;&nbsp;Вот, смотрите:</span>';
+			$quotes[] = '<span>&mdash;&nbsp;А есть какое-то портфолио?</span>
+						<span>&mdash;&nbsp;Да, вот:</span>';
+			$quotes[] = '<span>&mdash;&nbsp;Где можно ваши работы посмотреть?</span>
+						<span>&mdash;&nbsp;Здесь:</span>';
+			$quotes[] = '<span>&mdash;&nbsp;Портфолио покажете?</span>
+						<span>&mdash;&nbsp;Да, пожалуйста:</span>';
+			srand ((double) microtime() * 1000000);
+		    $random_number = rand(0,count($quotes)-1);
+			echo ($quotes[$random_number]);  
+		?>
+	</div>
