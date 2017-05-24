@@ -20,6 +20,26 @@
 				<img src="/i/delosiped-t.jpg">
 			</a>
 		</div>
+		<div>
+			<a href="/en/portfolio/web/delosiped">
+				<img src="/i/delosiped-t.jpg">
+			</a>
+		</div>
+		<div>
+			<a href="/en/portfolio/web/delosiped">
+				<img src="/i/delosiped-t.jpg">
+			</a>
+		</div>
+		<div>
+			<a href="/en/portfolio/web/delosiped">
+				<img src="/i/delosiped-t.jpg">
+			</a>
+		</div>
+		<div>
+			<a href="/en/portfolio/web/delosiped">
+				<img src="/i/delosiped-t.jpg">
+			</a>
+		</div>
 
 		<span class="clean"></span>
 	</div>
