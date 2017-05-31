@@ -1,12 +1,8 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>Обо мне | Портфолио Марата Бакирова</title>
-	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
+	<title>Обо мне — Марат Бакиров</title>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 	<style type="text/css">
 		body {background-color: #201723;}
 	</style>

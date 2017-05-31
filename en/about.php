@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>Marat Bakirov</title>
+	<title>About — Marat Bakirov</title>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 	<style type="text/css">
 		body {background-color: #201723;}
