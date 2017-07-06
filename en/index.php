@@ -5,6 +5,9 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 </head>
 <body>
+
+	<a name="top"></a>
+
 	<!-- Меню -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu-en.html'); ?>
 
@@ -14,39 +17,33 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/hello-text-en.html'); ?>
 
 	<!-- Контент -->
-	<div class="portfolio-thumbs">
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
-		<div>
-			<a href="/en/portfolio/web/delosiped">
-				<img src="/i/delosiped-t.jpg">
-			</a>
-		</div>
 
-		<span class="clean"></span>
+	<!-- Абдульманов -->
+	<p class="white">
+	Сайт для ведущего Азамата Абдульманова<br>
+	Дата релиза: 10.03.2017 г.<br>
+	<a href="https://abdulmanov.com/">www.abdulmanov.com</a>
+	</p>
+	<img src="/i/abdulmanov-1.png" class="grid-i">
+	<img src="/i/abdulmanov-2.png" class="grid-i">
+	<img src="/i/abdulmanov-3.png" class="grid-i">
+	<!-- EOF Абдульманов -->
+
+	<!-- Делосипед -->
+	<p>
+	Дизайн сайта веломастерской «Делосипед»<br>
+	Дата разработки: 05.05.2016 г.<br>
+	</p>
+	<div class="grid">
+		<img src="/i/delosiped.jpg" class="grid-i">
 	</div>
+	<!-- EOF Делосипед -->
+
 	<!-- EOF Контент -->
 
 	<!-- Футер -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer-en.html'); ?>
+	
 	<!-- Метрика -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>
