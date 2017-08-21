@@ -22,6 +22,7 @@ $(document).keydown(function(e) {
 		$('#out').text('esc');
 	};
 	if(e.keyCode == 112) {
+		event.preventDefault();
 		$('#f1 use').addClass('pressed-key');
 		$('#f1-b use').addClass('pressed');
 		$('#out').text('f1');
@@ -32,6 +33,7 @@ $(document).keydown(function(e) {
 		$('#out').text('f2');
 	};
 	if(e.keyCode == 114) {
+		event.preventDefault();
 		$('#f3 use').addClass('pressed-key');
 		$('#f3-b use').addClass('pressed');
 		$('#out').text('f3');
@@ -42,11 +44,13 @@ $(document).keydown(function(e) {
 		$('#out').text('f4');
 	};
 	if(e.keyCode == 116) {
+		event.preventDefault();
 		$('#f5 use').addClass('pressed-key');
 		$('#f5-b use').addClass('pressed');
 		$('#out').text('f5');
 	};
 	if(e.keyCode == 117) {
+		event.preventDefault();
 		$('#f6 use').addClass('pressed-key');
 		$('#f6-b use').addClass('pressed');
 		$('#out').text('f6');
@@ -72,11 +76,13 @@ $(document).keydown(function(e) {
 		$('#out').text('f10');
 	};
 	if(e.keyCode == 122) {
+		event.preventDefault();
 		$('#f11 use').addClass('pressed-key');
 		$('#f11-b use').addClass('pressed');
 		$('#out').text('f11');
 	};
 	if(e.keyCode == 123) {
+		event.preventDefault();
 		$('#f12 use').addClass('pressed-key');
 		$('#f12-b use').addClass('pressed');
 		$('#out').text('f12');
@@ -212,6 +218,28 @@ $(document).keydown(function(e) {
 		$('#numlock-b use').addClass('pressed');
 		$('#out').text('num lock');
 	};
+	if(e.keyCode == 144) {
+		$('#numlock-led use').addClass('led');
+		$('#numlock use').addClass('pressed-key');
+		$('#numlock-b use').addClass('pressed');
+		$('#out').text('num lock');
+	};
+	if(e.keyCode == 145) {
+		$('#scrolllock-led use').addClass('led');
+		$('#scrolllock use').addClass('pressed-key');
+		$('#scrolllock-b use').addClass('pressed');
+		$('#out').text('scroll lock');
+	};
+	if(e.keyCode == 44) {
+		$('#printscr use').addClass('pressed-key');
+		$('#printscr-b use').addClass('pressed');
+		$('#out').text('print screen');
+	};
+	if(e.keyCode == 19) {
+		$('#pausebreak use').addClass('pressed-key');
+		$('#pausebreak-b use').addClass('pressed');
+		$('#out').text('pause');
+	};
 	if(e.keyCode == 111) {
 		$('#slash-r use').addClass('pressed-key');
 		$('#slash-r-b use').addClass('pressed');
@@ -242,7 +270,7 @@ $(document).keydown(function(e) {
 	};
 	if(e.keyCode == 13) {
 		$('#enter use').addClass('pressed-key');
-		$('#ent use').addClass('pressed');
+		$('#enter-b use').addClass('pressed');
 		$('#numenter use').addClass('pressed-key');
 		$('#numenter-b use').addClass('pressed');
 		$('#out').text('enter');
@@ -449,21 +477,36 @@ $(document).keydown(function(e) {
 	if(e.keyCode == 18) {
 		$('#alt use').addClass('pressed-key');
 		$('#alt-b use').addClass('pressed');
-		$('#out').text('option');
+		$('#out').text('alt');
 	};
 	if(e.keyCode == 91) {
+		event.preventDefault();
+		$('#win-l use').addClass('pressed-key');
+		$('#win-l-b use').addClass('pressed');
 		$('#cmd-l use').addClass('pressed-key');
+		$('#cmd-r use').addClass('pressed-key');
 		$('#cmd-l-b use').addClass('pressed');
-		$('#out').text('command');
+		$('#cmd-r-b use').addClass('pressed');
+		$('#out').text('meta');
+	};
+	if(e.keyCode == 92) {
+		event.preventDefault();
+		$('#win-r use').addClass('pressed-key');
+		$('#win-r-b use').addClass('pressed');
+		$('#out').text('meta');
 	};
 	if(e.keyCode == 93) {
+		event.preventDefault();
+		$('#menu use').addClass('pressed-key');
+		$('#menu-b use').addClass('pressed');
+		$('#cmd-l use').addClass('pressed-key');
 		$('#cmd-r use').addClass('pressed-key');
+		$('#cmd-l-b use').addClass('pressed');
 		$('#cmd-r-b use').addClass('pressed');
-		$('#out').text('command');
+		$('#out').text('menu');
 	};
 	if(e.keyCode == 32) {
 		event.preventDefault();
-		$('#space use').addClass('pressed-key');
 		$('#space-b use').addClass('pressed');
 		$('#out').text('space');
 	};
