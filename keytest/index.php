@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" href="site-files/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="site-files/main.css">
-	<script type="text/javascript" src="site-files/jquery.min.js"></script>
-	<script type="text/javascript" src="site-files/keys.js"></script>
+	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
+	<script type="text/javascript" src="/site-files/jquery.min.js"></script>
+	<script type="text/javascript" src="/site-files/keys.js"></script>
 	<title>Online keyboard test</title>
 </head>
 <body>
@@ -37,17 +37,17 @@
 	<div class="clean"></div>
 
 	<div class="keyboard-choose" id="apple-wired">
-		<img src="site-files/A1243-t.svg">
+		<img src="/site-files/A1243-t.svg">
 		Apple wired<br>A1243
 	</div>
 
 	<div class="keyboard-choose" id="apple-wireless">
-		<img src="site-files/A1314-t.svg">
+		<img src="/site-files/A1314-t.svg">
 		Apple wireless<br>A1314
 	</div>
 
 	<div class="keyboard-choose" id="generic-pc">
-		<img src="site-files/Generic-PC-t.svg">
+		<img src="/site-files/Generic-PC-t.svg">
 		Generic<br>PC Keyboard
 	</div>
 </div>
@@ -59,11 +59,11 @@
 var os = 0;
 if (navigator.userAgent.indexOf ('Windows') != -1) os = 1;
 if (os == 1) {
-	$('#keyboard-frame').load('site-files/Generic-PC.svg');
+	$('#keyboard-frame').load('/site-files/Generic-PC.svg');
 	$('#generic-pc').addClass('active');
 }
 else {
-	$('#keyboard-frame').load('site-files/A1243.svg');
+	$('#keyboard-frame').load('/site-files/A1243.svg');
 	$('#apple-wired').addClass('active');
 }
 </script>
@@ -72,17 +72,17 @@ else {
 <script type="text/javascript">
 $(document).ready(function() {
 	$("#apple-wired").click(function(){
-		$('#keyboard-frame').load('site-files/A1243.svg');
+		$('#keyboard-frame').load('/site-files/A1243.svg');
 		$('.keyboard-choose').removeClass('active');
 		$('#apple-wired').addClass('active');
 	});
 	$("#apple-wireless").click(function(){
-		$('#keyboard-frame').load('site-files/A1314.svg');
+		$('#keyboard-frame').load('/site-files/A1314.svg');
 		$('.keyboard-choose').removeClass('active');
 		$('#apple-wireless').addClass('active');
 	});
 	$("#generic-pc").click(function(){
-		$('#keyboard-frame').load('site-files/Generic-PC.svg');
+		$('#keyboard-frame').load('/site-files/Generic-PC.svg');
 		$('.keyboard-choose').removeClass('active');
 		$('#generic-pc').addClass('active');
 	});

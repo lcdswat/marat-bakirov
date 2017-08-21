@@ -22,7 +22,7 @@ $(document).keydown(function(e) {
 		$('#out').text('esc');
 	};
 	if(e.keyCode == 112) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f1 use').addClass('pressed-key');
 		$('#f1-b use').addClass('pressed');
 		$('#out').text('f1');
@@ -33,7 +33,7 @@ $(document).keydown(function(e) {
 		$('#out').text('f2');
 	};
 	if(e.keyCode == 114) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f3 use').addClass('pressed-key');
 		$('#f3-b use').addClass('pressed');
 		$('#out').text('f3');
@@ -44,13 +44,13 @@ $(document).keydown(function(e) {
 		$('#out').text('f4');
 	};
 	if(e.keyCode == 116) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f5 use').addClass('pressed-key');
 		$('#f5-b use').addClass('pressed');
 		$('#out').text('f5');
 	};
 	if(e.keyCode == 117) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f6 use').addClass('pressed-key');
 		$('#f6-b use').addClass('pressed');
 		$('#out').text('f6');
@@ -76,13 +76,13 @@ $(document).keydown(function(e) {
 		$('#out').text('f10');
 	};
 	if(e.keyCode == 122) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f11 use').addClass('pressed-key');
 		$('#f11-b use').addClass('pressed');
 		$('#out').text('f11');
 	};
 	if(e.keyCode == 123) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#f12 use').addClass('pressed-key');
 		$('#f12-b use').addClass('pressed');
 		$('#out').text('f12');
@@ -189,25 +189,25 @@ $(document).keydown(function(e) {
 		$('#out').text('backspace');
 	};
 	if(e.keyCode == 36) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#home use').addClass('pressed-key');
 		$('#home-b use').addClass('pressed');
 		$('#out').text('home');
 	};
 	if(e.keyCode == 35) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#end use').addClass('pressed-key');
 		$('#end-b use').addClass('pressed');
 		$('#out').text('end');
 	};
 	if(e.keyCode == 33) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#pageup use').addClass('pressed-key');
 		$('#pageup-b use').addClass('pressed');
 		$('#out').text('page up');
 	};
 	if(e.keyCode == 34) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#pagedown use').addClass('pressed-key');
 		$('#pagedown-b use').addClass('pressed');
 		$('#out').text('page down');
@@ -235,6 +235,11 @@ $(document).keydown(function(e) {
 		$('#printscr-b use').addClass('pressed');
 		$('#out').text('print screen');
 	};
+	if(e.keyCode == 45) {
+		$('#insert use').addClass('pressed-key');
+		$('#insert-b use').addClass('pressed');
+		$('#out').text('insert');
+	};
 	if(e.keyCode == 19) {
 		$('#pausebreak use').addClass('pressed-key');
 		$('#pausebreak-b use').addClass('pressed');
@@ -253,7 +258,7 @@ $(document).keydown(function(e) {
 
 	// Третий ряд
 	if(e.keyCode == 9) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#tab use').addClass('pressed-key');
 		$('#tab-b use').addClass('pressed');
 		$('#out').text('tab');
@@ -480,7 +485,7 @@ $(document).keydown(function(e) {
 		$('#out').text('alt');
 	};
 	if(e.keyCode == 91) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#win-l use').addClass('pressed-key');
 		$('#win-l-b use').addClass('pressed');
 		$('#cmd-l use').addClass('pressed-key');
@@ -490,13 +495,13 @@ $(document).keydown(function(e) {
 		$('#out').text('meta');
 	};
 	if(e.keyCode == 92) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#win-r use').addClass('pressed-key');
 		$('#win-r-b use').addClass('pressed');
 		$('#out').text('meta');
 	};
 	if(e.keyCode == 93) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#menu use').addClass('pressed-key');
 		$('#menu-b use').addClass('pressed');
 		$('#cmd-l use').addClass('pressed-key');
@@ -506,7 +511,7 @@ $(document).keydown(function(e) {
 		$('#out').text('menu');
 	};
 	if(e.keyCode == 32) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#space-b use').addClass('pressed');
 		$('#out').text('space');
 	};
@@ -516,25 +521,25 @@ $(document).keydown(function(e) {
 		$('#out').text('.');
 	};
 	if(e.keyCode == 37) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#left use').addClass('pressed-key');
 		$('#left-b use').addClass('pressed');
 		$('#out').text('left');
 	};
 	if(e.keyCode == 38) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#up use').addClass('pressed-key');
 		$('#up-b use').addClass('pressed');
 		$('#out').text('up');
 	};
 	if(e.keyCode == 39) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#right use').addClass('pressed-key');
 		$('#right-b use').addClass('pressed');
 		$('#out').text('right');
 	};
 	if(e.keyCode == 40) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#down use').addClass('pressed-key');
 		$('#down-b use').addClass('pressed');
 		$('#out').text('down');
@@ -542,61 +547,61 @@ $(document).keydown(function(e) {
 
 	// Нампад
 	if(e.keyCode == 96) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num0 use').addClass('pressed-key');
 		$('#num0-b use').addClass('pressed');
 		$('#out').text('numpad 0');
 	};
 	if(e.keyCode == 97) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num1 use').addClass('pressed-key');
 		$('#num1-b use').addClass('pressed');
 		$('#out').text('numpad 1');
 	};
 	if(e.keyCode == 98) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num2 use').addClass('pressed-key');
 		$('#num2-b use').addClass('pressed');
 		$('#out').text('numpad 2');
 	};
 	if(e.keyCode == 99) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num3 use').addClass('pressed-key');
 		$('#num3-b use').addClass('pressed');
 		$('#out').text('numpad 3');
 	};
 	if(e.keyCode == 100) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num4 use').addClass('pressed-key');
 		$('#num4-b use').addClass('pressed');
 		$('#out').text('numpad 4');
 	};
 	if(e.keyCode == 101) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num5 use').addClass('pressed-key');
 		$('#num5-b use').addClass('pressed');
 		$('#out').text('numpad 5');
 	};
 	if(e.keyCode == 102) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num6 use').addClass('pressed-key');
 		$('#num6-b use').addClass('pressed');
 		$('#out').text('numpad 6');
 	};
 	if(e.keyCode == 103) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num7 use').addClass('pressed-key');
 		$('#num7-b use').addClass('pressed');
 		$('#out').text('numpad 7');
 	};
 	if(e.keyCode == 104) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num8 use').addClass('pressed-key');
 		$('#num8-b use').addClass('pressed');
 		$('#out').text('numpad 8');
 	};
 	if(e.keyCode == 105) {
-		event.preventDefault();
+		e.preventDefault();
 		$('#num9 use').addClass('pressed-key');
 		$('#num9-b use').addClass('pressed');
 		$('#out').text('numpad 9');

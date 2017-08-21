@@ -13,7 +13,7 @@ body {
 	position: fixed;
 	margin: -100px;
 	z-index: 999;
-	background-image: url(site-files/preloader.svg);
+	background-image: url(/site-files/preloader.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -22,6 +22,9 @@ body {
 	opacity: 0;
 	position: relative;
 	bottom: 40px;
+	-webkit-transition: opacity ease 0.4s, bottom ease 0.4s;
+	-moz-transition: opacity ease 0.4s, bottom ease 0.4s;
+	-o-transition: opacity ease 0.4s, bottom ease 0.4s;
 	transition: opacity ease 0.4s, bottom ease 0.4s;
 }
 
@@ -29,6 +32,9 @@ body {
 	opacity: 0;
 	position: relative;
 	top: 40px;
+	-webkit-transition: opacity ease 0.4s, top ease 0.4s;
+	-moz-transition: opacity ease 0.4s, top ease 0.4s;
+	-o-transition: opacity ease 0.4s, top ease 0.4s;
 	transition: opacity ease 0.4s, top ease 0.4s;
 }
 
@@ -51,6 +57,9 @@ h1 a {
 }
 
 use {
+	-webkit-transition: fill ease 0.2s;
+	-moz-transition: fill ease 0.2s;
+	-o-transition: fill ease 0.2s;
 	transition: fill ease 0.2s;
 }
 
@@ -149,6 +158,7 @@ svg {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	-moz-transition: .4s;
 	-webkit-transition: .4s;
 	transition: .4s;
 	border: 2px solid white;
