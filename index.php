@@ -1,50 +1,66 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-	<title>Марат Бакиров</title>
+	<title>Обо мне — Марат Бакиров</title>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
+	<style type="text/css">
+		body {background-color: #201723;}
+	</style>
 </head>
 <body>
 
-<!-- Меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+	<script type="text/javascript">
+		$(function() {
+		  $('#wait').hide();
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 500);		  
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#2').show(400);
+		  }, 3000);
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 6000);		
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#3').show(400);
+		  }, 8000);
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 11000);
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#one').hide(400);
+		    $('#4').show(400);
+		  }, 13000);
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 13500);
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#2').hide(400);
+		    $('#5').show(400);
+		  }, 14000);
+		});
+	</script>
 
-<div id="black-bg"></div>
+	<div id="aboutme">
+		<img src="/site-files/me-pixel-about.gif">
+		<div id="messages">
+			<div class="bubles" id="one"><span></span>Привет! Меня зовут Марат Бакиров</div>
+			<div class="bubles" id="2">Я занимаюсь графическим дизайном<br>и вёрсткой более 10 лет</div>
+			<div class="bubles" id="3">Люблю индизайн и хорошую вёрстку</div>
+			<div class="bubles" id="4">Ещё я делаю сайты и всякое такое</div>
+			<div class="bubles" id="5">Если что&nbsp;&mdash; пишите на почту <a href="mailto:lcd-swat@yandex.ru">lcd-swat@yandex.ru</a><br>или в <a href="https://t.me/lcdswat">телеграм</a></div>
+			<span id="wait"></span>
+		</div>
+	</div>
 
-<!-- Диалог -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/hello-text.html'); ?>
+	<!-- Меню -->
+	<?php // include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
-<!-- Контент -->
-
-<!-- Абдульманов -->
-<p class="white">
-Сайт для ведущего Азамата Абдульманова<br>
-Дата релиза: 10.03.2017 г.<br>
-<a href="https://abdulmanov.com/">www.abdulmanov.com</a>
-</p>
-<img src="/i/abdulmanov-1.png" class="grid-i">
-<!-- EOF Абдульманов -->
-
-<!-- Рутина -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/routine.html'); ?>
-<!-- EOF Рутина -->
-
-<!-- Делосипед -->
-<p>
-Дизайн сайта веломастерской «Делосипед»<br>
-Дата разработки: 05.05.2016 г.<br>
-</p>
-<div class="grid">
-	<img src="/i/delosiped.jpg" class="grid-i">
-</div>
-<!-- EOF Делосипед -->
-
-<!-- EOF Контент -->
-
-<!-- Футер -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
-
-<!-- Метрика -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
+	<!-- Метрика -->
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>
 </html>
