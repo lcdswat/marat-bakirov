@@ -92,19 +92,19 @@
 					</div>
 					<div class="title_item">IDON</div>
 				</div>
-				<div class="item">			
+				<div class="item" id="item-pilot">			
 					<div class="img_box">
 						<img src="site-files/m2.png">
 					</div>
 					<div class="title_item">PILOT</div>
 				</div>
-				<div class="item">			
+				<div class="item" id="item-teron">			
 					<div class="img_box">
 						<img src="site-files/m3.png" style="margin-top:10px">
 					</div>
 					<div class="title_item">TERON</div>
 				</div>
-				<div class="item">			
+				<div class="item" id="item-nextrino">			
 					<div class="img_box">
 						<img src="site-files/m4.png" style="margin-top:10px">
 					</div>
@@ -346,6 +346,18 @@
 <script type="text/javascript">
 $('#item-idon').click(function() {
 	$('#item-wrapper').load('site-files/idon.html');
+	$('.item-container').show(400);
+});
+$('#item-pilot').click(function() {
+	$('#item-wrapper').load('site-files/pilot.html');
+	$('.item-container').show(400);
+});
+$('#item-nextrino').click(function() {
+	$('#item-wrapper').load('site-files/nextrino.html');
+	$('.item-container').show(400);
+});
+$('#item-teron').click(function() {
+	$('#item-wrapper').load('site-files/teron.html');
 	$('.item-container').show(400);
 });
 $('.item-close').click(function() {

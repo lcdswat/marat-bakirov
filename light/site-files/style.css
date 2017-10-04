@@ -48,6 +48,8 @@
 html {
 	min-height: 100%;
 	background:url(bg.jpg) 50% 0 no-repeat;
+	background-color: #eef3f6;
+
 }
 header, nav, section, article, aside, footer {
 	display: block;
@@ -56,7 +58,7 @@ body {
 	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
 	width: 100%;
 	min-height: 100%;
-	
+
 }
 a {
 	color:#065D8A;
