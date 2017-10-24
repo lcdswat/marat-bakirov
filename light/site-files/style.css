@@ -1,21 +1,7 @@
-@font-face {
-	font-family: 'Myriad Cond';
-	src: url('myriad-cond.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Myriad';
-	src: url('myriad.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
 * {
 	margin: 0;
 	padding: 0;
-	outline:none;
+	outline: none;
 	box-sizing:border-box;
 }
 /* Alignment */
@@ -47,7 +33,7 @@
 
 html {
 	min-height: 100%;
-	background:url(bg.jpg) 50% 0 no-repeat;
+	background: url(bg.jpg) 50% 0 no-repeat;
 	background-color: #eef3f6;
 
 }
@@ -55,13 +41,12 @@ header, nav, section, article, aside, footer {
 	display: block;
 }
 body {
-	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	font: 16px 'PT Sans', Tahoma, Verdana, sans-serif;
 	width: 100%;
 	min-height: 100%;
-
 }
 a {
-	color:#065D8A;
+	color: #065D8A;
 	outline: none;
 	text-decoration: none;
 }
@@ -69,7 +54,7 @@ a:hover {
 	text-decoration: underline;
 }
 p {
-	margin: 0 0 18px
+	margin: 0 0 18px 0;
 }
 img {
 	border: none;
@@ -79,28 +64,27 @@ input {
 }
 #wrapper {
 	width: 100%;
-	
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	
 
 }
 
 
-/* Header
------------------------------------------------------------------------------*/
+/* Header -----------------------------------------*/
 #header {
 	padding-top: 24px;
 }
 
-.menu{
+.menu {
 	background: #76b82a;
 	height: 97px;
 	margin-bottom: 34px;
-	font-family: 'Myriad Cond';
-	padding:16px 20px;
+	font-family: 'PT Sans Narrow';
+	font-size: 16px;
+	padding: 20px 0 0 15px;
 	background: url(menu.png)  -6px -7px no-repeat;
+	border-radius: 5px;
 }
 
 .menu .item{
@@ -115,13 +99,10 @@ input {
 
 .menu a{
 	color: #fff;
-	font-size: 18px;
-	
-	line-height: 21px
+	line-height: 18px
 }
 
-/* Middle
------------------------------------------------------------------------------*/
+/* Middle-------------------------------------------*/
 #middle {
 	
 }
@@ -130,8 +111,7 @@ input {
 
 }
 
-/* Footer
------------------------------------------------------------------------------*/
+/* Footer-------------------------------------------*/
 #footer {
 
 }
@@ -173,7 +153,6 @@ input {
 }
 
 .title{
-	font-family: 'Myriad Cond';
 	font-weight: 700;
 	font-size: 32px;
 	color: #76b82a;
@@ -196,12 +175,10 @@ input {
 }
 
 .model_list .item .title_item{
-	font-family: "Myriad Pro";
 	font-size: 23px;
 	margin-top: 10px;
 	color: #5b5c5b;
 	text-transform: uppercase;
-	font-family: 'Myriad';
 }
 
 .all_models{
@@ -209,7 +186,6 @@ input {
 	padding-left: 35px;
 	font-size: 23px;
 	text-transform: uppercase;
-	font-family: 'Myriad';
 	margin-bottom: 57px;
 
 }
@@ -234,10 +210,9 @@ input {
 }
 
 .product_box .text{
-	font-size: 23px;
+	font-size: 18px;
 	color: #5b5c5b;
-	line-height: 27px;
-	font-family: 'Myriad';
+	line-height: 20px;
 	position: relative;
 }
 
@@ -250,11 +225,10 @@ input {
 .product_box .text ul li{
 	margin-bottom: 10px;
 	padding-left: 35px;
-	background: url(all_models.png) 0 4px  no-repeat;
+	background: url(all_models.png) 0 0px  no-repeat;
 }
 
 .product_box .more{
-	font-family: 'Myriad';
 	font-weight: 600;
 	font-size:23px;
 }
@@ -288,6 +262,7 @@ input {
 	height: 477px;
 	margin:0 auto 45px;
 	position: relative;
+	border-radius: 5px;
 
 }
 
@@ -295,7 +270,6 @@ input {
 	position: absolute;
 	font-size: 18px;
 	color: #88908f;
-	font-family: 'Myriad';
 	text-transform: uppercase;
 	font-weight: 700;
 	top:69px;
@@ -307,7 +281,6 @@ input {
 	font-size: 25px;
 	line-height: 1;
 	color: #61bf17;
-	font-family: 'Myriad';
 	font-weight: 700;
 	top:97px;
 	left: 52px;
@@ -318,7 +291,6 @@ input {
 	font-size: 18px;
 	line-height: 1;
 	color: #88908f;
-	font-family: 'Myriad';
 	font-weight: 700;
 	top:217px;
 	left: 52px;
@@ -335,7 +307,6 @@ input {
 	font-size: 25px;
 	font-weight: 700;
 	color: #58595b;
-	font-family: 'Myriad';
 	right: 300px;
 	border-bottom: solid 1px #58595b;
 	line-height: 1.2;
@@ -349,29 +320,26 @@ input {
 .banner_preem{
 	margin-bottom: 45px;
 	list-style: none;
-	font-style: 13px;
 	color: #58595b;
-	line-height: 14px;
-	font-family: 'Myriad';
 	left:51px;
 	position: absolute;
 	top:260px;
+	font-size: 18px;
+	font-family: 'PT Sans Narrow';
 }
 
 .banner_preem li{
 	margin-bottom: 8px;
 	padding-left: 18px;
-	background: url(arr.png) 0 0  no-repeat;
+	background: url(arr.png) 0 6px  no-repeat;
 }
 
 .banner_preem_detail{
 	left:51px;
-	bottom:27px;
+	bottom:20px;
 	position: absolute;
-	font-family: 'Myriad';
-	font-size: 10px;
 	color: #58595b;
-
+	font-size: 14px;
 }
 
 .contact_form{
@@ -386,7 +354,6 @@ input {
 	text-transform: uppercase;
 	line-height: 27px;
 	font-weight: 700;
-	font-family: 'Myriad';
 	margin-bottom: 45px
 }
 
@@ -399,9 +366,9 @@ input {
 	height: 40px;
 	margin-bottom: 20px;
 	padding: 0 10px;
-	font-family: 'Myriad';
 	font-size: 23px;
 	color: #5b5c5b;
+	border-radius: 4px;
 }
 
 .contact_form_wrap textarea{
@@ -414,18 +381,16 @@ input {
 .contact_form_wrap input[type=submit]{
 	background: #76b82a;
 	color: #fff;
-	font-family: 'Myriad';
 	font-size: 23px;
 	height: 40px;
 	width: 200px;
 	border: none;
 	cursor: pointer;
-
+	border-radius: 5px;
 }
 
 .contact_form_wrap .offrt{
 	font-size: 23px;
-	font-family: 'Myriad';
 	color: #5b5c5b;
 	margin-bottom: 20px;
 }
@@ -442,3 +407,25 @@ input {
 	position: relative;
 	top:-2px;
 }
+
+/*Текст под катом*/
+.cut-show-button {
+	color: #5b5c5b;
+	display: inline-block;
+	padding-right: 32px;
+	text-decoration: none;
+	background: url(more.png) 100% 50%  no-repeat;	
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cut {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/*EOF Текст под катом*/
