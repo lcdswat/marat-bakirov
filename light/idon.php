@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Белый Свет</title>
+	<title>Белый Свет — IDON</title>
 	<link rel="stylesheet" href="site-files/style.css" type="text/css" media="screen, projection">
 	<link rel="stylesheet" type="text/css" href="site-files/module.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,53 +17,9 @@
 
 <div id="wrapper">
 
-	<header id="header">
-		<div class="container">
-			<div class="menu">
-				<a href="/light/#menu1">
-				<div class="item">
-					ДОСТУПНЫЕ<br>МОДЕЛИ СВЕТОВЫХ<br>ПРИБОРОВ
-				</div>
-				</a>
-				<a href="#menu2">
-				<div class="item">
-					ТЕХНИЧЕСКОЕ<br>РЕШЕНИЕ<br>№1
-				</div>
-				</a>
-				<a href="#menu3">
-				<div class="item">
-					ИСТОЧНИК<br>ПИТАНИЯ<br>INEXI2
-				</div>
-				</a>
-				<a href="#menu4">
-				<div class="item">
-					ИСТОЧНИК<br>СВЕТА<br>100 ТЫС. ЧАСОВ
-				</div>
-				</a>
-				<a href="#menu5">
-				<div class="item">
-					ЩАО<br>BS-AKTEON-1
-				</div>
-				</a>
-				<a href="#menu6">
-				<div class="item">
-					УДТУ<br>BS-TELECONTROL
-				</div>
-				</a>
-				<a href="#menu7">
-				<div class="item">
-					ПУАО<br>BS-ALARIS-1
-				</div>
-				</a>
-				<a href="#menu8">
-				<div class="item last">
-					Контакты
-				</div>
-				</a>
-			</div>
-		</div>
-
-	</header><!-- #header-->
+<!-- Меню -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/light/includes/menu.html'); ?>
+<!-- EOF Меню -->
 
 	<!-- Продукт -->
 	<div class="item-container">
@@ -299,36 +255,9 @@
 			<!-- EOF Характеристки продукта -->
 
 			<!-- Остальные модели -->
+			<style type="text/css">#item-idon {display: none;}</style>
 			<div class="title" id="menu1">Другие Модели</div>
-			<div class="model_list">
-				<a href="idon.html">
-					<div class="item" id="item-idon">			
-						<div class="img_box">
-							<img src="site-files/m1.png">
-						</div>
-						<div class="title_item">IDON</div>
-					</div>
-				</a>
-				<div class="item" id="item-pilot">			
-					<div class="img_box">
-						<img src="site-files/m2.png">
-					</div>
-					<div class="title_item">PILOT</div>
-				</div>
-				<div class="item" id="item-teron">			
-					<div class="img_box">
-						<img src="site-files/m3.png" style="margin-top:10px">
-					</div>
-					<div class="title_item">TERON</div>
-				</div>
-				<div class="item" id="item-nextrino">			
-					<div class="img_box">
-						<img src="site-files/m4.png" style="margin-top:10px">
-					</div>
-					<div class="title_item">NEXTRINO</div>
-				</div>
-				<div class="clear"></div>
-			</div>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/light/includes/models.html'); ?>
 			<!-- EOF Остальные модели -->
 
 		</div>

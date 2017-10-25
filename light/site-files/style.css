@@ -166,12 +166,17 @@ input {
 
 .model_list .item{
 	float: left;
-	width: 25%;
+	width: 16%;
+	margin: 0 0 40px 0;
 	text-align: center;
 }
 
-.model_list .item .img_box{
-	height: 170px;
+.model_list .item .img_box {
+	height: 130px;
+}
+
+.model_list .item .img_box img {
+	width: 150px;
 }
 
 .model_list .item .title_item{
@@ -179,6 +184,7 @@ input {
 	margin-top: 10px;
 	color: #5b5c5b;
 	text-transform: uppercase;
+	text-decoration: underline;
 }
 
 .all_models{
