@@ -288,16 +288,16 @@
 
 <script type="text/javascript">
 $('#one.cut-show-button').click(function() {
-	$('#one.cut').show(400);
+	$('#one.cut').toggleClass('show');
 });
 $('#two.cut-show-button').click(function() {
-	$('#two.cut').show(400);
+	$('#two.cut').toggleClass('show');
 });
 $('#three.cut-show-button').click(function() {
-	$('#three.cut').show(400);
+	$('#three.cut').toggleClass('show');
 });
 $('#four.cut-show-button').click(function() {
-	$('#four.cut').show(400);
+	$('#four.cut').toggleClass('show');
 });
 </script>
 

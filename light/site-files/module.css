@@ -1,5 +1,3 @@
-.clean {clear: both;}
-
 #item-wrapper {
 	display: block;
 	width: 1170px;
@@ -40,12 +38,14 @@
 }
 
 #item-wrapper #left {
+	max-width: 541px;
 	border-right: 1px solid #d3d3d3;
 	float: left;
 	margin: 0 29px 0 0;
 }
 
 #item-wrapper #right {
+	max-width: 540px;
 	float: left;
 	font-size: 18px;
 	line-height: 22px;
@@ -177,4 +177,9 @@
 
 #item-nextrino {
 	cursor: pointer;
+}
+
+.descriptor {
+	font-size: 12px;
+	line-height: 14px;
 }

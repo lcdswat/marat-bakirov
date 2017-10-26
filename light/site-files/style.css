@@ -5,6 +5,19 @@
 	box-sizing:border-box;
 }
 /* Alignment */
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.clean {clear: both;}
+
+.center {
+	text-align: center;
+}
 
 .alignleft {
 	display: inline;
@@ -435,3 +448,20 @@ input {
 }
 
 /*EOF Текст под катом*/
+
+/*Icons*/
+.icons {
+	width: 300px;
+	text-align: left;
+}
+
+.icons img {
+	display: block;
+	padding: 0 !important;
+	margin: 0 5px 5px 0 !important;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+}
+/*EOF Icons*/
