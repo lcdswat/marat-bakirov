@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Белый Свет — BRIZ</title>
+	<title>Белый Свет — SPUTNIK</title>
 	<link rel="stylesheet" href="site-files/style.css" type="text/css" media="screen, projection">
 	<link rel="stylesheet" type="text/css" href="site-files/module.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -27,44 +27,30 @@
 		<div id="item-wrapper">
 
 			<div id="left">
-				<a href="nextrino" class="arrow-left">NEXTRINO</a>
-				<span>BRIZ</span>
-				<img src="site-files/briz.jpg">
-				<img src="site-files/briz-1.jpg" class="fleft">
-				<img src="site-files/briz-2.jpg" class="fright">
-				<div class="clean"></div>
-				<div class="fleft center" style="width: 270px; margin: 0 0 30px 0;">Модель L1</div>
-				<div class="fleft center" style="width: 270px; margin: 0 0 30px 0;">Модель L2</div>
-				<div class="clean"></div>
+				<a href="polet" class="arrow-left">POLET</a>
+				<span>SPUTNIK</span>
+				<img src="site-files/sputnik.png">
 				<div class="icons">
 					<img src="site-files/icons/led.svg" id="led">
 					<img src="site-files/icons/ip65.svg" id="ip65">
-					<img src="site-files/icons/romb-20.svg" id="romb-20">
-					<img src="site-files/icons/sqr.svg" id="sqr">
+					<img src="site-files/icons/romb-50.svg" id="romb-50">
+					<img src="site-files/icons/zazemle.svg" id="zazemle">
 					<img src="site-files/icons/pkt.svg" id="pkt">
 					<img src="site-files/icons/white-9016.svg" id="white-9016">
 					<img src="site-files/icons/temp-1-35.svg" id="temp-1-35">
-					<img src="site-files/icons/right.svg" id="right">
 					<img src="site-files/icons/right2.svg" id="right2">
-					<img src="site-files/icons/up.svg" id="up">
-					<img src="site-files/icons/up2.svg" id="up2">
+					<img src="site-files/icons/eac.svg" id="eac">
+					<img src="site-files/icons/icon-1.svg" id="icon-1">
 				</div>
 			</div>
 
 			<div id="right">
-				<a href="junior" class="arrow-right">JUNIOR</a>
+				<a href="universal" class="arrow-right">UNIVERSAL</a>
 				<b>Габаритные размеры:</b>
-				<img src="site-files/briz-schema-1.png">
+				<br><br><img src="site-files/sputnik-schema-1.png"><br><br><br><br><br>
 				<b>Знак безопасности:</b><br>
-				BL-2010B.ON<br>
-				Крепится на двухсторонний скотч к внутренней стороне рассеивателя (только для световых указателей).<br>
-				<br>
-				<b>Толщина светильника:</b><br><br>
-				<img src="site-files/briz-schema-2.png"><br>
-				<b>Аксессуары:</b><br><br>
-				<img src="site-files/briz-schema-3.png">
-				<div class="fleft descriptor" style="width: 148px; margin: 20px 65px 0 0;">a14565<br>Комплект аксессуаров<br>BS-KA-3 для крепления<br>в гипсокартон</div>
-				<div class="fleft descriptor" style="width: 148px; margin: 20px 0 0 0;">a16554<br>Решетка защитная<br>BS-R-3</div>
+				NPU-2424.ON<br>
+				Крепится крепится накаткой к внешней части рассеивателя.<br>
 			</div>
 			<div class="clean"></div>
 
@@ -113,116 +99,39 @@
 		</tr>
 		<tr>
 			<td colspan="10" class="podzag">
-				Автономный аварийный светильник эвакуационного освещения с функцией TELECONTROL
-			</td>
-		</tr>
-		<tr>
-			<td class="a">a15813</td>
-			<td>BS-BRIZ-81-L1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15815</td>
-			<td>BS-BRIZ-81-L2-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15814</td>
-			<td>BS-BRIZ-83-L1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2,6</td>
-			<td>0,85</td>
-			<td class="j">0,73</td>
-		</tr>
-		<tr>
-			<td class="a">a15816</td>
-			<td> BS-BRIZ-83-L2-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2,6</td>
-			<td>0,85</td>
-			<td class="j">0,73</td>
-		</tr>
-		<tr>
-			<td colspan="10" class="podzag">
 				Автономный световой указатель с функцией TELECONTROL
 			</td>
 		</tr>
 		<tr>
-			<td class="a">a15811</td>
-			<td> BS-BRIZ-71-S1-INEXI2</td>
-			<td>постоянный</td>
-			<td>INEXI-2M</td>
+			<td class="a">a15952</td>
+			<td>BS-SPUTNIK-51-S1-INEXI2</td>
+			<td>универсальный</td>
+			<td>INEXI-2C</td>
 			<td>100 000</td>
 			<td>1</td>
-			<td>130/700</td>
-			<td>3,6</td>
-			<td>0,85</td>
-			<td class="j">0,56</td>
+			<td>124/524</td>
+			<td>11,4</td>
+			<td>0,9</td>
+			<td class="j">1,60</td>
 		</tr>
 		<tr>
-			<td class="a">a15812</td>
-			<td> BS-BRIZ-73-S1-INEXI2</td>
-			<td>постоянный</td>
-			<td>INEXI-2M</td>
+			<td class="a">a15953</td>
+			<td>BS-SPUTNIK-53-S1-INEXI2</td>
+			<td>универсальный</td>
+			<td>INEXI-2C</td>
 			<td>100 000</td>
 			<td>3</td>
-			<td>130/700</td>
-			<td>4,6</td>
-			<td>0,85</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15809</td>
-			<td> BS-BRIZ-81-S1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>1,2</td>
-			<td>0,6</td>
-			<td class="j">0,56</td>
-		</tr>
-		<tr>
-			<td class="a">a15810</td>
-			<td> BS-BRIZ-83-S1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,73</td>
+			<td>124/524</td>
+			<td>13,4</td>
+			<td>0,9</td>
+			<td class="j">2,10</td>
 		</tr>
 	</table>
 </div>
 			<!-- EOF Характеристки продукта -->
 
 			<!-- Остальные модели -->
-			<style type="text/css">#item-BRIZ {display: none;}</style>
+			<style type="text/css">#item-SPUTNIK {display: none;}</style>
 			<div class="title" id="menu1">Другие Модели</div>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/light/includes/models.html'); ?>
 			<!-- EOF Остальные модели -->

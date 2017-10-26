@@ -18,52 +18,7 @@
 <div id="wrapper">
 
 <!-- Меню -->
-<header id="header">
-	<div class="container">
-		<div class="menu">
-			<a href="/light/">
-				<div class="item">
-					ДОСТУПНЫЕ<br>МОДЕЛИ СВЕТОВЫХ<br>ПРИБОРОВ
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					ТЕХНИЧЕСКОЕ<br>РЕШЕНИЕ<br>№1
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					ИСТОЧНИК<br>ПИТАНИЯ<br>INEXI2
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					ИСТОЧНИК<br>СВЕТА<br>100 ТЫС. ЧАСОВ
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					ЩАО<br>BS-AKTEON-1
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					УДТУ<br>BS-TELECONTROL
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item">
-					ПУАО<br>BS-ALARIS-1
-				</div>
-			</a>
-			<a href="/light/">
-				<div class="item last">
-					Контакты
-				</div>
-			</a>
-		</div>
-	</div>
-</header>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/light/includes/menu.html'); ?>
 <!-- EOF Меню -->
 
 	<!-- Продукт -->
@@ -72,11 +27,13 @@
 		<div id="item-wrapper">
 
 			<div id="left">
+				<a href="idon" class="arrow-left">IDON</a>
 				<span>PILOT</span>
 				<img src="site-files/2.jpg">
 				<img src="site-files/2-icons.png">
 			</div>
 			<div id="right">
+				<a href="teron" class="arrow-right">TERON</a>
 				<b>Габаритные размеры:</b>
 				<img src="site-files/2-schema.png">
 				<b>Знак безопасности:</b><br>

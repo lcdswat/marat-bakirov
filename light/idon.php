@@ -27,12 +27,14 @@
 		<div id="item-wrapper">
 
 			<div id="left">
+				<a href="/light" class="arrow-left">На главную</a>
 				<span>IDON</span>
 				<img src="site-files/1.jpg">
 				<img src="site-files/1-icons.png">
 			</div>
 
 			<div id="right">
+				<a href="pilot" class="arrow-right">PILOT</a>
 				<b>Габаритные размеры:</b>
 				<img src="site-files/1-schema.png">
 				<br>

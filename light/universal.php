@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Белый Свет — BRIZ</title>
+	<title>Белый Свет — UNIVERSAL</title>
 	<link rel="stylesheet" href="site-files/style.css" type="text/css" media="screen, projection">
 	<link rel="stylesheet" type="text/css" href="site-files/module.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -27,50 +27,155 @@
 		<div id="item-wrapper">
 
 			<div id="left">
-				<a href="nextrino" class="arrow-left">NEXTRINO</a>
-				<span>BRIZ</span>
-				<img src="site-files/briz.jpg">
-				<img src="site-files/briz-1.jpg" class="fleft">
-				<img src="site-files/briz-2.jpg" class="fright">
-				<div class="clean"></div>
-				<div class="fleft center" style="width: 270px; margin: 0 0 30px 0;">Модель L1</div>
-				<div class="fleft center" style="width: 270px; margin: 0 0 30px 0;">Модель L2</div>
-				<div class="clean"></div>
+				<a href="sputnik" class="arrow-left">SPUTNIK</a>
+				<span>UNIVERSAL</span>
+				<br><br><br><br><br><br><br><img src="site-files/universal.png"><br><br><br><br><br><br><br><br><br>
 				<div class="icons">
 					<img src="site-files/icons/led.svg" id="led">
 					<img src="site-files/icons/ip65.svg" id="ip65">
-					<img src="site-files/icons/romb-20.svg" id="romb-20">
-					<img src="site-files/icons/sqr.svg" id="sqr">
+					<img src="site-files/icons/romb-25.svg" id="romb-25">
+					<img src="site-files/icons/zazemle.svg" id="zazemle">
 					<img src="site-files/icons/pkt.svg" id="pkt">
 					<img src="site-files/icons/white-9016.svg" id="white-9016">
 					<img src="site-files/icons/temp-1-35.svg" id="temp-1-35">
-					<img src="site-files/icons/right.svg" id="right">
 					<img src="site-files/icons/right2.svg" id="right2">
-					<img src="site-files/icons/up.svg" id="up">
 					<img src="site-files/icons/up2.svg" id="up2">
+					<img src="site-files/icons/eac.svg" id="eac">
+					<img src="site-files/icons/icon-1.svg" id="icon-1">
 				</div>
 			</div>
 
 			<div id="right">
-				<a href="junior" class="arrow-right">JUNIOR</a>
-				<b>Габаритные размеры:</b>
-				<img src="site-files/briz-schema-1.png">
+				<a href="volna" class="arrow-right">VOLNA</a>
+				<b>Габаритные размеры:</b><br><br>
+				<img src="site-files/universal-schema-1.png"><br><br>
 				<b>Знак безопасности:</b><br>
-				BL-2010B.ON<br>
-				Крепится на двухсторонний скотч к внутренней стороне рассеивателя (только для световых указателей).<br>
+				NPU-3413.ON<br>
+				Крепится накаткой к внешней части рассеивателя  (только для световых указателей).<br><br>
 				<br>
-				<b>Толщина светильника:</b><br><br>
-				<img src="site-files/briz-schema-2.png"><br>
 				<b>Аксессуары:</b><br><br>
-				<img src="site-files/briz-schema-3.png">
-				<div class="fleft descriptor" style="width: 148px; margin: 20px 65px 0 0;">a14565<br>Комплект аксессуаров<br>BS-KA-3 для крепления<br>в гипсокартон</div>
-				<div class="fleft descriptor" style="width: 148px; margin: 20px 0 0 0;">a16554<br>Решетка защитная<br>BS-R-3</div>
+				<img src="site-files/universal-schema-2.png">
+				<div class="fleft descriptor" style="width: 148px; margin: 20px 65px 0 0;"><b>a2333</b><br>Решетка защитная BS-R-1</div>
 			</div>
 			<div class="clean"></div>
 
 			<!-- Характеристки продукта -->
 <div id="item-ttx">
 	<span class="item-ttx-header">Характеристики</span>
+	<table cellpadding="0" cellspacing="0" border="0">
+		
+		<!-- Шапка таблицы -->
+		<tr>
+			<td class="a">
+				Артикул
+			</td>
+			<td id="b">
+				Наименование<br>позиции
+			</td>
+			<td id="c">
+				Режим<br>работы
+			</td>
+			<td id="d">
+				Источник<br>питания
+			</td>
+			<td id="e">
+				Срок службы источника света, час
+			</td>
+			<td id="f">
+				Время<br>работы в аварийном режиме,<br>час
+			</td>
+			<td id="g">
+				Номинальный световой поток, лм нормальный режим / аварийный режим
+			</td>
+			<td id="h">
+				Номинальная потребляемая мощность, Вт
+			</td>
+			<td id="i">
+				Коэф.<br>мощности
+			</td>
+			<td class="j">
+				Масса,<br>кг
+			</td>
+		</tr>
+		<tr>
+			<td colspan="10" class="zag">
+				№1 Автономная система аварийного освещения с функцией TELECONTROL
+			</td>
+		</tr>
+		<tr>
+			<td colspan="10" class="podzag">
+				Автономный аварийный светильник резервного освещения с функцией TELECONTROL
+			</td>
+		</tr>
+		<tr>
+			<td class="a">a15641</td>
+			<td>BS-UNIVERSAL-51-R1-STABILAR2</td>
+			<td>универсальный</td>
+			<td>STABILAR-2.UNI</td>
+			<td>100 000</td>
+			<td>1</td>
+			<td>1200/1200</td>
+			<td>28</td>
+			<td>0,85</td>
+			<td class="j">2,90</td>
+		</tr>
+		<tr>
+			<td colspan="10" class="podzag">
+				Автономный аварийный светильник эвакуационного освещения с функцией TELECONTROL
+			</td>
+		</tr>
+		<tr>
+			<td class="a">a15636</td>
+			<td>BS-UNIVERSAL-51-L1-INEXI2</td>
+			<td>универсальный</td>
+			<td>INEXI-2C</td>
+			<td>100 000</td>
+			<td>1</td>
+			<td>870/870</td>
+			<td>13,4</td>
+			<td>0,9</td>
+			<td class="j">2,10</td>
+		</tr>
+		<tr>
+			<td class="a">a15638</td>
+			<td>BS-UNIVERSAL-51-L2-STABILAR2</td>
+			<td>универсальный</td>
+			<td>STABILAR-2.UNI</td>
+			<td>100 000</td>
+			<td>1</td>
+			<td>1200/600</td>
+			<td>23</td>
+			<td>0,5</td>
+			<td class="j">2,10</td>
+		</tr>
+		<tr>
+			<td class="a">a15637</td>
+			<td>BS-UNIVERSAL-53-L1-INEXI2</td>
+			<td>универсальный</td>
+			<td>INEXI-2C</td>
+			<td>100 000</td>
+			<td>3</td>
+			<td>870/870</td>
+			<td>13,4</td>
+			<td>0,9</td>
+			<td class="j">2,70</td>
+		</tr>
+		<tr>
+			<td class="a">a15639</td>
+			<td>BS-UNIVERSAL-53-L2-STABILAR2</td>
+			<td>универсальный</td>
+			<td>STABILAR-2.UNI</td>
+			<td>100 000</td>
+			<td>3</td>
+			<td>1200/600</td>
+			<td>24,5</td>
+			<td>0,6</td>
+			<td class="j">2,70</td>
+		</tr>
+	</table>
+<br>
+<br>
+<br>
 	<table cellpadding="0" cellspacing="0" border="0">
 		
 		<!-- Шапка таблицы -->
@@ -113,116 +218,41 @@
 		</tr>
 		<tr>
 			<td colspan="10" class="podzag">
-				Автономный аварийный светильник эвакуационного освещения с функцией TELECONTROL
-			</td>
-		</tr>
-		<tr>
-			<td class="a">a15813</td>
-			<td>BS-BRIZ-81-L1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15815</td>
-			<td>BS-BRIZ-81-L2-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15814</td>
-			<td>BS-BRIZ-83-L1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2,6</td>
-			<td>0,85</td>
-			<td class="j">0,73</td>
-		</tr>
-		<tr>
-			<td class="a">a15816</td>
-			<td> BS-BRIZ-83-L2-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2,6</td>
-			<td>0,85</td>
-			<td class="j">0,73</td>
-		</tr>
-		<tr>
-			<td colspan="10" class="podzag">
 				Автономный световой указатель с функцией TELECONTROL
 			</td>
 		</tr>
 		<tr>
-			<td class="a">a15811</td>
-			<td> BS-BRIZ-71-S1-INEXI2</td>
+			<td class="a">a16485</td>
+			<td> BS-UNIVERSAL-71-S1-INEXI2</td>
 			<td>постоянный</td>
 			<td>INEXI-2M</td>
-			<td>100 000</td>
+			<td>100 000</td>
 			<td>1</td>
-			<td>130/700</td>
-			<td>3,6</td>
-			<td>0,85</td>
-			<td class="j">0,56</td>
+			<td>10/30</td>
+			<td>6,3</td>
+			<td>0,9</td>
+			<td class="j">1,70</td>
 		</tr>
 		<tr>
-			<td class="a">a15812</td>
-			<td> BS-BRIZ-73-S1-INEXI2</td>
-			<td>постоянный</td>
+			<td class="a">a16486</td>
+			<td>BS-UNIVERSAL-51-R1-STABILAR2</td>
+			<td>универсальный</td>
 			<td>INEXI-2M</td>
-			<td>100 000</td>
+			<td>100 000</td>
 			<td>3</td>
-			<td>130/700</td>
-			<td>4,6</td>
-			<td>0,85</td>
-			<td class="j">0,67</td>
-		</tr>
-		<tr>
-			<td class="a">a15809</td>
-			<td> BS-BRIZ-81-S1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>1</td>
-			<td>130/700</td>
-			<td>1,2</td>
-			<td>0,6</td>
-			<td class="j">0,56</td>
-		</tr>
-		<tr>
-			<td class="a">a15810</td>
-			<td> BS-BRIZ-83-S1-INEXI2</td>
-			<td>непостоянный</td>
-			<td>INEXI-2N</td>
-			<td>50 000</td>
-			<td>3</td>
-			<td>130/700</td>
-			<td>2</td>
-			<td>0,8</td>
-			<td class="j">0,73</td>
+			<td>10/30</td>
+			<td>7,6</td>
+			<td>0,9</td>
+			<td class="j">2,00</td>
 		</tr>
 	</table>
+
+
 </div>
 			<!-- EOF Характеристки продукта -->
 
 			<!-- Остальные модели -->
-			<style type="text/css">#item-BRIZ {display: none;}</style>
+			<style type="text/css">#item-UNIVERSAL {display: none;}</style>
 			<div class="title" id="menu1">Другие Модели</div>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/light/includes/models.html'); ?>
 			<!-- EOF Остальные модели -->
