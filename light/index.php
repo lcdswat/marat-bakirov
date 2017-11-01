@@ -35,7 +35,7 @@
 		<li>защита от короткого замыкания (ГОСТ IEC 61347-2-7-2014, ГОСТ IEC 61347-2-7-2014)</li>
 	</ul>
 	<div class="banner_preem_detail">*для световых приборов постоянного и универсального типа действия</div>
-	<a href="#menu2" class="banner_more">Узнать больше</a>
+	<!-- <a href="#menu2" class="banner_more">Узнать больше</a> -->
 </div>
 
 <section id="middle">
@@ -242,6 +242,13 @@
 		<div class="contact_form_title">
 			Остались вопросы? Свяжитесь с нами.<br> 
 			Наш специалист перезвонит вам в течении дня.
+		</div>
+
+		<div class="address">
+			<b>+7 (495) 785-17-67</b>
+			ООО «Белый свет»<br>
+			Адрес: 125080, г. Москва, Факультетский пер., 12<br>
+			<a href="mailto:info@belysvet.ru">info@belysvet.ru</a>
 		</div>
 
 		<div class="contact_form_wrap">
