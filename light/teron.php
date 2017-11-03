@@ -123,51 +123,7 @@
 			<td>0,9</td>
 			<td class="j">2,40</td>
 		</tr>
-		<tr>
-			<td colspan="10" class="zag">№2 Автономная система аварийного освещения с функциями AUTOTEST, TELECOMAND и MSS</td>
-		</tr>
-		<tr>
-			<td colspan="10" class="podzag">Автономный световой указатель с функциями AUTOTEST и TELECOMAND</td>
-		</tr>
-		<tr>
-			<td class="a">a15596</td>
-			<td>BS-TERON-71-S1-INEXI3</td>
-			<td>постоянный</td>
-			<td>INEXI-3M</td>
-			<td>100 000</td>
-			<td>1</td>
-			<td>136/508</td>
-			<td>6,3</td>
-			<td>0,9</td>
-			<td class="j">2,30</td>
-		</tr>
-		<tr>
-			<td class="a">a15597</td>
-			<td>BS-TERON-73-S1-INEXI3</td>
-			<td>постоянный</td>
-			<td>INEXI-3M</td>
-			<td>100 000</td>
-			<td>3</td>
-			<td>60/250</td>
-			<td>6,7</td>
-			<td>0,9</td>
-			<td class="j">2,40</td>
-		</tr>
-		<tr>
-			<td colspan="10" class="podzag">Автономный световой указатель с функциями AUTOTEST, TELECOMAND и МSS</td>
-		</tr>
-		<tr>
-			<td class="a">a15598</td>
-			<td>BS-TERON-71-S1-INEXI3-MSS3</td>
-			<td>постоянный</td>
-			<td>INEXI-3M MSS</td>
-			<td>100 000</td>
-			<td>1+1+1</td>
-			<td>60/	250</td>
-			<td>6,7</td>
-			<td>0,9</td>
-			<td class="j">2,40</td>
-		</tr>
+
 	</table>
 </div>
 			<!-- EOF Характеристки продукта -->

@@ -244,17 +244,19 @@
 			Наш специалист перезвонит вам в течении дня.
 		</div>
 
-		<div class="address">
+<!-- 		<div class="address">
 			<b>+7 (495) 785-17-67</b><br>
 			ООО «Белый свет»<br>
 			Адрес: 125080, г. Москва, Факультетский пер., 12<br>
 			<a href="mailto:info@belysvet.ru">info@belysvet.ru</a>
-		</div>
+		</div> -->
 
 		<div class="contact_form_wrap">
 			<form>
 			<input type="text" name="fam" placeholder="Фамилия" required="">
 			<input type="text" name="nme" placeholder="Имя" required="">
+			<input type="text" name="email" placeholder="e-mail" required="">
+			<input type="text" name="phone" placeholder="Телефон" required="">
 			
 			<select required="" name="org">
 				<option>Организация</option>
