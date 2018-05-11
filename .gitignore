@@ -1,2 +1,4 @@
 .htaccess
 .directory
+.DS_Store
+._.DS_Store
