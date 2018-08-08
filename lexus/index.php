@@ -13,13 +13,20 @@
 </head> 
 <body>
 
-<div id="logo"></div>
-<h1>Как вы оцениваете работу дилерского центра?</h1><br><br>
+<a href="/lexus/"><div id="logo"></div></a>
+<h1>Как вы оцениваете работу дилерского центра?</h1>
 
 <output></output>
 <div id="output-text"></div>
-
 <input type="range" min="1" max="5" step="1" value="4">
+
+<h2>Хотите оставить отзыв?</h2>
+
+<textarea></textarea>
+
+<a href="thx.php" class="button">Отправить</a>
+
+
 
 <script type="text/javascript">
 $(function() {
