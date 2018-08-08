@@ -40,7 +40,7 @@
 }
 
 .rangeslider__handle:active, .rangeslider--active .rangeslider__handle {
-  background-color: yellow;
+  background-color: white;
 }
 .rangeslider--horizontal .rangeslider__handle {
   top: -10px;

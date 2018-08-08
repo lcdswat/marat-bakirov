@@ -1,22 +1,22 @@
 @font-face {
-	font-family: 'FavoritC';
-	src: url(favoritc.otf);
+	font-family: 'Toyota';
+	src: url(toyota.otf);
 }
 
 body {
 	margin: 0;
 	padding: 40px;
-	font-family: 'FavoritC', sans;
+	font-family: 'Toyota', sans;
 	font-size: 18px;
 	line-height: 23px;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 h1 {
 	margin: 0;
 	padding: 0;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 36px;
 	font-weight: normal;
 }
@@ -34,19 +34,19 @@ textarea {
 	height: 200px;
 	padding: 20px;
 	border-radius: 10px;
-	background-color: #272727;
+	background-color: #F3F3F3;
 	resize: none;
 	border: none;
 	outline: none;
-	color: white;
+	color: black;
 	font-size: 16px;
 	line-height: 19px;
 	box-sizing: border-box;
 }
 
 #logo {
-	width: 175px;
-	height: 32px;
+	width: 155px;
+	height: 26px;
 	margin: 0 0 40px 0;
 	background-image: url(logo.svg);
 	background-repeat: no-repeat;
@@ -61,6 +61,7 @@ output {
 	text-align: center;
 	font-size: 150px;
 	line-height: 150px;
+	font-family: sans;
 }
 
 #output-text {
@@ -81,7 +82,7 @@ output {
 	margin: 40px 0 60px 0;
 	border-radius: 80px;
 	text-align: center;
-	background-color: #B3282D;
+	background-color: #CC0033;
 }
 
 p {
