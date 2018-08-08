@@ -9,7 +9,7 @@ body {
 	font-family: 'FavoritC', sans;
 	font-size: 18px;
 	line-height: 23px;
-	background-color: darkgray;
+	background-color: black;
 	color: white;
 }
 
@@ -30,18 +30,19 @@ h1 {
 	background-position: center center;
 }
 
-.rate {
+output {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	text-align: center;
-	width: 200px;
-	height: 200px;
-}
-
-.emoji {
 	font-size: 120px;
-	height: 170px;
-	line-height: 170px;
+	line-height: 120px;
 }
 
-input {
-	cursor: ew-resize;
+#output-text {
+	width: 100%;
+	margin: 40px 0 40px 0;
+	text-align: center;
+	font-size: 28px;
 }

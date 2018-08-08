@@ -5,26 +5,57 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="lexus.css">
-	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="rangeslider/rangeslider.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="rangeslider/rangeslider.css">
+
 </head> 
 <body>
 
 <div id="logo"></div>
-<h1>Как вы оцениваете работу дилерского центра?</h1>
+<h1>Как вы оцениваете работу дилерского центра?</h1><br><br>
 
-<div class="rate">
-	<div class="emoji">😑</div>
-	<input type="range" min="1" max="5" step="1" value="2">
-</div>
+<output></output>
+<div id="output-text"></div>
 
-
+<input type="range" min="1" max="5" step="1" value="4">
 
 <script type="text/javascript">
-	var emojis = ['😠','😦','😑','😀','😍'];
-	$("input").mousemove(function(){
-		var i = $(this).val();
-		$(".emoji").html(emojis[i]);
-	});
+$(function() {
+  const $input = $('input[type=range]');
+  const $output = $('output');
+  const $outputText = $('#output-text');
+  const valueMapping = [
+    '😤',
+    '🙁',
+    '😐',
+    '🙂',
+    '😃'
+  ];
+  const valueMappingText = [
+    'Плохо',
+    'Средне',
+    'Хорошо',
+    'Отлично',
+    'Превосходно'
+  ];
+  
+  function updateOutput(value) {
+    $output[0].textContent = valueMapping[value - 1];
+    $outputText[0].textContent = valueMappingText[value - 1];
+  }
+  
+  $input.on('input', function(e) {
+    updateOutput(e.target.value);
+  });
+  
+  $input.rangeslider({
+    polyfill: false
+  });
+  
+  updateOutput($input[0].value);
+});
 </script>
 
 </body>
