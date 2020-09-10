@@ -1,0 +1,407 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #242424;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #CBCBCB;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.clean {clear: both;}
+
+#main-container {
+	display: flex;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+
+#main-container div {
+}
+
+#text-container {
+	padding: 40px;
+	background-color: #242424;
+}
+
+#settings-container {
+	flex-basis: 210px;
+	padding: 40px 0 20px 40px;
+	flex-shrink: 0;
+	background-color: #2F2F2F;
+}
+
+#poster-container {
+	width: calc(70.7vh - 6vh);
+	height: calc(100vh - 6vh);
+	flex-shrink: 0;
+	background-color: #2b1d58;
+	background-size: cover;
+	background-position: center center;
+	word-wrap: break-word;
+	background-image: url(site-files/bg.jpg);
+	padding: 3vh;
+}
+
+#poster-container #header {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 2vh;
+	font-weight: medium;
+	line-height: 100%;
+	padding: 0 0 4vh 0;
+}
+
+#poster-container #subheader {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1.2vh;
+	font-weight: medium;
+	line-height: 100%;
+	padding: 0 0 2vh 0;
+}
+
+#code-text {
+	color: white;
+	font-family: 'badots-basic-abc';
+	font-size: 15vh;
+	line-height: 120%;
+}
+
+#poster-container #save-button {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: #FF4242;
+	color: white;
+	border-radius: 60px;
+	text-align: center;
+	line-height: 20px;
+	padding: 20px 40px 18px 40px;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+     -webkit-transition: background-color, opacity ease-out 0.2s;
+     -moz-transition: background-color, opacity ease-out 0.2s;
+     -o-transition: background-color, opacity ease-out 0.2s;
+     transition: background-color, opacity ease-out 0.2s;
+     bottom: 40px;
+     right: 40px;
+     opacity: 0;
+}
+
+#poster-container:hover #save-button {
+	display: block;
+	opacity: 1;
+}
+
+#poster-container #save-button:hover {
+	background-color: #6100FF;
+}
+
+/*Settings panel*/
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+#design {
+	margin: 20px 0 30px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 12px;
+}
+
+#design div {
+	margin: 0 0 20px 0;
+}
+
+#design span {
+	display: block;	
+	width: 40px;
+	height: 40px;
+	margin: 0 20px 5px 0;
+	background-color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#design #basic {
+	background-image: url(site-files/design-icon-basic.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#design #binary {
+	background-image: url(site-files/design-icon-binary.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#design #sqr {
+	background-image: url(site-files/design-icon-sqr.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#design #fun {
+	background-image: url(site-files/design-icon-fun.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 36px;
+}
+
+#color {
+	display: flex;
+	color: black;
+	margin: 20px 0 60px 0;
+}
+
+#color div {
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border-radius: 4px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	cursor: pointer;
+	line-height: 34px;
+	font-size: 12px;
+}
+
+#color #random {
+	background: none;
+	color: #CBCBCB;
+	font-size: 18px;
+	border-radius: 0;
+}
+
+#color #bg {
+	background-color: #260BCC;
+	color: white;
+}
+
+#color #code {
+	background-color: #00FF66;
+}
+
+#color #text {
+	background-color: white;
+}
+
+#background {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	margin: 20px 0 60px 0;
+}
+
+#background div {
+	width: 65px;
+	height: 65px;
+	margin: 0 20px 0 0;
+	background-color: #242424;
+	border-radius: 4px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 65px;
+}
+
+#layout {
+	margin: 20px 0 0 0;
+}
+
+#layout span {
+	display: flex;
+	align-items: center;
+	margin: 0 0 10px 0;
+}
+
+#layout .switch {
+  display: inline-block;
+  height: 21px;
+  position: relative;
+  width: 39px;
+  margin: 0 10px 0 0;
+}
+
+#layout .switch input {
+  display:none;
+}
+
+#layout .slider {
+  background-color: #DFDFDF;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+#layout .slider:before {
+  background-color: #fff;
+  bottom: 3px;
+  content: "";
+  height: 15px;
+  left: 3px;
+  position: absolute;
+  transition: .4s;
+  width: 15px;
+}
+
+#layout input:checked + .slider {
+  background-color: #24D824;
+}
+
+#layout input:checked + .slider:before {
+  transform: translateX(17px);
+}
+
+#layout .slider.round {
+  border-radius: 21px;
+}
+
+#layout .slider.round:before {
+  border-radius: 50%;
+}
+/*EOF Settings panel*/
+
+/*Text panel*/
+#text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 0 40px 0;
+}
+
+#logo img {
+
+}
+
+#portrait {
+	width: 134px;
+	height: 134px;
+}
+
+#form-container {
+	margin: 0 0 0 0;
+	font-size: 12px;
+	color: #DEDEDE;
+}
+
+#form-container textarea {
+	width: calc(100% - 40px);
+	height: 120px;
+	padding: 20px;
+	background: none;
+	border: none;
+	background-color: #2F2F2F;
+	border-radius: 4px;
+	outline: none;
+	color: white;
+	font-size: 16px;
+	line-height: 22px;
+	resize: none;
+	margin: 0 0 10px 0;
+}
+
+#form-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+#form-container #symbols {
+	color: #666666;
+}
+
+#footer-menu a {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #CBCBCB;
+	font-size: 14px;
+}
+/*EOF Text panel*/
+
+
+@media screen and (max-height: 750px) {
+	#design {
+		margin: 20px 0 0 0;
+	}
+
+	#color {
+		margin: 20px 0 40px 0;
+	}
+
+	#background {
+		margin: 20px 0 40px 0;
+	}
+}
+
+@media screen and (max-height: 680px) {
+	h2 {
+		font-size: 14px;
+	}
+
+	#settings-container {
+		padding: 20px 0 20px 20px;
+	}
+	#design {
+		margin: 10px 0 0 0;
+	}
+
+	#color {
+		margin: 10px 0 30px 0;
+	}
+
+	#background {
+		margin: 10px 0 20px 0;
+	}
+
+	#layout {
+		margin: 10px 0 0 0;
+	}
+}
+
+@media screen and (max-height: 640px) {
+	#text-container  {
+		padding: 20px;
+	}
+
+	#text-container #text p {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
