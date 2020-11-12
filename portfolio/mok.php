@@ -4,11 +4,13 @@
 	<title>Портфолио — Московский оружейник и компания</title>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
 </head>
-<body style="background-color: #d2d3d5;">
+<body>
 
 	<div id="case-wrapper-margin-10">
-		Moscow gunsmith & Co identy<br>
-		Logo design and visual identy for gunsmith company<br>
+	
+		<b>Moscow gunsmith & Co identy</b><br><br>
+		Logo design and visual identy for gunsmith company.<br>
+		Made in collaboration with <a href="\\oranjin.ru">Oranjin</a> agency.<br>
 		September 2020<br><br>
 		<img src="/i/MOK-01.svg">
 		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-02.mp4" type="video/mp4"></video>
@@ -22,6 +24,7 @@
 		<img src="/i/MOK-10.jpg">
 		<img src="/i/MOK-11.jpg">
 		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-12.mp4" type="video/mp4"></video>
+		<br>
 	</div>
 
 	<!-- Меню -->
