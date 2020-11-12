@@ -11,12 +11,12 @@
 	src: url(/site-files/gotham-i.ttf);
 }
 
-
 html {margin: 0; padding: 0; height: 100%;}
+
 body {
 	margin: 0; padding: 0; height: 100%;
-	font-family: 'Gotham Pro', Arial;
-	font-size: 16px; line-height: 24px;
+	font-family: 'Arial', sans-serif;
+	font-size: 16px; line-height: 20px;
 }
 
 p {
@@ -52,10 +52,6 @@ b {
 .center {text-align: center;}
 .shadow {box-shadow: 0 0 10px rgba(0,0,0,0.3);}
 .indent-d {padding: 0 0 40px 0;}
-
-img {
-	margin: 0 0 40px 0;
-}
 
 .grid-i {
 	display: block;
@@ -224,3 +220,23 @@ img {
 	letter-spacing: 7px;
 }
 /*EOF Рутина*/
+
+/*Оформление кейсов*/
+#case-wrapper-margin-10 {
+	margin: 10px;
+}
+
+#case-wrapper-margin-10 img {
+	display: block;
+	width: 100%;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+}
+
+#case-wrapper-margin-10 video {
+	display: block;
+	width: 100%;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+}
+/*EOF Оформление кейсов*/
