@@ -10,20 +10,20 @@
 	
 		<b>Moscow gunsmith & Co identy</b><br><br>
 		Logo design and visual identy for gunsmith company.<br>
-		Made in collaboration with <a href="\\oranjin.ru">Oranjin</a> agency.<br>
+		Made for <a href="\\oranjin.ru">Oranjin</a> agency.<br>
 		September 2020<br><br>
 		<img src="/i/MOK-01.svg">
-		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-02.mp4" type="video/mp4"></video>
+		<video width="100%" autoplay loop muted playsinline><source src="/i/MOK-02.mp4" type="video/mp4"></video>
 		<img src="/i/MOK-03.jpg">
 		<img src="/i/MOK-04.jpg">
 		<img src="/i/MOK-05.jpg">
-		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-06.mp4" type="video/mp4"></video>
+		<video width="100%" autoplay loop muted playsinline><source src="/i/MOK-06.mp4" type="video/mp4"></video>
 		<img src="/i/MOK-07.jpg">
 		<img src="/i/MOK-08.jpg">
-		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-09.mp4" type="video/mp4"></video>
+		<video width="100%" autoplay loop muted playsinline><source src="/i/MOK-09.mp4" type="video/mp4"></video>
 		<img src="/i/MOK-10.jpg">
 		<img src="/i/MOK-11.jpg">
-		<video width="100%" autoplay="true" loop="true" muted="true"><source src="/i/MOK-12.mp4" type="video/mp4"></video>
+		<video width="100%" autoplay loop muted playsinline><source src="/i/MOK-12.mp4" type="video/mp4"></video>
 		<br>
 	</div>
 
