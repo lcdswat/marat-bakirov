@@ -222,21 +222,27 @@ b {
 /*EOF Рутина*/
 
 /*Оформление кейсов*/
+#case-wrapper-margin-10 p {
+	margin: 0 auto 0 auto;
+	padding: 40px;
+	display: block; width: auto;
+}
+
 #case-wrapper-margin-10 {
-	margin: 10px;
+	/*margin: 10px;*/
 }
 
 #case-wrapper-margin-10 img {
 	display: block;
 	width: 100%;
-	margin: 0 0 10px 0;
-	border-radius: 5px;
+	/*margin: 0 0 10px 0;*/
+	/*border-radius: 5px;*/
 }
 
 #case-wrapper-margin-10 video {
 	display: block;
 	width: 100%;
-	margin: 0 0 10px 0;
-	border-radius: 5px;
+	/*margin: 0 0 10px 0;*/
+	/*border-radius: 5px;*/
 }
 /*EOF Оформление кейсов*/
