@@ -6,6 +6,7 @@
 </head>
 <body>
 
+
 	<!-- Меню -->
 	<?php //include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
