@@ -13,7 +13,9 @@
 <?php include('menu.html'); ?>
 
 <div id="cover">
-
+	<video width="100%" height="100%" muted loop>
+		<source src="cover.mp4" type="video/mp4">
+	</video>
 </div>
 
 <!-- ПДФ О компании -->
@@ -24,10 +26,10 @@
 	}
 ?>
 
-<div class="shmuz">
-	<content>
-		<h1>Обзор результатов</h1>
-	</content>
+<div class="shmutz">
+	<video width="100%" height="100%" muted id="shmutz-01">
+		<source src="shmutz.mp4" type="video/mp4">
+	</video>
 </div>
 
 <!-- Прелоадер -->
@@ -39,10 +41,38 @@
 	});
 </script>
 
-<!-- Убираем тулбар на мозиле -->
-<style type="text/css">
-	
-</style>
+<!-- Старт видео -->
+<script type="text/javascript">
+	$(window).on('load', function () {
+	    setTimeout(function(){
+	    	$('video').get(0).play();
+	    },1000);
+	});
+</script>
+
+<!-- Старт видео на шмуце -->
+<script type="text/javascript">
+	$(document).ready(function(){   
+	    var $element = $('#shmutz-01');
+	    let counter = 0;
+	$(window).scroll(function() {
+	  var scroll = $(window).scrollTop() + $(window).height();
+	  //Если скролл до конца елемента
+	  var offset = $element.offset().top + $element.height();
+	  //Если скролл до начала елемента
+	  //var offset = $element.offset().top
+	 
+	  if (scroll > offset && counter == 0) {
+	    $('#shmutz-01').get(0).play();
+	    counter = 1;
+	  }
+	});
+	$('#shmutz-01').click(function(){
+		$('#shmutz-01').get(0).play();
+	});
+	 
+	   });
+</script>
 
 </body>
 </html>

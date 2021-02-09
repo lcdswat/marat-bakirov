@@ -29,7 +29,14 @@ h1 {
 	width: 100%;
 	padding-top: 56.25%;
 	background-color: #8c8f94;
-	background-image: url('cover.svg');
+	position: relative;
+	/*background-image: url('cover.svg');*/
+}
+
+#cover video {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .shmuz {
