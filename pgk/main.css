@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@font-face {
+	font-family: "Rubik-Light";
+	src: url("site-files/font/Rubik-Light.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-Medium";
+	src: url("site-files/font/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-Bold";
+	src: url("site-files/font/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ProstoOne-regular";
+	src: url("site-files/font/ProstoOne-Regular.ttf") format("truetype");
+}
 
 html {margin: 0; padding: 0; width: 100%; height: 100%;}
 body {margin: 0; padding: 0; width: 100%; height: 100%;}

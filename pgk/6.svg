@@ -1,0 +1,309 @@
+<svg id="9645d01f-6178-46bc-be37-9acda148451c" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .\34 6b8ce6c-ea90-4ccf-a3b7-3b0f797fc9b8, .e78a76a8-2909-48d9-a430-c92fbd43d77b, .eb563865-5148-48f2-b013-84249ccb7188 {
+        fill: none;
+      }
+
+      .fc36da60-08ad-45fe-931e-1215f454feaa {
+        clip-path: url(#12b1123b-03b5-4e05-92c9-b927c7812a57);
+      }
+
+      .b4eb7e45-ca61-44ff-9f0d-00befd39afff {
+        fill: #fff;
+      }
+
+      .e84289a6-5ee6-43c6-b9ee-cc3847068536 {
+        fill: #e8e8ed;
+      }
+
+      .\36 206fbd2-d4ce-4845-ad20-7a1faab05c7e, .a9764396-8fa9-4431-9f28-c2e8d04f3938, .f77857ce-1ad0-4cb6-8e55-fcf5d9189560 {
+        font-size: 20px;
+      }
+
+      .a9764396-8fa9-4431-9f28-c2e8d04f3938, .f77857ce-1ad0-4cb6-8e55-fcf5d9189560 {
+        font-family: "Rubik-Light", Rubik;
+      }
+
+      .\37 8d71e52-b1ee-4a65-9b02-5b3beb343160 {
+        letter-spacing: -0.03em;
+      }
+
+      .f7f249e6-4971-4c49-a08f-0bdecc17eb3c {
+        letter-spacing: 0em;
+      }
+
+      .\39 165fe02-7e86-408c-9253-acbe08dcfeaa, .f77857ce-1ad0-4cb6-8e55-fcf5d9189560 {
+        letter-spacing: -0.02em;
+      }
+
+      .\35 98fd2de-1405-4c87-8b18-fdc559abe77e {
+        letter-spacing: -0.02em;
+      }
+
+      .\35 9875c25-c5ce-4ba4-b38c-96b3dda02f3e {
+        letter-spacing: -0.09em;
+      }
+
+      .\38 8d4cc26-ee49-478a-84fe-3cb3e41d821d {
+        letter-spacing: 0em;
+      }
+
+      .\37 5ffb5cd-56b5-451f-a60b-cbc338b28377 {
+        letter-spacing: 0em;
+      }
+
+      .\37 29bef0d-3543-4466-ae1e-24bd783a7a34 {
+        letter-spacing: 0em;
+      }
+
+      .e1c5c4c4-3e95-4638-813a-10642808f240 {
+        letter-spacing: -0.02em;
+      }
+
+      .a839cabb-e4e3-4bac-9c02-91aa90732214 {
+        font-size: 38px;
+        font-family: ProstoOne-Regular, Prosto One;
+      }
+
+      .\34 88a2167-1070-4faf-915d-d2cfce90a5d0 {
+        letter-spacing: -0.02em;
+      }
+
+      .e411e705-13d0-4ffb-b83c-1b04af0c8f97 {
+        letter-spacing: -0.03em;
+      }
+
+      .\36 9faf42e-0850-463b-9a03-1c7cf1a97c18 {
+        letter-spacing: -0.01em;
+      }
+
+      .b5c8a4fe-242a-4661-a538-1510ea0d092a {
+        letter-spacing: -0.02em;
+      }
+
+      .ef8361fd-42c3-403c-9ab3-8aab13995cf3 {
+        letter-spacing: -0.02em;
+      }
+
+      .e3251c80-3957-4fc6-8715-82e718939d42 {
+        letter-spacing: 0em;
+      }
+
+      .\33 c83d053-c487-464e-99b2-e22bbeda3405 {
+        letter-spacing: -0.01em;
+      }
+
+      .\36 d7f5850-13e4-43a0-a51a-4cfa38deb045 {
+        letter-spacing: -0.01em;
+      }
+
+      .\35 8ba0ff2-f698-479a-a398-822fa2fd5dcd {
+        letter-spacing: -0.02em;
+      }
+
+      .\34 3701de8-27c9-4b2f-8ef7-b61683fddae6 {
+        letter-spacing: -0.01em;
+      }
+
+      .\33 ee5b04c-a623-4ce3-a970-e64dc1114c1d {
+        letter-spacing: 0em;
+      }
+
+      .bbd63050-971e-46c0-9a1c-44b3fb9a32a3 {
+        letter-spacing: -0.03em;
+      }
+
+      .\36 50e340b-1fd3-465d-a955-a19b5a57f31f {
+        letter-spacing: -0.02em;
+      }
+
+      .a4184c08-6873-4895-97ac-226287774889 {
+        letter-spacing: -0.01em;
+      }
+
+      .\33 4525b80-da54-4dd8-b35c-d141b7141256 {
+        letter-spacing: -0.03em;
+      }
+
+      .e35ce804-366a-4d9a-8d54-a6277ae25077 {
+        letter-spacing: -0.02em;
+      }
+
+      .\34 109e23a-c14b-4463-ab74-95f4a5cf0795 {
+        font-size: 28px;
+      }
+
+      .\34 109e23a-c14b-4463-ab74-95f4a5cf0795, .\36 206fbd2-d4ce-4845-ad20-7a1faab05c7e {
+        font-family: Rubik-Medium, Rubik;
+      }
+
+      .\37 b15b760-0ae8-47ef-b2ee-b351316df719 {
+        fill: #faaa2d;
+      }
+
+      .\35 0fa74ca-e352-4597-99d8-208aad6700ec {
+        letter-spacing: -0.01em;
+      }
+
+      .\37 d735da0-1e6c-4af7-b221-8528f1199622 {
+        letter-spacing: -0.03em;
+      }
+
+      .e31180de-7c87-436f-962c-e4da0d4a92ac {
+        letter-spacing: 0em;
+      }
+
+      .\38 40f2c46-ffc9-4bf2-819f-eced7d2b6ab5 {
+        letter-spacing: -0.02em;
+      }
+
+      .\37 3a3484c-6ab6-4744-acf1-c4c00ed3fdde {
+        letter-spacing: -0.01em;
+      }
+
+      .\39 59d31e7-3a24-4f92-821d-5d3e7a9520a9 {
+        letter-spacing: -0.02em;
+      }
+
+      .\30 5d338ca-5144-44c8-b955-7506778a2475 {
+        letter-spacing: -0.01em;
+      }
+
+      .\33 92a8ea5-40c2-434f-bdac-d946a57dee59 {
+        letter-spacing: -0.03em;
+      }
+
+      .\32 999b16b-799a-4402-ad55-63543c10acb1 {
+        letter-spacing: -0.02em;
+      }
+
+      .d87b00df-17ff-4d22-aa74-0c1c8e0a03ce {
+        letter-spacing: -0.02em;
+      }
+
+      .\37 1d2ad82-1ae0-427e-aa9d-335286f05a4a {
+        letter-spacing: -0.01em;
+      }
+
+      .\31 0cd50a8-861b-46e3-8a21-8c6e3d07cf63 {
+        letter-spacing: -0.03em;
+      }
+
+      .bbbbde1d-0c7d-47ef-9ae4-8027c6da91fe {
+        letter-spacing: -0.02em;
+      }
+
+      .eb563865-5148-48f2-b013-84249ccb7188 {
+        stroke: #e8e8ed;
+      }
+
+      .e78a76a8-2909-48d9-a430-c92fbd43d77b, .eb563865-5148-48f2-b013-84249ccb7188 {
+        stroke-width: 4px;
+      }
+
+      .\34 84ef940-6f5e-4398-a014-2ba4e60dfbde {
+        letter-spacing: -0.02em;
+      }
+
+      .\36 26a1e27-1a62-495c-9086-adb48fd25c3e {
+        letter-spacing: -0.06em;
+      }
+
+      .f015ea02-1dd5-4c97-9062-069a420cbaf0 {
+        letter-spacing: -0.02em;
+      }
+
+      .e78a76a8-2909-48d9-a430-c92fbd43d77b {
+        stroke: #e3ebe9;
+      }
+    </style>
+    <clipPath id="12b1123b-03b5-4e05-92c9-b927c7812a57">
+      <rect class="46b8ce6c-ea90-4ccf-a3b7-3b0f797fc9b8" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <title>Artboard 1</title>
+  <g class="fc36da60-08ad-45fe-931e-1215f454feaa">
+    <rect class="b4eb7e45-ca61-44ff-9f0d-00befd39afff" width="1920" height="1080"/>
+  </g>
+  <rect class="e84289a6-5ee6-43c6-b9ee-cc3847068536" width="633" height="1080"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(693 204.88)">ПГК оказывает весь <tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="191.3" y="0">к</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="200.92" y="0">омпле</tspan><tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="259.02" y="0">к</tspan><tspan x="268.66" y="0">с </tspan><tspan class="598fd2de-1405-4c87-8b18-fdc559abe77e" x="284.54" y="0">у</tspan><tspan x="294.78" y="0">слу</tspan><tspan class="59875c25-c5ce-4ba4-b38c-96b3dda02f3e" x="327.3" y="0">г</tspan><tspan class="88d4cc26-ee49-478a-84fe-3cb3e41d821d" x="333.9" y="0">, связанных </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(693 230.88)">с ж<tspan class="75ffb5cd-56b5-451f-a60b-cbc338b28377" x="30.86" y="0">е</tspan><tspan class="729bef0d-3543-4466-ae1e-24bd783a7a34" x="41.72" y="0">лезнодорожной перевоз</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="274.2" y="0">к</tspan><tspan x="283.82" y="0">ой г</tspan><tspan class="e1c5c4c4-3e95-4638-813a-10642808f240" x="320.42" y="0">р</tspan><tspan x="331.68" y="0">узов </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(693 256.88)">и логисти<tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="92.32" y="0">к</tspan><tspan x="101.94" y="0">ой:</tspan></text>
+  <text class="a839cabb-e4e3-4bac-9c02-91aa90732214" transform="translate(99 135.72)">КОМПАНИЯ</text>
+  <text class="a839cabb-e4e3-4bac-9c02-91aa90732214" transform="translate(363.29 135.72)"> </text>
+  <text class="a839cabb-e4e3-4bac-9c02-91aa90732214" transform="translate(99 181.32)">СЕГОДНЯ</text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 260.02)">Первая г<tspan class="488a2167-1070-4faf-915d-d2cfce90a5d0" x="82" y="0">р</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="93.26" y="0">узовая </tspan><tspan class="e411e705-13d0-4ffb-b83c-1b04af0c8f97" x="161.94" y="0">к</tspan><tspan x="171.56" y="0">омпания </tspan><tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="257.62" y="0">(</tspan><tspan x="263.78" y="0">ПГК) — к</tspan><tspan class="b5c8a4fe-242a-4661-a538-1510ea0d092a" x="342.32" y="0">р</tspan><tspan x="353.56" y="0">упнейший </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 286.02)">в России частный оператор г<tspan class="ef8361fd-42c3-403c-9ab3-8aab13995cf3" x="276.44" y="0">р</tspan><tspan x="287.68" y="0">узовых </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 312.02)">ж<tspan class="e3251c80-3957-4fc6-8715-82e718939d42" x="14.98" y="0">е</tspan><tspan x="25.84" y="0">лезнодорожных перевозок. Обладает </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 338.02)">одним из самых б<tspan class="3c83d053-c487-464e-99b2-e22bbeda3405" x="166.64" y="0">о</tspan><tspan x="177.6" y="0">льших и сбалансированных </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 364.02)">пар<tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="33.86" y="0">к</tspan><tspan x="43.5" y="0">ов подвижно</tspan><tspan class="6d7f5850-13e4-43a0-a51a-4cfa38deb045" x="165.68" y="0">г</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="173.8" y="0">о состава в стране. ПГК </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 390.02)">работает с предприятиями топливно-</text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 416.02)">энер<tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="45.18" y="0">г</tspan><tspan x="53.32" y="0">етичес</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="118.28" y="0">к</tspan><tspan x="127.9" y="0">о</tspan><tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="139.06" y="0">г</tspan><tspan x="147.2" y="0">о </tspan><tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd" x="163.52" y="0">к</tspan><tspan x="173.16" y="0">омпле</tspan><tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="231.26" y="0">к</tspan><tspan x="240.9" y="0">са, металлургичес</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="414.19" y="0">к</tspan><tspan x="423.81" y="0">ой, </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 442.02)"><tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6">г</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="8.14" y="0">орнодобывающей, строит</tspan><tspan class="3ee5b04c-a623-4ce3-a970-e64dc1114c1d" x="251.96" y="0">е</tspan><tspan x="262.8" y="0">льной и химичес</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="420.44" y="0">к</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="430.06" y="0">ой </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 468.02)">отраслей, производит<tspan class="3ee5b04c-a623-4ce3-a970-e64dc1114c1d" x="209.56" y="0">е</tspan><tspan x="220.4" y="0">лями товаров </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 494.02)">народно<tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="80.02" y="0">г</tspan><tspan x="88.16" y="0">о потребления. </tspan><tspan class="bbd63050-971e-46c0-9a1c-44b3fb9a32a3" x="237.26" y="0">К</tspan><tspan x="248.94" y="0">омпания развивает </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 520.02)">сот<tspan class="650e340b-1fd3-465d-a955-a19b5a57f31f" x="31.82" y="0">р</tspan><tspan x="43.08" y="0">удничество не т</tspan><tspan class="3c83d053-c487-464e-99b2-e22bbeda3405" x="196.24" y="0">о</tspan><tspan x="207.2" y="0">ль</tspan><tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd" x="227.94" y="0">к</tspan><tspan x="237.58" y="0">о с к</tspan><tspan class="e1c5c4c4-3e95-4638-813a-10642808f240" x="279.9" y="0">р</tspan><tspan x="291.16" y="0">упнейшими </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 546.02)">отечественными промышленными площадками, </text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 572.02)">но и предлагает транспортные решения </text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 598.02)">для средне<tspan class="6d7f5850-13e4-43a0-a51a-4cfa38deb045" x="105.9" y="0">г</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="114.02" y="0">о и мало</tspan><tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="193.8" y="0">г</tspan><tspan x="201.94" y="0">о бизнеса. В ее клиентс</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="427.53" y="0">к</tspan><tspan x="437.15" y="0">ом </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 624.02)">портф<tspan class="e3251c80-3957-4fc6-8715-82e718939d42" x="57.82" y="0">е</tspan><tspan x="68.68" y="0">ле — о</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="127.64" y="0">к</tspan><tspan class="a4184c08-6873-4895-97ac-226287774889" x="137.26" y="0">о</tspan><tspan x="148.24" y="0">ло 2 тыс. предприятий.</tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 650.02)">Постоянное <tspan class="34525b80-da54-4dd8-b35c-d141b7141256" x="118.44" y="0">у</tspan><tspan x="128.46" y="0">лучшение клиентс</tspan><tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="303.78" y="0">к</tspan><tspan x="313.4" y="0">о</tspan><tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="324.56" y="0">г</tspan><tspan x="332.7" y="0">о сервиса, </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 676.02)">развитая ИТ-инфраст<tspan class="e35ce804-366a-4d9a-8d54-a6277ae25077" x="206.96" y="0">р</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="218.2" y="0">уктура, индивидуальный </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 702.02)">подход к г<tspan class="ef8361fd-42c3-403c-9ab3-8aab13995cf3" x="96.04" y="0">р</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="107.28" y="0">узоотправит</tspan><tspan class="e3251c80-3957-4fc6-8715-82e718939d42" x="226.52" y="0">е</tspan><tspan x="237.38" y="0">лям и непрерывная </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 728.02)">оптимизация логистики — ключевые </text>
+  <text class="f77857ce-1ad0-4cb6-8e55-fcf5d9189560" transform="translate(99 754.02)">к<tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="9.64" y="0">онкурентные преимущества ПГК.</tspan></text>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(96.8 912)">ПЕРВАЯ ГРУЗОВАЯ — ВАШИ </text>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(96.8 945.99)">ПЕРЕВОЗКИ В НАДЕЖНЫХ</text>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(470.46 945.99)"> </text>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(96.8 979.98)">РУКАХ</text>
+  <g class="fc36da60-08ad-45fe-931e-1215f454feaa">
+    <path class="7b15b760-0ae8-47ef-b2ee-b351316df719" d="M74.4,895.25a6.91,6.91,0,0,0-5.9-2.85,7,7,0,0,0-5.45,2.25,7.54,7.54,0,0,0-2,5.25,7.67,7.67,0,0,0,2,5.25,6.41,6.41,0,0,0,5,2.25,7.56,7.56,0,0,0,1.8-.2,2.35,2.35,0,0,0,.7-.3,7,7,0,0,1-2.65,4.75A7.73,7.73,0,0,1,63,913.4v3.5a14.63,14.63,0,0,0,4.85-.85,11.78,11.78,0,0,0,4.35-2.7,14,14,0,0,0,3.1-4.7,17.32,17.32,0,0,0,1.2-6.75,10.91,10.91,0,0,0-2.1-6.65m-20,0a6.91,6.91,0,0,0-5.9-2.85,7,7,0,0,0-5.45,2.25,7.54,7.54,0,0,0-2,5.25,7.67,7.67,0,0,0,2,5.25,6.41,6.41,0,0,0,5,2.25,7.56,7.56,0,0,0,1.8-.2,2.35,2.35,0,0,0,.7-.3,7,7,0,0,1-2.65,4.75A7.73,7.73,0,0,1,43,913.4v3.5a14.63,14.63,0,0,0,4.85-.85,11.78,11.78,0,0,0,4.35-2.7,14,14,0,0,0,3.1-4.7,17.32,17.32,0,0,0,1.2-6.75,10.91,10.91,0,0,0-2.1-6.65"/>
+  </g>
+  <text class="6206fbd2-d4ce-4845-ad20-7a1faab05c7e" transform="translate(1287 876)">В 2020 <tspan class="50fa74ca-e352-4597-99d8-208aad6700ec" x="74.02" y="0">г</tspan><tspan x="82.76" y="0">оду </tspan><tspan class="7d735da0-1e6c-4af7-b221-8528f1199622" x="123.2" y="0">К</tspan><tspan class="e31180de-7c87-436f-962c-e4da0d4a92ac" x="136.06" y="0">омпания объявила о планах </tspan></text>
+  <text class="6206fbd2-d4ce-4845-ad20-7a1faab05c7e" transform="translate(1287 902)">инвестировать о<tspan class="840f2c46-ffc9-4bf2-819f-eced7d2b6ab5" x="167.7" y="0">к</tspan><tspan class="73a3484c-6ab6-4744-acf1-c4c00ed3fdde" x="178.7" y="0">о</tspan><tspan class="88d4cc26-ee49-478a-84fe-3cb3e41d821d" x="190.4" y="0">ло 80 млрд </tspan><tspan class="959d31e7-3a24-4f92-821d-5d3e7a9520a9" x="305.36" y="0">р</tspan><tspan x="317.22" y="0">ублей в развитие </tspan></text>
+  <text class="6206fbd2-d4ce-4845-ad20-7a1faab05c7e" transform="translate(1287 928)">клиентс<tspan class="840f2c46-ffc9-4bf2-819f-eced7d2b6ab5" x="82.12" y="0">к</tspan><tspan x="93.12" y="0">о</tspan><tspan class="05d338ca-5144-44c8-b955-7506778a2475" x="104.98" y="0">г</tspan><tspan class="e31180de-7c87-436f-962c-e4da0d4a92ac" x="113.74" y="0">о сервиса, цифровые техн</tspan><tspan class="50fa74ca-e352-4597-99d8-208aad6700ec" x="376.15" y="0">о</tspan><tspan x="387.83" y="0">логии, </tspan></text>
+  <text class="6206fbd2-d4ce-4845-ad20-7a1faab05c7e" transform="translate(1287 954)">а также обновление подвижно<tspan class="50fa74ca-e352-4597-99d8-208aad6700ec" x="309.78" y="0">г</tspan><tspan x="318.52" y="0">о состава в рамках </tspan></text>
+  <text class="6206fbd2-d4ce-4845-ad20-7a1faab05c7e" transform="translate(1287 980)">реализации Стратегии<tspan class="392a8ea5-40c2-434f-bdac-d946a57dee59" x="228.38" y="0">-</tspan><tspan class="88d4cc26-ee49-478a-84fe-3cb3e41d821d" x="237.32" y="0">2023</tspan></text>
+  <g class="fc36da60-08ad-45fe-931e-1215f454feaa">
+    <path class="7b15b760-0ae8-47ef-b2ee-b351316df719" d="M1618.79,509.71a109.81,109.81,0,0,0-41.13,24.71q-17.33,16.61-26.88,41.68t-9.56,59q0,33.92,9.56,59t26.88,41.68a109.81,109.81,0,0,0,41.13,24.71q23.82,8.12,52.32,8.12t52.32-8.12a109.89,109.89,0,0,0,41.13-24.71q17.31-16.6,26.88-41.68t9.56-59q0-33.92-9.56-59t-26.88-41.68a109.89,109.89,0,0,0-41.13-24.71q-23.82-8.11-52.32-8.12t-52.32,8.12m79.74,23.09q13.35,6,23.63,18.94t16.6,33.56q6.32,20.57,6.31,49.79t-6.31,49.79q-6.32,20.57-16.6,33.56t-23.63,18.94a66.16,66.16,0,0,1-54.84,0q-13.37-6-23.64-18.94t-16.59-33.56q-6.33-20.57-6.32-49.79t6.32-49.79q6.3-20.56,16.59-33.56t23.64-18.94a66.16,66.16,0,0,1,54.84,0m-331.25,70.36q-13.53-12.09-13.53-31.21,0-20.57,13.53-32.84t40.59-12.26q27.06,0,40.59,12.26T1462,572q0,19.13-13.53,31.21t-40.59,12.09q-27.06,0-40.59-12.09M1359,728.72q-16.05-14.61-16-37.7,0-21.66,16.23-36.09t48.71-14.43q32.48,0,48.71,14.43T1472.82,691q0,23.09-16.06,37.7t-48.89,14.61q-32.83,0-48.89-14.61m-1.08-221.9q-20.76,5.24-34.1,14.43t-19.66,22.19a64.35,64.35,0,0,0-6.32,28.51q0,20.56,12.81,34.64t35.9,19.48a92.44,92.44,0,0,0-24.53,8.66A71.44,71.44,0,0,0,1303.24,649a59.14,59.14,0,0,0-12.09,19.12,63.89,63.89,0,0,0,3.25,52.5q7.38,14.07,22.55,24.72t37.88,17q22.74,6.3,53,6.31t53-6.31q22.74-6.31,37.89-17t22.55-24.72a63.93,63.93,0,0,0,3.24-52.5A59.28,59.28,0,0,0,1512.51,649a70.8,70.8,0,0,0-19-14.25,95.87,95.87,0,0,0-24.35-8.66q23.08-5.42,35.9-19.48T1517.92,572a64.35,64.35,0,0,0-6.32-28.51q-6.31-13-19.66-22.19t-34.1-14.43q-20.74-5.22-50-5.23t-50,5.23"/>
+    <path class="e84289a6-5ee6-43c6-b9ee-cc3847068536" d="M1801,501.59h-73a20,20,0,1,0,0,40h73a20,20,0,0,0,0-40"/>
+  </g>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(1728.79 528.87)">млрд</text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 204.88)">Бла<tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="34.58" y="0">г</tspan><tspan x="42.72" y="0">одаря развитой филиальной сети оператор </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 230.88)">оказывает п<tspan class="3c83d053-c487-464e-99b2-e22bbeda3405" x="114.12" y="0">о</tspan><tspan x="125.08" y="0">лный </tspan><tspan class="2999b16b-799a-4402-ad55-63543c10acb1" x="178.48" y="0">к</tspan><tspan x="188.12" y="0">омпле</tspan><tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd" x="246.22" y="0">к</tspan><tspan class="e31180de-7c87-436f-962c-e4da0d4a92ac" x="255.86" y="0">с логистических </tspan><tspan class="d87b00df-17ff-4d22-aa74-0c1c8e0a03ce" x="416.71" y="0">у</tspan><tspan x="426.96" y="0">слуг: </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 256.88)">от под<tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="60.46" y="0">г</tspan><tspan class="88d4cc26-ee49-478a-84fe-3cb3e41d821d" x="68.6" y="0">отовки ва</tspan><tspan class="71d2ad82-1ae0-427e-aa9d-335286f05a4a" x="160.46" y="0">г</tspan><tspan x="168.58" y="0">онов до организации международных </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 282.88)">м<tspan class="10cd50a8-861b-46e3-8a21-8c6e3d07cf63" x="13.28" y="0">у</tspan><tspan x="23.3" y="0">льтимодальных перевозок — на всем пространстве </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 308.88)"><tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd">к</tspan><tspan class="3c83d053-c487-464e-99b2-e22bbeda3405" x="9.64" y="0">о</tspan><tspan x="20.6" y="0">леи 152</tspan><tspan class="ef8361fd-42c3-403c-9ab3-8aab13995cf3" x="90.42" y="0">0</tspan><tspan x="102.36" y="0">. Масштабная цифровая трансформация, </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 334.88)"><tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd">к</tspan><tspan x="9.64" y="0">оторая происходит в ПГК, способств</tspan><tspan class="d87b00df-17ff-4d22-aa74-0c1c8e0a03ce" x="357.18" y="0">у</tspan><tspan x="367.42" y="0">ет оперативному </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 360.88)">и гиб<tspan class="58ba0ff2-f698-479a-a398-822fa2fd5dcd" x="48.7" y="0">к</tspan><tspan x="58.34" y="0">ому реагированию на рыночные изменения, </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 386.88)">повышению с<tspan class="78d71e52-b1ee-4a65-9b02-5b3beb343160" x="127.98" y="0">к</tspan><tspan x="137.6" y="0">орости реакции на запросы </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(1287 412.88)">г<tspan class="bbbbde1d-0c7d-47ef-9ae4-8027c6da91fe" x="8.36" y="0">р</tspan><tspan x="19.6" y="0">узоотправит</tspan><tspan class="3ee5b04c-a623-4ce3-a970-e64dc1114c1d" x="138.84" y="0">е</tspan><tspan x="149.68" y="0">лей.</tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 297.28)">оперирование </text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 323.28)">подвижным<tspan class="10cd50a8-861b-46e3-8a21-8c6e3d07cf63" x="110.32" y="0"> </tspan><tspan class="729bef0d-3543-4466-ae1e-24bd783a7a34" x="114.92" y="0">составом</tspan></text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="286.88" x2="695" y2="323.28"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 363.68)">э<tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="10.72" y="0">к</tspan><tspan x="20.36" y="0">спедирование </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 389.68)">г<tspan class="650e340b-1fd3-465d-a955-a19b5a57f31f" x="8.36" y="0">р</tspan><tspan x="19.62" y="0">узов</tspan></text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="353.28" x2="695" y2="389.68"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 496.48)">под<tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="34.2" y="0">г</tspan><tspan x="42.34" y="0">отовка </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 522.48)">ва<tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="21.56" y="0">г</tspan><tspan x="29.7" y="0">онов</tspan><tspan class="650e340b-1fd3-465d-a955-a19b5a57f31f" x="74.78" y="0"> </tspan><tspan x="79.58" y="0">к</tspan><tspan class="e1c5c4c4-3e95-4638-813a-10642808f240" x="89.7" y="0"> </tspan><tspan class="729bef0d-3543-4466-ae1e-24bd783a7a34" x="94.5" y="0">пог</tspan><tspan class="650e340b-1fd3-465d-a955-a19b5a57f31f" x="125.54" y="0">р</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="136.8" y="0">уз</tspan><tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="157.22" y="0">к</tspan><tspan x="166.86" y="0">е</tspan></text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="486.08" x2="695" y2="522.48"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 562.88)">управление внутренней </text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 588.88)">логисти<tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="75.24" y="0">к</tspan><tspan class="f7f249e6-4971-4c49-a08f-0bdecc17eb3c" x="84.88" y="0">ой</tspan><tspan class="484ef940-6f5e-4398-a014-2ba4e60dfbde" x="107.96" y="0"> </tspan><tspan class="729bef0d-3543-4466-ae1e-24bd783a7a34" x="112.68" y="0">предприятий</tspan></text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="552.48" x2="695" y2="588.88"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 430.08)">под<tspan class="69faf42e-0850-463b-9a03-1c7cf1a97c18" x="34.2" y="0">г</tspan><tspan x="42.34" y="0">отовка ва</tspan><tspan class="6d7f5850-13e4-43a0-a51a-4cfa38deb045" x="133" y="0">г</tspan><tspan x="141.12" y="0">онов к перевозкам </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 456.08)">на промывочно-пропарочных станциях <tspan class="71d2ad82-1ae0-427e-aa9d-335286f05a4a" x="377.54" y="0">(</tspan><tspan x="383.68" y="0">ППС)</tspan></text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="419.68" x2="695" y2="456.08"/>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="685.28" x2="695" y2="721.68"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 695.68)">предоставление </text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 721.68)">ва<tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="21.56" y="0">г</tspan><tspan x="29.7" y="0">онов</tspan><tspan class="50fa74ca-e352-4597-99d8-208aad6700ec" x="74.78" y="0"> </tspan><tspan x="79.76" y="0">в</tspan><tspan class="a4184c08-6873-4895-97ac-226287774889" x="90.6" y="0"> </tspan><tspan x="95.58" y="0">аренду</tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 629.28)">ремонт<tspan class="626a1e27-1a62-495c-9086-adb48fd25c3e" x="68.84" y="0"> </tspan><tspan class="729bef0d-3543-4466-ae1e-24bd783a7a34" x="72.76" y="0">подвижно</tspan><tspan class="43701de8-27c9-4b2f-8ef7-b61683fddae6" x="167.78" y="0">г</tspan><tspan x="175.92" y="0">о </tspan></text>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(717 655.28)">состава</text>
+  <line class="eb563865-5148-48f2-b013-84249ccb7188" x1="695" y1="618.88" x2="695" y2="655.28"/>
+  <text class="4109e23a-c14b-4463-ab74-95f4a5cf0795" transform="translate(693 126.18)">Наши <tspan class="f015ea02-1dd5-4c97-9062-069a420cbaf0" x="82.99" y="0">у</tspan><tspan x="98.5" y="0">слуги</tspan></text>
+  <line class="e78a76a8-2909-48d9-a430-c92fbd43d77b" x1="693" y1="978" x2="1227" y2="978"/>
+  <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(43.68 57)">6</text>
+  <g class="fc36da60-08ad-45fe-931e-1215f454feaa">
+    <text class="a9764396-8fa9-4431-9f28-c2e8d04f3938" transform="translate(99 57)">О <tspan class="9165fe02-7e86-408c-9253-acbe08dcfeaa" x="18.4" y="0">к</tspan><tspan x="28.04" y="0">омпании</tspan></text>
+  </g>
+</svg>
