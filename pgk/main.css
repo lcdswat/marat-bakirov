@@ -19,7 +19,8 @@ h1 {
 	background-color: white;
 	position: fixed;
 	z-index: 1000;
-	background-image: url(preloader.svg);
+	background-image: url(site-files/preloader-animated-gold.svg);
+	background-size: 70px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }

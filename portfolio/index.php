@@ -6,6 +6,15 @@
 </head>
 <body>
 
+	<div class="portfolio-container">
+		<a href="/portfolio/mok.php" class="item">
+			
+		</a>
+		<a href="/portfolio/mok.php">
+		
+		</a>
+	</div>
+
 
 	<!-- Меню -->
 	<?php //include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>

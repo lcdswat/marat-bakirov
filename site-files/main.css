@@ -246,3 +246,19 @@ b {
 	/*border-radius: 5px;*/
 }
 /*EOF Оформление кейсов*/
+
+/*Страница портфолио*/
+.portfolio-container {
+	display: flex;
+}
+
+.portfolio-container .item {
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	display: block;
+}
+/*EOF Страница портфолио*/
+
+
+
