@@ -13,22 +13,18 @@
 <?php include('menu.html'); ?>
 
 <!-- Обложка -->
-<!-- <div id="cover">
+<div id="cover">
 	<video width="100%" height="100%" muted>
 		<source src="mp4/cover-new.mp4" type="video/mp4">
 	</video>
-</div> -->
+</div>
 
-<?php include('6.svg'); ?>
-<?php include('2.svg'); ?>
-<!-- <img src="2.svg" style="margin: 0; padding: 0; display: block; width: 100%;"> -->
-
-<!-- ПДФ О компании -->
+<!-- 2-32 -->
 <?php
-	//for($i=2; $i<3; $i++){
-	//	$s = '<div class="reader"><object id="'. $i .'" data="pdf/'. $i .'.pdf#toolbar=0&navpanes=0&scrollbar=0&view=Fit&viewrect=90,90,90,90" type="application/pdf" width="100%" height="100%" class="pdf"></object></div>';
-	//printf("%s\n", $s);
-	//}
+	for($i=2; $i<104; $i++){
+		$s = '<object type="image/svg+xml" data="svg/'. $i .'.svg" class="polosa"></object>';
+	printf("%s\n", $s);
+	}
 ?>
 
 <!-- <div class="shmutz">

@@ -3,15 +3,39 @@
 	src: url("site-files/font/Rubik-Light.ttf") format("truetype");
 }
 @font-face {
+	font-family: "Rubik Light";
+	src: url("site-files/font/Rubik-Light.ttf") format("truetype");
+}
+@font-face {
 	font-family: "Rubik-Medium";
 	src: url("site-files/font/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik Medium";
+	src: url("site-files/font/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik-Regular";
+	src: url("site-files/font/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rubik Regular";
+	src: url("site-files/font/Rubik-Regular.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Rubik-Bold";
 	src: url("site-files/font/Rubik-Bold.ttf") format("truetype");
 }
 @font-face {
+	font-family: "Rubik Bold";
+	src: url("site-files/font/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
 	font-family: "ProstoOne-regular";
+	src: url("site-files/font/ProstoOne-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Prosto One";
 	src: url("site-files/font/ProstoOne-Regular.ttf") format("truetype");
 }
 
@@ -84,6 +108,13 @@ h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.polosa {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /*MENU*/

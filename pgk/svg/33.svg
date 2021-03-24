@@ -1,0 +1,370 @@
+<?xml-stylesheet type="text/css" href="/pgk/main.css" ?><svg id="1471875d-428d-4bd1-b9ee-a59311d7cc8f" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .df13a5e2-58b3-4c1e-b380-49c431318693 {
+        fill: none;
+      }
+
+      .\39 d30a287-8a55-4212-a76d-12056b13af20 {
+        clip-path: url(#819c880e-1f8a-49eb-b02d-a80f61463db6);
+      }
+
+      .\33 60ed568-4c7c-4baf-ad1d-f2bdcbb4ff39 {
+        fill: #fff;
+      }
+
+      .\33 32685b2-8929-4821-99ea-656851f7dcfa {
+        fill: #808085;
+      }
+
+      .c1740e55-0882-43a4-8931-c5f088262259 {
+        clip-path: url(#c94310de-bdf9-4f78-b90d-5725f63ead8e);
+      }
+
+      .b64afd10-acc2-4481-8b0f-243ecf3a195b {
+        clip-path: url(#f728479f-e43b-4d9a-ba5e-9ca89512b790);
+      }
+
+      .\38 531c62c-0b85-4a57-ac05-5c2e57eab535, .d8fd80e2-61fe-4bdc-9869-465928f62457, .ebf19d76-c42f-42d3-8363-9b3c2294c549 {
+        font-size: 20px;
+      }
+
+      .\38 531c62c-0b85-4a57-ac05-5c2e57eab535, .d8fd80e2-61fe-4bdc-9869-465928f62457 {
+        font-family: Rubik-Light, Rubik;
+      }
+
+      .\38 531c62c-0b85-4a57-ac05-5c2e57eab535, .\39 4764fbe-3373-483d-b31b-3b1f098be2b5 {
+        letter-spacing: -0.03em;
+      }
+
+      .ef3e88a5-0cfc-4657-a147-97004132a565 {
+        letter-spacing: 0em;
+      }
+
+      .\33 8feba6b-23dc-4d88-a8c7-fdb35e33b1eb {
+        letter-spacing: -0.02em;
+      }
+
+      .\31 68691d4-3965-4d2d-bb06-0751102ec36c {
+        letter-spacing: -0.05em;
+      }
+
+      .\37 3447cb9-dd73-42b4-b543-13c22ec1cc66 {
+        letter-spacing: 0em;
+      }
+
+      .\38 a7c7ff2-fded-487e-8961-830f6c17c327 {
+        letter-spacing: -0.07em;
+      }
+
+      .\34 80cc0f1-b3d6-42a8-9538-14bbee5bb184 {
+        letter-spacing: -0.01em;
+      }
+
+      .\31 a174e40-2d14-4186-9cbb-a9f4ef5bccdf {
+        letter-spacing: -0.01em;
+      }
+
+      .def2b964-8c85-4549-803c-5dd15543d43c {
+        letter-spacing: 0em;
+      }
+
+      .\35 401c764-6b60-4f51-991b-35f16a077ea7 {
+        letter-spacing: -0.01em;
+      }
+
+      .\31 6fc5014-4e01-42c7-8d23-f5c84a65c6f6 {
+        letter-spacing: -0.02em;
+      }
+
+      .bdfaf26e-e623-4e9d-8382-5d2f03be5040 {
+        letter-spacing: -0.03em;
+      }
+
+      .\37 f3ecc34-64dc-4dc1-95cd-35a01a7eef33 {
+        letter-spacing: -0.02em;
+      }
+
+      .\36 efb14c2-7d0f-4c6d-917c-e95b222eafb8 {
+        letter-spacing: -0.03em;
+      }
+
+      .\36 972b4e7-d386-4b6e-b96a-71de8f9f13dd {
+        letter-spacing: -0.03em;
+      }
+
+      .a05aa1e6-087f-41d0-82c3-1d4f6c6ebd3a {
+        letter-spacing: -0.03em;
+      }
+
+      .\39 70deb62-d83f-4401-be31-1138a0d478bc {
+        letter-spacing: 0em;
+      }
+
+      .e74593d3-53fb-4391-9d57-48143f97a1a5 {
+        letter-spacing: -0.03em;
+      }
+
+      .\36 08c401a-225f-40b8-9fed-3ae3e956c2cc {
+        letter-spacing: -0.01em;
+      }
+
+      .\30 98a746d-8709-4412-84a4-bedd376b1331 {
+        letter-spacing: -0.01em;
+      }
+
+      .\36 51b9775-f4a4-4214-b55f-6485e5fe9880, .f2e7fb97-9e0d-459c-9c79-52aa66fe3186 {
+        font-size: 28px;
+      }
+
+      .\36 51b9775-f4a4-4214-b55f-6485e5fe9880, .ebf19d76-c42f-42d3-8363-9b3c2294c549, .f2e7fb97-9e0d-459c-9c79-52aa66fe3186 {
+        font-family: Rubik-Medium, Rubik;
+      }
+
+      .\30 756460a-238a-4d5a-965f-e82f6b0350c2 {
+        letter-spacing: -0.01em;
+      }
+
+      .\39 cfcca73-b913-40d8-a5db-d9aa25f24fb1 {
+        letter-spacing: 0em;
+      }
+
+      .f2e7fb97-9e0d-459c-9c79-52aa66fe3186 {
+        letter-spacing: -0.03em;
+      }
+
+      .fa112bc2-fc0f-4af0-af2d-0afa23088b04 {
+        letter-spacing: 0em;
+      }
+
+      .a8bec510-4632-40d1-aa4f-9c502afab547 {
+        letter-spacing: 0em;
+      }
+
+      .\37 bdea2e1-3f85-4786-a6c7-b26da55f76ba {
+        letter-spacing: -0.03em;
+      }
+
+      .\30 23acb6e-8121-4e74-8211-351bd53c418e {
+        letter-spacing: 0em;
+      }
+
+      .aee4ac1a-9b0a-4218-a476-4e03edc90627 {
+        letter-spacing: -0.01em;
+      }
+
+      .\37 f4774fb-0502-44a9-a029-2a746ae498b3 {
+        fill: #faaa2d;
+      }
+
+      .d2c53fab-c943-4e81-9857-2884cc7415c2 {
+        letter-spacing: 0em;
+      }
+
+      .fc1ca1dc-c886-4ced-801a-e0215b84d037 {
+        letter-spacing: -0.02em;
+      }
+
+      .\34 3a77146-8623-4fa1-a24f-b086340d1103 {
+        letter-spacing: -0.02em;
+      }
+
+      .\39 0f2401d-d900-4be9-bd95-4eda36d31184 {
+        letter-spacing: 0em;
+      }
+
+      .f9fa6e71-adaf-40bb-abc6-de95f2ce7ba8 {
+        letter-spacing: -0.03em;
+      }
+
+      .\32 f435fea-9a22-4309-99e8-f10eabe3040f {
+        letter-spacing: -0.07em;
+      }
+
+      .\37 ab85341-c46d-4b81-913b-5a259defe202 {
+        letter-spacing: -0.03em;
+      }
+
+      .aa682031-4804-458c-9471-d1876c4ab648 {
+        letter-spacing: -0.02em;
+      }
+
+      .\35 aeccf88-992b-4443-ad70-ffd83e8dfa8d {
+        letter-spacing: 0em;
+      }
+
+      .\37 b121019-c9f0-4b91-8fda-eb9ab3e221d3 {
+        letter-spacing: -0.03em;
+      }
+
+      .e56f240a-b700-47d3-a10b-bdb02d72d2df {
+        letter-spacing: -0.02em;
+      }
+
+      .\37 f8bdc9e-acc4-4c66-afc6-f84389475bb9 {
+        letter-spacing: 0em;
+      }
+
+      .\30 4c50125-21d6-46a0-8f9f-325a7dbfecd5 {
+        letter-spacing: 0em;
+      }
+
+      .\30 406290f-a97e-4c35-937a-3b119b07226e {
+        letter-spacing: -0.03em;
+      }
+
+      .a4628d65-b0d9-4eba-8735-438efe05d602 {
+        letter-spacing: -0.01em;
+      }
+
+      .\35 586c098-4fc4-4e7c-9d38-2fc2b041f40c {
+        letter-spacing: -0.08em;
+      }
+
+      .\39 f217e88-95e2-48ef-9c99-fa5ff5ff2417 {
+        letter-spacing: -0.1em;
+      }
+
+      .\34 6f2fd9d-475e-44ab-8d45-b4c5f0a32cb6 {
+        letter-spacing: -0.01em;
+      }
+
+      .efb4076e-76fc-4fa9-8334-cd5b116f08b0 {
+        letter-spacing: -0.01em;
+      }
+
+      .d8ee00f1-3f83-41de-8f60-07480516b3ed {
+        letter-spacing: -0.04em;
+      }
+
+      .\30 eb68b22-a065-4552-ad51-4b728ee3af07 {
+        letter-spacing: -0.03em;
+      }
+
+      .\38 87a932d-4295-47b6-b996-3b4c6cc32035 {
+        letter-spacing: -0.02em;
+      }
+
+      .d9fc2204-e783-4e48-b2dc-7892f162b576 {
+        letter-spacing: -0.09em;
+      }
+
+      .\31 814232c-04e2-4d5f-aa72-a3647df36abe {
+        letter-spacing: -0.02em;
+      }
+    </style>
+    <clipPath id="819c880e-1f8a-49eb-b02d-a80f61463db6">
+      <rect class="df13a5e2-58b3-4c1e-b380-49c431318693" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="c94310de-bdf9-4f78-b90d-5725f63ead8e">
+      <rect class="df13a5e2-58b3-4c1e-b380-49c431318693" x="633" width="650.79" height="1080"/>
+    </clipPath>
+    <clipPath id="f728479f-e43b-4d9a-ba5e-9ca89512b790">
+      <rect class="df13a5e2-58b3-4c1e-b380-49c431318693" x="632.96" width="650.88" height="1080"/>
+    </clipPath>
+  </defs>
+  <title>Artboard 1</title>
+  <g class="9d30a287-8a55-4212-a76d-12056b13af20">
+    <rect class="360ed568-4c7c-4baf-ad1d-f2bdcbb4ff39" width="1920" height="1080"/>
+  </g>
+  <rect class="332685b2-8929-4821-99ea-656851f7dcfa" x="633" width="650.79" height="1080"/>
+  <g class="c1740e55-0882-43a4-8931-c5f088262259">
+    <g class="b64afd10-acc2-4481-8b0f-243ecf3a195b">
+      <image width="904" height="1500" transform="translate(632.96) scale(0.72 0.72)" xlink:href="33-office.jpg"/>
+    </g>
+  </g>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 252.88)">В рамках цифровой трансформации </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 278.88)"><tspan class="94764fbe-3373-483d-b31b-3b1f098be2b5">К</tspan><tspan class="ef3e88a5-0cfc-4657-a147-97004132a565" x="11.7" y="0">омпании, реализ</tspan><tspan class="38feba6b-23dc-4d88-a8c7-fdb35e33b1eb" x="170.28" y="0">у</tspan><tspan x="180.52" y="0">емой в соответствии </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 304.88)">со Стратегиией<tspan class="168691d4-3965-4d2d-bb06-0751102ec36c" x="148.24" y="0">-</tspan><tspan x="157.08" y="0">2023, ПГК сд</tspan><tspan class="73447cb9-dd73-42b4-b543-13c22ec1cc66" x="277" y="0">е</tspan><tspan x="287.86" y="0">лала </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 330.88)">существенный рывок в развитии I<tspan class="8a7c7ff2-fded-487e-8961-830f6c17c327" x="321.62" y="0">T</tspan><tspan x="331.44" y="0">-продуктов </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 356.88)">и автоматизации внутренних бизнес-процессов.</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 395.88)">В 2020 <tspan class="480cc0f1-b3d6-42a8-9538-14bbee5bb184" x="70.42" y="0">г</tspan><tspan x="78.56" y="0">оду ПГК прод</tspan><tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="204.34" y="0">о</tspan><tspan class="def2b964-8c85-4549-803c-5dd15543d43c" x="215.3" y="0">лжила работу </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 421.88)">по повышению эффективности основной </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 447.88)">деят<tspan class="73447cb9-dd73-42b4-b543-13c22ec1cc66" x="42.76" y="0">е</tspan><tspan x="53.62" y="0">льности. В частности, передала </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 473.88)">во внешнее управление мно<tspan class="5401c764-6b60-4f51-991b-35f16a077ea7" x="268.84" y="0">г</tspan><tspan class="ef3e88a5-0cfc-4657-a147-97004132a565" x="276.96" y="0">о</tspan><tspan class="16fc5014-4e01-42c7-8d23-f5c84a65c6f6" x="288.12" y="0">ф</tspan><tspan class="def2b964-8c85-4549-803c-5dd15543d43c" x="301.34" y="0">ункционально</tspan><tspan class="480cc0f1-b3d6-42a8-9538-14bbee5bb184" x="435.51" y="0">г</tspan><tspan x="443.65" y="0">о </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 499.88)">объединенно<tspan class="5401c764-6b60-4f51-991b-35f16a077ea7" x="125.48" y="0">г</tspan><tspan x="133.6" y="0">о центра обслуживания </tspan><tspan class="bdfaf26e-e623-4e9d-8382-5d2f03be5040" x="365.08" y="0">(</tspan><tspan x="370.82" y="0">ОЦ</tspan><tspan class="bdfaf26e-e623-4e9d-8382-5d2f03be5040" x="398.33" y="0">О</tspan><tspan x="410.93" y="0">) </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 525.88)">ряд <tspan class="7f3ecc34-64dc-4dc1-95cd-35a01a7eef33" x="38.68" y="0">р</tspan><tspan class="ef3e88a5-0cfc-4657-a147-97004132a565" x="49.94" y="0">утинных операций и поддерживающий </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 551.88)"><tspan class="16fc5014-4e01-42c7-8d23-f5c84a65c6f6">ф</tspan><tspan x="13.22" y="0">ункционал, а также заключила со</tspan><tspan class="6efb14c2-7d0f-4c6d-917c-e95b222eafb8" x="331.02" y="0">г</tspan><tspan x="338.86" y="0">лашения </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 577.88)">об уровне сервиса <tspan class="6972b4e7-d386-4b6e-b96a-71de8f9f13dd" x="182.48" y="0">(</tspan><tspan x="188.36" y="0">SL</tspan><tspan class="a05aa1e6-087f-41d0-82c3-1d4f6c6ebd3a" x="211.42" y="0">A</tspan><tspan x="223.76" y="0">).</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 616.88)">Реализация проекта ОЦО позв<tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="287.82" y="0">о</tspan><tspan x="298.78" y="0">лила </tspan></text>
+  <text class="8531c62c-0b85-4a57-ac05-5c2e57eab535" transform="translate(99 642.88)">К<tspan class="ef3e88a5-0cfc-4657-a147-97004132a565" x="11.7" y="0">омпании сосредоточить </tspan><tspan class="38feba6b-23dc-4d88-a8c7-fdb35e33b1eb" x="245.3" y="0">у</tspan><tspan class="def2b964-8c85-4549-803c-5dd15543d43c" x="255.54" y="0">силия и ресурсы </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 668.88)">на развитии основной деят<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="260.4" y="0">е</tspan><tspan x="271.24" y="0">льности, повысить </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 694.88)">производит<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="111.44" y="0">е</tspan><tspan x="122.28" y="0">льность т</tspan><tspan class="16fc5014-4e01-42c7-8d23-f5c84a65c6f6" x="211.38" y="0">р</tspan><tspan x="222.64" y="0">уда и перейти </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 720.88)">на качественно новую и б<tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="246.02" y="0">о</tspan><tspan class="def2b964-8c85-4549-803c-5dd15543d43c" x="256.98" y="0">лее эффективную </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 746.88)">мод<tspan class="73447cb9-dd73-42b4-b543-13c22ec1cc66" x="35.96" y="0">е</tspan><tspan x="46.82" y="0">ль организации бизнес-процессов, создать </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 772.88)">прозрачную систему <tspan class="e74593d3-53fb-4391-9d57-48143f97a1a5" x="203.18" y="0">к</tspan><tspan x="212.8" y="0">онтр</tspan><tspan class="608c401a-225f-40b8-9fed-3ae3e956c2cc" x="257.44" y="0">о</tspan><tspan class="def2b964-8c85-4549-803c-5dd15543d43c" x="268.42" y="0">льных процеду</tspan><tspan class="098a746d-8709-4412-84a4-bedd376b1331" x="409.11" y="0">р</tspan><tspan x="420.49" y="0">.</tspan></text>
+  <text class="651b9775-f4a4-4214-b55f-6485e5fe9880" transform="translate(99 126.18)">Внедрение Объединенно<tspan class="0756460a-238a-4d5a-965f-e82f6b0350c2" x="351.2" y="0">г</tspan><tspan x="363.44" y="0">о </tspan></text>
+  <text class="651b9775-f4a4-4214-b55f-6485e5fe9880" transform="translate(99 160.17)"><tspan class="9cfcca73-b913-40d8-a5db-d9aa25f24fb1">ц</tspan><tspan x="17.84" y="0">ентра обслуживания </tspan></text>
+  <text class="f2e7fb97-9e0d-459c-9c79-52aa66fe3186" transform="translate(99 194.16)">(<tspan class="fa112bc2-fc0f-4af0-af2d-0afa23088b04" x="9.32" y="0">О</tspan><tspan class="a8bec510-4632-40d1-aa4f-9c502afab547" x="28.78" y="0">Ц</tspan><tspan class="7bdea2e1-3f85-4786-a6c7-b26da55f76ba" x="49.98" y="0">О</tspan><tspan class="023acb6e-8121-4e74-8211-351bd53c418e" x="68.66" y="0">)</tspan></text>
+  <text class="651b9775-f4a4-4214-b55f-6485e5fe9880" transform="translate(98.5 911.97)">ЦИФРОВИЗАЦИЯ </text>
+  <text class="651b9775-f4a4-4214-b55f-6485e5fe9880" transform="translate(98.5 945.96)">БИЗН<tspan class="aee4ac1a-9b0a-4218-a476-4e03edc90627" x="78.03" y="0">Е</tspan><tspan x="95.31" y="0">СА — ДВИЖЕНИЕ </tspan></text>
+  <text class="651b9775-f4a4-4214-b55f-6485e5fe9880" transform="translate(98.5 979.96)">В БУДУЩЕЕ!</text>
+  <g class="9d30a287-8a55-4212-a76d-12056b13af20">
+    <path class="7f4774fb-0502-44a9-a029-2a746ae498b3" d="M76.4,896.85A6.91,6.91,0,0,0,70.5,894a7,7,0,0,0-5.45,2.25,7.54,7.54,0,0,0-2,5.25,7.67,7.67,0,0,0,2,5.25A6.41,6.41,0,0,0,70,909a7.56,7.56,0,0,0,1.8-.2,2.35,2.35,0,0,0,.7-.3,7,7,0,0,1-2.65,4.75A7.73,7.73,0,0,1,65,915v3.5a14.63,14.63,0,0,0,4.85-.85A11.78,11.78,0,0,0,74.2,915a14,14,0,0,0,3.1-4.7,17.32,17.32,0,0,0,1.2-6.75,10.91,10.91,0,0,0-2.1-6.65m-20,0A6.91,6.91,0,0,0,50.5,894a7,7,0,0,0-5.45,2.25,7.54,7.54,0,0,0-2,5.25,7.67,7.67,0,0,0,2,5.25A6.41,6.41,0,0,0,50,909a7.56,7.56,0,0,0,1.8-.2,2.35,2.35,0,0,0,.7-.3,7,7,0,0,1-2.65,4.75A7.73,7.73,0,0,1,45,915v3.5a14.63,14.63,0,0,0,4.85-.85A11.78,11.78,0,0,0,54.2,915a14,14,0,0,0,3.1-4.7,17.32,17.32,0,0,0,1.2-6.75,10.91,10.91,0,0,0-2.1-6.65"/>
+  </g>
+  <text class="ebf19d76-c42f-42d3-8363-9b3c2294c549" transform="translate(1343.79 118.7)">Сейчас на базе О<tspan class="d2c53fab-c943-4e81-9857-2884cc7415c2" x="169.38" y="0">Ц</tspan><tspan x="184.5" y="0">О работают </tspan><tspan class="d2c53fab-c943-4e81-9857-2884cc7415c2" x="304.46" y="0">ц</tspan><tspan x="317.18" y="0">ентры </tspan></text>
+  <text class="ebf19d76-c42f-42d3-8363-9b3c2294c549" transform="translate(1343.79 144.7)">э<tspan class="fc1ca1dc-c886-4ced-801a-e0215b84d037" x="11.52" y="0">к</tspan><tspan x="22.54" y="0">спертизы по следующим направлениям:</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 183.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 183.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 183.7)">бухгалтерский и нало<tspan class="098a746d-8709-4412-84a4-bedd376b1331" x="207" y="0">г</tspan><tspan x="215.12" y="0">овый учет;</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 209.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 209.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 209.7)">кадровое администрирование;</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 235.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 235.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 235.7)">расчеты с клиентами и поставщиками </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 261.7)">по основной деят<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="166.56" y="0">е</tspan><tspan x="177.4" y="0">льности;</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 287.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 287.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 287.7)">расчеты с клиентами по реализации активов;</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 313.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 313.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 313.7)">расчеты с поставщиками по ремонту ва<tspan class="098a746d-8709-4412-84a4-bedd376b1331" x="376.58" y="0">г</tspan><tspan x="384.7" y="0">онов, </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 339.7)">учет запасных частей;</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 365.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 365.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 365.7)">расчеты с влад<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="142.98" y="0">е</tspan><tspan x="153.82" y="0">льцами инфраст</tspan><tspan class="43a77146-8623-4fa1-a24f-b086340d1103" x="308.08" y="0">р</tspan><tspan class="90f2401d-d900-4be9-bd95-4eda36d31184" x="319.32" y="0">уктуры </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 391.7)"><tspan class="f9fa6e71-adaf-40bb-abc6-de95f2ce7ba8">(</tspan><tspan x="5.76" y="0">ОАО «РЖД»);</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 417.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 417.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 417.7)">сопровождение процесса закупок;</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 443.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 443.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 443.7)">организация д<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="137.26" y="0">е</tspan><tspan x="148.1" y="0">ловых поездок;</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 469.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 469.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 469.7)">поддержка программно<tspan class="098a746d-8709-4412-84a4-bedd376b1331" x="223.88" y="0">г</tspan><tspan x="232" y="0">о обеспечения </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 495.7)">и предоставление I<tspan class="2f435fea-9a22-4309-99e8-f10eabe3040f" x="183.12" y="0">T</tspan><tspan class="7ab85341-c46d-4b81-913b-5a259defe202" x="192.94" y="0">-</tspan><tspan class="aa682031-4804-458c-9471-d1876c4ab648" x="202.16" y="0">у</tspan><tspan x="212.42" y="0">слуг;</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 521.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 521.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 521.7)">предоставление <tspan class="6972b4e7-d386-4b6e-b96a-71de8f9f13dd" x="161.02" y="0">к</tspan><tspan x="170.64" y="0">омпле</tspan><tspan class="6972b4e7-d386-4b6e-b96a-71de8f9f13dd" x="228.74" y="0">к</tspan><tspan x="238.36" y="0">са </tspan><tspan class="aa682031-4804-458c-9471-d1876c4ab648" x="264.96" y="0">у</tspan><tspan class="5aeccf88-992b-4443-ad70-ffd83e8dfa8d" x="275.22" y="0">слуг </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 547.7)">по страхованию;</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 573.7)">•</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1351.39 573.7)"> </text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 573.7)">предоставление <tspan class="6972b4e7-d386-4b6e-b96a-71de8f9f13dd" x="161.02" y="0">к</tspan><tspan x="170.64" y="0">омпле</tspan><tspan class="6972b4e7-d386-4b6e-b96a-71de8f9f13dd" x="228.74" y="0">к</tspan><tspan x="238.36" y="0">са </tspan><tspan class="aa682031-4804-458c-9471-d1876c4ab648" x="264.96" y="0">у</tspan><tspan class="5aeccf88-992b-4443-ad70-ffd83e8dfa8d" x="275.22" y="0">слуг </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1361.79 599.7)">по управлению денежными средствами.</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 638.7)"><tspan class="7b121019-c9f0-4b91-8fda-eb9ab3e221d3">К</tspan><tspan x="11.7" y="0">омпания существенно оптимизировала опера</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1791.11 638.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 664.7)">ционные расходы за счет сокращения т<tspan class="e56f240a-b700-47d3-a10b-bdb02d72d2df" x="376.12" y="0">р</tspan><tspan x="387.36" y="0">удоза</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1784.96 664.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 690.7)">трат на вып<tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="110.72" y="0">о</tspan><tspan x="121.68" y="0">лнение поддерживающих, непро</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1776.65 690.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 716.7)">фильных <tspan class="43a77146-8623-4fa1-a24f-b086340d1103" x="86.86" y="0">ф</tspan><tspan x="100.06" y="0">ункций.</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 755.7)">Проект<tspan class="7f8bdc9e-acc4-4c66-afc6-f84389475bb9" x="67.76" y="0"> </tspan><tspan class="90f2401d-d900-4be9-bd95-4eda36d31184" x="72.86" y="0">ОЦО</tspan><tspan class="04c50125-21d6-46a0-8f9f-325a7dbfecd5" x="113.62" y="0"> </tspan><tspan x="118.72" y="0">тесно</tspan><tspan class="7f8bdc9e-acc4-4c66-afc6-f84389475bb9" x="173.38" y="0"> </tspan><tspan x="178.48" y="0">взаимосвязан</tspan><tspan class="7f8bdc9e-acc4-4c66-afc6-f84389475bb9" x="310.66" y="0"> </tspan><tspan x="315.76" y="0">с</tspan><tspan class="04c50125-21d6-46a0-8f9f-325a7dbfecd5" x="326.48" y="0"> </tspan><tspan class="90f2401d-d900-4be9-bd95-4eda36d31184" x="331.58" y="0">реализованны</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1811.26 755.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 781.7)">ми цифровыми проектами <tspan class="0406290f-a97e-4c35-937a-3b119b07226e" x="251.4" y="0">К</tspan><tspan class="90f2401d-d900-4be9-bd95-4eda36d31184" x="263.08" y="0">омпании: внедрением </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 807.7)"><tspan class="a4628d65-b0d9-4eba-8735-438efe05d602">S</tspan><tspan x="11.92" y="0">A</tspan><tspan class="5586c098-4fc4-4e7c-9d38-2fc2b041f40c" x="24.92" y="0">P</tspan><tspan x="35.94" y="0">, </tspan><tspan class="a4628d65-b0d9-4eba-8735-438efe05d602" x="45.84" y="0">э</tspan><tspan x="56.38" y="0">лектронным архивом документов Open</tspan><tspan class="7ab85341-c46d-4b81-913b-5a259defe202" x="426.05" y="0"> </tspan><tspan class="9f217e88-95e2-48ef-9c99-fa5ff5ff2417" x="430.69" y="0">T</tspan><tspan class="46f2fd9d-475e-44ab-8d45-b4c5f0a32cb6" x="439.87" y="0">e</tspan><tspan x="450.65" y="0">xt, </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 833.7)">системой управления заявками Service N<tspan class="efb4076e-76fc-4fa9-8334-cd5b116f08b0" x="391.15" y="0">o</tspan><tspan class="d8ee00f1-3f83-41de-8f60-07480516b3ed" x="402.05" y="0">w</tspan><tspan x="416.93" y="0">.</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 872.7)">ПГК прод<tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="87.36" y="0">о</tspan><tspan x="98.32" y="0">лжает работать над повышением эф</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1784.99 872.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 898.7)">фективности основной деят<tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="266.86" y="0">е</tspan><tspan x="277.7" y="0">льности и на ре</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1770.46 898.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 924.7)">г<tspan class="0eb68b22-a065-4552-ad51-4b728ee3af07" x="8.36" y="0">у</tspan><tspan x="18.38" y="0">лярной основе проводит оценку ц</tspan><tspan class="970deb62-d83f-4401-be31-1138a0d478bc" x="342.38" y="0">е</tspan><tspan x="353.22" y="0">лесоо</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1752.17 924.7)">-</text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 950.7)">бразности передачи доп<tspan class="1a174e40-2d14-4186-9cbb-a9f4ef5bccdf" x="233.38" y="0">о</tspan><tspan x="244.34" y="0">лнит</tspan><tspan class="04c50125-21d6-46a0-8f9f-325a7dbfecd5" x="289.34" y="0">е</tspan><tspan x="300.2" y="0">льных </tspan><tspan class="887a932d-4295-47b6-b996-3b4c6cc32035" x="361.55" y="0">ф</tspan><tspan class="90f2401d-d900-4be9-bd95-4eda36d31184" x="374.78" y="0">ункций </tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(1343.79 976.7)">на аутсорсин<tspan class="d9fc2204-e783-4e48-b2dc-7892f162b576" x="127.1" y="0">г</tspan><tspan class="5aeccf88-992b-4443-ad70-ffd83e8dfa8d" x="133.7" y="0">.</tspan></text>
+  <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(37.97 57)">33</text>
+  <g class="9d30a287-8a55-4212-a76d-12056b13af20">
+    <text class="d8fd80e2-61fe-4bdc-9869-465928f62457" transform="translate(99 57)">О <tspan class="1814232c-04e2-4d5f-aa72-a3647df36abe" x="18.4" y="0">к</tspan><tspan x="28.04" y="0">омпании</tspan></text>
+  </g>
+</svg>
