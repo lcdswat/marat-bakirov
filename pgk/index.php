@@ -23,10 +23,10 @@
 </div>
 
 <!-- Титул -->
-<object type="image/svg+xml" data="content/2.svg" class="polosa"></object>
+<object type="image/svg+xml" data="content/2.svg" class="polosa" id="2"></object>
 
 <!-- Обращение -->
-<div class="speech">
+<div class="speech" id="3">
 	<div class="gradient" id="top"></div>
 	<div class="text" id="voloshin" data-simplebar data-simplebar-auto-hide="false">
 		<?php include('content/voloshin.html'); ?>
@@ -34,7 +34,7 @@
 	<div class="gradient" id="bottom"></div>
 	<object type="image/svg+xml" data="content/speech.svg" class="polosa"></object>
 </div>
-<div class="speech">
+<div class="speech" id="4">
 	<div class="gradient" id="top"></div>
 	<div class="text" id="karataev" data-simplebar data-simplebar-auto-hide="false">
 		<?php include('content/karataev.html'); ?>
@@ -47,15 +47,15 @@
 <object type="image/svg+xml" data="content/shmutz-01.svg" class="polosa" id="shmutz-01"></object>
 
 <!-- 6 полоса -->
-<object type="image/svg+xml" data="content/6.svg" class="polosa"></object>
+<object type="image/svg+xml" data="content/6.svg" class="polosa" id="6"></object>
 
 <!-- География -->
-<object type="image/svg+xml" data="content/7.svg" class="polosa"></object>
+<object type="image/svg+xml" data="content/7.svg" class="polosa" id="7"></object>
 
 <!-- 8—34 -->
 <?php
 	for($i=8; $i<=34; $i++){
-		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa"></object>';
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
@@ -68,7 +68,7 @@
 <!-- 38—52 -->
 <?php
 	for($i=38; $i<=52; $i++){
-		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa"></object>';
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
@@ -79,7 +79,7 @@
 <!-- 54—86 -->
 <?php
 	for($i=54; $i<=86; $i++){
-		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa"></object>';
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
@@ -90,7 +90,7 @@
 <!-- 88—98 -->
 <?php
 	for($i=88; $i<=97; $i++){
-		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa"></object>';
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
@@ -101,7 +101,7 @@
 <!-- 99-103 -->
 <?php
 	for($i=99; $i<=103; $i++){
-		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa"></object>';
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
