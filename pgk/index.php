@@ -17,8 +17,8 @@
 
 <!-- Обложка -->
 <div id="cover">
-	<video width="100%" height="100%" muted>
-		<source src="mp4/cover-new.mp4" type="video/mp4">
+	<video width="100%" height="100%" id="cover-video" muted>
+		<source src="content/cover.mp4" type="video/mp4">
 	</video>
 </div>
 
@@ -44,59 +44,69 @@
 </div>
 
 <!-- Шмуц 01 -->
-<object type="image/svg+xml" data="content/shmutz-01.svg" class="polosa" id="shmutz-01"></object>
+<object type="image/svg+xml" data="content/5.svg" class="polosa" id="shmutz-01"></object>
 
 <!-- 6 полоса -->
 <object type="image/svg+xml" data="content/6.svg" class="polosa" id="6"></object>
 
 <!-- География -->
-<object type="image/svg+xml" data="content/7.svg" class="polosa" id="7"></object>
+<?php include('content/map.html'); ?>
 
-<!-- 8—34 -->
+<!-- 8—31 -->
 <?php
-	for($i=8; $i<=34; $i++){
+	for($i=8; $i<=31; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
 
 <!-- Личный кабинет -->
-<object type="image/svg+xml" data="content/35.svg" class="polosa"></object>
-<object type="image/svg+xml" data="content/36.svg" class="polosa"></object>
-<object type="image/svg+xml" data="content/37.svg" class="polosa"></object>
+<div class="mockup-animation" id="32">
+	<video muted autoplay loop>
+		<source src="content/mockup.mp4" type="video/mp4">
+	</video>
+	<object type="image/svg+xml" data="content/32.svg" class="polosa"></object>
+</div>
+<div class="browser-animation" id="33">
+	<video muted autoplay loop>
+		<source src="content/browser-animation.mp4" type="video/mp4">
+	</video>
+	<object type="image/svg+xml" data="content/33.svg" class="polosa"></object>
+</div>
+<object type="image/svg+xml" data="content/34.svg" class="polosa"></object>
 
-<!-- 38—52 -->
+<!-- 35—49 -->
 <?php
-	for($i=38; $i<=52; $i++){
+	for($i=35; $i<=49; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
 
 <!-- Шмуц 02 -->
-<object type="image/svg+xml" data="content/53.svg" class="polosa" id="shmutz-02"></object>
+<object type="image/svg+xml" data="content/50.svg" class="polosa" id="shmutz-02"></object>
 
-<!-- 54—86 -->
+<!-- 51—83 -->
 <?php
-	for($i=54; $i<=86; $i++){
+	for($i=51; $i<=83; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
 
 <!-- Шмуц 03 -->
-<object type="image/svg+xml" data="content/87.svg" class="polosa" id="shmutz-03"></object>
+<object type="image/svg+xml" data="content/84.svg" class="polosa" id="shmutz-03"></object>
 
-<!-- 88—98 -->
+<!-- 85—97 -->
 <?php
-	for($i=88; $i<=97; $i++){
+	for($i=85; $i<=97; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
 
 <!-- Шмуц 04 -->
-<object type="image/svg+xml" data="content/98.svg" class="polosa" id="shmutz-03"></object>
+<object type="image/svg+xml" data="content/98.svg" class="polosa" id="shmutz-04"></object>
 
 <!-- 99-103 -->
 <?php
@@ -119,7 +129,7 @@
 <script type="text/javascript">
 	$(window).on('load', function () {
 	    setTimeout(function(){
-	    	$('video').get(0).play();
+	    	$('#cover video').get(0).play();
 	    },1000);
 	});
 </script>
