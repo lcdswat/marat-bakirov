@@ -17,7 +17,7 @@
 
 <!-- Обложка -->
 <div id="cover">
-	<video width="100%" height="100%" id="cover-video" muted>
+	<video width="100%" height="100%" id="cover-video" muted playsinline>
 		<source src="content/cover.mp4" type="video/mp4">
 	</video>
 </div>
@@ -62,13 +62,13 @@
 
 <!-- Личный кабинет -->
 <div class="mockup-animation" id="32">
-	<video muted autoplay loop>
+	<video muted autoplay loop playsinline>
 		<source src="content/mockup.mp4" type="video/mp4">
 	</video>
 	<object type="image/svg+xml" data="content/32.svg" class="polosa"></object>
 </div>
 <div class="browser-animation" id="33">
-	<video muted autoplay loop>
+	<video muted autoplay loop playsinline>
 		<source src="content/browser-animation.mp4" type="video/mp4">
 	</video>
 	<object type="image/svg+xml" data="content/33.svg" class="polosa"></object>
