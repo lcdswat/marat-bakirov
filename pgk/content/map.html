@@ -1,6 +1,7 @@
 <script type="text/javascript">
 	$(window).on('load', function () {
 		$('.vrp-point').css('display','none');
+		$('.map-table').css('display','none');
 		$('.city').click(function(){
 			var citynumber = $(this).attr('id');
 			$('.city-data').css('display','none');
@@ -12,15 +13,31 @@
 		$('#filials').click(function(){
 			$(this).addClass('active');
 			$('#vrp').removeClass('active');
+			$('#table').removeClass('active');
 			$('.city').css('display','inline-block');
 			$('.vrp-point').css('display','none');
+			$('.map-table').css('display','none');
+			$('.map').css('background-image', 'url("content/map.png")');
 		});
 		$('#vrp').click(function(){
 			$(this).addClass('active');
 			$('#filials').removeClass('active');
+			$('#table').removeClass('active');
 			$('.city').css('display','none');
 			$('.city-data').css('display','none');
 			$('.vrp-point').css('display','inline-block');
+			$('.map-table').css('display','none');
+			$('.map').css('background-image', 'url("content/map.png")');
+		});
+		$('#table').click(function(){
+			$(this).addClass('active');
+			$('#filials').removeClass('active');
+			$('#vrp').removeClass('active');
+			$('.city').css('display','none');
+			$('.city-data').css('display','none');
+			$('.vrp-point').css('display','none');
+			$('.map').css('background-image','none');
+			$('.map-table').css('display','block');
 		});
 	});
 </script>
@@ -31,6 +48,7 @@
 		<div class="switcher">
 			<span id="filials" class="active">Филиалы компании</span>
 			<span id="vrp">ВРП и Промывочно-пропарочные станции</span>
+			<span id="table">Сравнительная таблица</span>
 		</div>
 
 		<div class="city" id="c01" style="top: 16%; left: 15%;"><span>Хельсинки</span></div><br>
@@ -64,7 +82,7 @@
 		<!-- Санкт-Петербург -->
 		<div class="city-data" id="c02" style="top: 9%; left: 9.5%;">
 			<div class="city-data-close">x</div>
-			<span>23%</span>из 129 млрд т-км
+			<span>18%</span>из 129 млрд т-км
 			<div class="pointer-arrow"></div>
 		</div>
 
@@ -201,5 +219,7 @@
 		<div class="vrp-point" id="p10" style="top: 70%; left: 50%;"><span>ППС Ачинск</span></div><br>
 
 	</div>
+	<!-- Таблица -->
+	<object type="image/svg+xml" data="content/map-table.svg" class="map-table"></object>
 	<object type="image/svg+xml" data="content/7.svg" class="polosa"></object>
 </div>

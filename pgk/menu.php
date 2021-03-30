@@ -16,8 +16,7 @@
 <?php include('menu.html'); ?>
 
 
-<!-- Титул -->
-<object type="image/svg+xml" data="content/8.svg" class="polosa" id="8"></object>
+<?php include('content/map.html'); ?>
 
 <!-- Прелоадер -->
 <script type="text/javascript">

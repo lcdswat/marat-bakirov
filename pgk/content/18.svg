@@ -72,6 +72,12 @@
        transform="matrix(1,0,0,-1,99,1023)"
        style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;font-family:'Rubik Medium';-inkscape-font-specification:Rubik-Medium;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text56"><tspan
-         x="0 13.9 18.459999 29.459999 41.32 55.400002 67.639999 79.080002 91.559998 104.04 -60.700001 -51.419998"
+         x="0 13.9 18.459999 29.459999 41.32 55.400002 67.639999 79.080002 91.559998 104.04"
          y="0"
-         id="tspan54">О компании18</tspan></text></g></svg>
+         id="tspan54">О компании</tspan></text><text
+       transform="matrix(1,0,0,-1,38.3,1023)"
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;font-family:'Rubik Medium';-inkscape-font-specification:Rubik-Medium;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text60"><tspan
+         x="0 9.2799997"
+         y="0"
+         id="tspan58">18</tspan></text></g></svg>
