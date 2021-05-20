@@ -44,40 +44,40 @@
 </div>
 
 <!-- Шмуц 01 -->
-<object type="image/svg+xml" data="content/5.svg" class="polosa" id="shmutz-01"></object>
+<object type="image/svg+xml" data="content/9.svg" class="polosa" id="shmutz-01"></object>
 
-<!-- 6 полоса -->
-<object type="image/svg+xml" data="content/6.svg" class="polosa" id="6"></object>
+<!-- 10 полоса -->
+<object type="image/svg+xml" data="content/10.svg" class="polosa" id="6"></object>
 
 <!-- География -->
 <?php include('content/map.html'); ?>
 
-<!-- 8—31 -->
+<!-- 12—32 -->
 <?php
-	for($i=8; $i<=31; $i++){
+	for($i=12; $i<=32; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
 ?>
 
 <!-- Личный кабинет -->
-<div class="mockup-animation" id="32">
+<div class="mockup-animation" id="33">
 	<video muted autoplay loop playsinline>
 		<source src="content/mockup.mp4" type="video/mp4">
 	</video>
-	<object type="image/svg+xml" data="content/32.svg" class="polosa"></object>
+	<object type="image/svg+xml" data="content/33.svg" class="polosa"></object>
 </div>
-<div class="browser-animation" id="33">
+<div class="browser-animation" id="34">
 	<video muted autoplay loop playsinline>
 		<source src="content/browser-animation.mp4" type="video/mp4">
 	</video>
-	<object type="image/svg+xml" data="content/33.svg" class="polosa"></object>
+	<object type="image/svg+xml" data="content/34.svg" class="polosa"></object>
 </div>
-<object type="image/svg+xml" data="content/34.svg" class="polosa"></object>
+<object type="image/svg+xml" data="content/35.svg" class="polosa" id="35"></object>
 
-<!-- 35—49 -->
+<!-- 36—49 -->
 <?php
-	for($i=35; $i<=49; $i++){
+	for($i=36; $i<=49; $i++){
 		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
 	printf("%s\n", $s);
 	}
