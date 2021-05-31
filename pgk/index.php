@@ -26,22 +26,12 @@
 <object type="image/svg+xml" data="content/2.svg" class="polosa" id="2"></object>
 
 <!-- Обращение -->
-<div class="speech" id="3">
-	<div class="gradient" id="top"></div>
-	<div class="text" id="voloshin" data-simplebar data-simplebar-auto-hide="false">
-		<?php include('content/voloshin.html'); ?>
-	</div>
-	<div class="gradient" id="bottom"></div>
-	<object type="image/svg+xml" data="content/speech.svg" class="polosa"></object>
-</div>
-<div class="speech" id="5">
-	<div class="gradient" id="top"></div>
-	<div class="text" id="karataev" data-simplebar data-simplebar-auto-hide="false">
-		<?php include('content/karataev.html'); ?>
-	</div>
-	<div class="gradient" id="bottom"></div>
-	<object type="image/svg+xml" data="content/speech-karataev.svg" class="polosa"></object>
-</div>
+<?php
+	for($i=3; $i<=7; $i++){
+		$s = '<object type="image/svg+xml" data="content/'. $i .'.svg" class="polosa" id="'. $i .'"></object>';
+	printf("%s\n", $s);
+	}
+?>
 
 <!-- Шмуц 01 -->
 <div class="shmutz-wrapper" id="shmutz-01">
