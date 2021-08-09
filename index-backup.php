@@ -7,7 +7,7 @@
 <body>
 
 <!-- Меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+<?php //include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
 <div id="black-bg"></div>
 

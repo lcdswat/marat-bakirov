@@ -58,7 +58,7 @@
 	</div>
 
 	<!-- Меню -->
-	<?php // include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+	<?php //include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
 	<!-- Метрика -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
