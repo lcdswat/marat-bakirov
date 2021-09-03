@@ -1,0 +1,87 @@
+<div id="menu-button"></div>
+<div id="menu-container">
+	<div id="menu-header">
+		<h1>Menu</h1>
+		<a href="../">Русская версия</a>
+		<a href="../content/pgk-eng.pdf" id="download-button">Download PDF</a>
+	</div>
+	<div id="TOC" data-simplebar data-simplebar-auto-hide="false">
+		<span style="padding: 0 0 10px 0;"><a href="#shmutz-01"><font>01</font>&nbsp;&nbsp;О компании</a></span>
+		<a href="#3">3&nbsp;&nbsp;Обращение Председателя Совета директоров</a>
+		<a href="#5">5&nbsp;&nbsp;Обращение Генерального директора</a>
+		<a href="#10">10&nbsp;&nbsp;Компания сегодня</a>
+		<a href="#11">11&nbsp;&nbsp;География</a>
+		<a href="#12">12&nbsp;&nbsp;Вагонный парк</a>
+		<a href="#13">13&nbsp;&nbsp;Грузооборот ПГК в 2020 году</a>
+		<a href="#14">14&nbsp;&nbsp;Итоги 2020 года</a>
+		<a href="#15">15&nbsp;&nbsp;Эффективный ответ на вызовы пандемии COVID-19</a>
+		<a href="#17">17&nbsp;&nbsp;Основные события года</a>
+		<a href="#20">20&nbsp;&nbsp;Управление устойчивым развитием</a>
+		<a href="#23">23&nbsp;&nbsp;Стратегические цели Компании</a>
+		<a href="#24">24&nbsp;&nbsp;Обзор рыночного окружения</a>
+		<a href="#27">27&nbsp;&nbsp;Обзор операционной деятельности</a>
+		<a href="#33">33&nbsp;&nbsp;Проекты цифровизации ПГК</a>
+		<a href="#36">36&nbsp;&nbsp;Анализ финансовых результатов и финансового положения</a>
+		<a href="#37">37&nbsp;&nbsp;Ключевые результаты</a>
+		<a href="#45">45&nbsp;&nbsp;Финансовая отчетность по МСФО</a>
+		<a href="#50">50&nbsp;&nbsp;Основные показатели за 3 года</a>
+
+		<span><a href="#shmutz-02"><font>02</font>&nbsp;&nbsp;Обзор результатов</a></span>
+		<a href="#52">52&nbsp;&nbsp;Система корпоративного управления</a>
+		<a href="#52">52&nbsp;&nbsp;Принципы корпоративного управления</a>
+		<a href="#54">54&nbsp;&nbsp;Структура корпоративного управления</a>
+		<a href="#56">56&nbsp;&nbsp;Уставный капитал и акционерная структура</a>
+		<a href="#57">57&nbsp;&nbsp;Совет директоров</a>
+		<a href="#70">70&nbsp;&nbsp;Исполнительные органы управления</a>
+		<a href="#77">77&nbsp;&nbsp;Органы контроля</a>
+		<a href="#79">79&nbsp;&nbsp;Управление рисками</a>
+		<a href="#82">82&nbsp;&nbsp;Информационная политика</a>
+		<a href="#83">83&nbsp;&nbsp;Противодействие коррупции</a>
+
+		<span><a href="#shmutz-03"><font>03</font>&nbsp;&nbsp;НАША КОМАНДА</a></span>
+		<a href="#85">85&nbsp;&nbsp;Взаимодействие с заинтересованными сторонами</a>
+		<a href="#88">88&nbsp;&nbsp;Принципы ПГК при управлении персоналом</a>
+		<a href="#91">91&nbsp;&nbsp;Социальная ответственность</a>
+		<a href="#93">93&nbsp;&nbsp;Охрана труда и промышленная безопасность</a>
+		<a href="#95">95&nbsp;&nbsp;Экология и рациональное использование ресурсов</a>
+
+		<span><a href="#shmutz-04"><font>04</font>&nbsp;&nbsp;ПРИЛОЖЕНИЯ</a></span>
+		<a href="#98">98&nbsp;&nbsp;Cведения о сделках, в совершении которых имеется заинтересованность. Крупные сделки</a>
+		<a href="#99">99&nbsp;&nbsp;Заключение Управления внутреннего аудита об управлении рисками и внутреннем контроле Общества за&nbsp;2020 год</a>
+		<a href="#100">100&nbsp;&nbsp;Глоссарий</a>
+		<a href="#102">102&nbsp;&nbsp;Контактная информация для акционеров и инвесторов</a>
+	</div>
+</div>
+<div id="menu-close-area"></div>
+
+<!-- Кнопка меню -->
+<script type="text/javascript">
+
+	$('#menu-button').click(function() {
+		$('#menu-container').toggleClass('show');
+		$('#menu-close-area').toggleClass('show');
+	});
+
+	$('#menu-close-area').click(function() {
+			$('#menu-container').toggleClass('show');
+			$('#menu-close-area').toggleClass('show');
+	});
+
+</script>
+
+	<!-- Меню на кнопках -->
+	<script type="text/javascript">
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 87) {
+	    		$('#menu-container').toggleClass('show');
+	    		$('#menu-close-area').toggleClass('show');
+	    	};
+		});
+		
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 27) {
+	    		$('#menu-container').removeClass('show');
+	    		$('#menu-close-area').removeClass('show');
+	    	};
+		});
+	</script>
