@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<!-- <div id="preloader"></div> -->
+<div id="preloader"></div>
 
 <?php include('menu.html'); ?>
 
