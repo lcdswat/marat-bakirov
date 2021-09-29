@@ -100,13 +100,21 @@
        id="text56"><tspan
          x="0"
          y="0"
-         id="tspan54">*</tspan></text><text
+         id="tspan54">*</tspan></text>
+         <text
        transform="matrix(1,0,0,-1,858.1944,926.4)"
-       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:28px;font-family:'Rubik Medium';-inkscape-font-specification:Rubik-Medium;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text74"><tspan
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:28px;font-family:'Rubik Medium';-inkscape-font-specification:Rubik-Medium;writing-mode:lr-tb;fill:#fdb73e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text74">
+              <tspan
          x="0 10.136 27.327999 45.304001 52.723999 70.391998 76.216003 88.283997 105.924 122.528 139.944 154.868 170.884 188.384 205.576 211.96001 237.244 253.84801 265.384 281.56799 287.38919 299.45721 317.0972 333.11319 350.61319 356.99719 364.41721 381.91721 388.30121 405.66119 424.11319 437.10519 453.8772"
          y="0"
-         id="tspan58">(+4,3 thousand more than in 2019)</tspan><tspan
+         id="tspan58">(+4,3 thousand more than in 2019)</tspan>
+       </text>
+         <text
+       transform="matrix(1,0,0,-1,858.1944,926.4)"
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:28px;font-family:'Rubik Medium';-inkscape-font-specification:Rubik-Medium;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text74">
+         <tspan
          x="-760.70398 -737.85602 -720.41199 -714.02802 -695.54797 -676.73199 -657.85999 -638.96002 -630.56 -610.87598 -593.43201 -587.77881 -569.07483 -562.6908 -543.45477 -524.63879 -505.5708 -486.13879 -466.4548 -460.0708 -441.19879 -421.76682 -401.97079 -382.3428 -364.8988"
          y="622.41199"
          id="tspan60">WE PROVIDE A BROAD RANGE </tspan><tspan
