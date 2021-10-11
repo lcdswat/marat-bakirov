@@ -280,6 +280,16 @@ a:hover {
 	color: #faaa2d;
 }
 
+.map .vrp-point#legenda {
+	display: inline-block;
+	position: absolute;
+	font-family: 'Rubik-Medium', sans-serif;
+	font-size: 1.041vw;
+	line-height: 1.5vw;
+	padding: 0 0 0 0;
+	background-image: none;
+}
+
 .map .city {
 	display: inline-block;
 	position: absolute;
@@ -540,8 +550,8 @@ a:hover {
 	display: block;
 }
 
-@media all and (max-width: 1279px) {
-	#menu-container {width: 100%; right: -100%;}
+@media all and (max-width: 1200px) {
+	#menu-container {width: 80%; right: -100%;}
 }
 /*EOF MENU*/
 
