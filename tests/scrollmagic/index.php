@@ -18,7 +18,7 @@
 		}
 
 		.spacer.s2 {
-			min-height: 1000px;
+			min-height: 500px;
 		}
 
 		.spacer.s0 {
@@ -26,53 +26,64 @@
 		}
 
 		#imagesequence {
+			margin: 0;
+			padding: 0;
 			width: 100%;
 			margin: 0 auto 0 auto;
-			height: 700px;
 		}
 
-		/*#wrapper {
+		#imagesequence img {
+			display: block;
 			width: 100%;
-			height: 100vw;
-			overflow: hidden;
-		}*/
+		}
 	</style>
 </head>
 <body>
+<!-- <div class="spacer s2"></div> -->
 <div class="spacer s0" id="trigger"></div>
-<div id="imagesequence" >
-	<img id="myimg" src="hyperspace/hyperspace_bg_00000.png">
+<div id="imagesequence">
+	<img id="myimg" src="glass-sphere/img-0010.png">
 </div>
 <div class="spacer s2"></div>
 <script>
 	// define images
 	var images = [
-		"hyperspace/hyperspace_bg_00000.png",
-		"hyperspace/hyperspace_bg_00001.png",
-		"hyperspace/hyperspace_bg_00002.png",
-		"hyperspace/hyperspace_bg_00003.png",
-		"hyperspace/hyperspace_bg_00004.png",
-		"hyperspace/hyperspace_bg_00005.png",
-		"hyperspace/hyperspace_bg_00006.png",
-		"hyperspace/hyperspace_bg_00007.png",
-		"hyperspace/hyperspace_bg_00008.png",
-		"hyperspace/hyperspace_bg_00009.png",
-		"hyperspace/hyperspace_bg_00010.png",
-		"hyperspace/hyperspace_bg_00011.png",
-		"hyperspace/hyperspace_bg_00012.png",
-		"hyperspace/hyperspace_bg_00013.png",
-		"hyperspace/hyperspace_bg_00014.png",
-		"hyperspace/hyperspace_bg_00015.png",
-		"hyperspace/hyperspace_bg_00016.png",
-		"hyperspace/hyperspace_bg_00017.png",
-		"hyperspace/hyperspace_bg_00018.png",
-		"hyperspace/hyperspace_bg_00019.png",
-		"hyperspace/hyperspace_bg_00020.png",
-		"hyperspace/hyperspace_bg_00021.png",
-		"hyperspace/hyperspace_bg_00022.png",
-		"hyperspace/hyperspace_bg_00023.png",
-		"hyperspace/hyperspace_bg_00024.png"
-
+		"glass-sphere/img-0010.png",
+		"glass-sphere/img-0011.png",
+		"glass-sphere/img-0012.png",
+		"glass-sphere/img-0013.png",
+		"glass-sphere/img-0014.png",
+		"glass-sphere/img-0015.png",
+		"glass-sphere/img-0016.png",
+		"glass-sphere/img-0017.png",
+		"glass-sphere/img-0018.png",
+		"glass-sphere/img-0019.png",
+		"glass-sphere/img-0020.png",
+		"glass-sphere/img-0021.png",
+		"glass-sphere/img-0022.png",
+		"glass-sphere/img-0023.png",
+		"glass-sphere/img-0024.png",
+		"glass-sphere/img-0025.png",
+		"glass-sphere/img-0026.png",
+		"glass-sphere/img-0027.png",
+		"glass-sphere/img-0028.png",
+		"glass-sphere/img-0029.png",
+		"glass-sphere/img-0030.png",
+		"glass-sphere/img-0031.png",
+		"glass-sphere/img-0032.png",
+		"glass-sphere/img-0033.png",
+		"glass-sphere/img-0034.png",
+		"glass-sphere/img-0035.png",
+		"glass-sphere/img-0036.png",
+		"glass-sphere/img-0037.png",
+		"glass-sphere/img-0038.png",
+		"glass-sphere/img-0039.png",
+		"glass-sphere/img-0040.png",
+		"glass-sphere/img-0041.png",
+		"glass-sphere/img-0042.png",
+		"glass-sphere/img-0043.png",
+		"glass-sphere/img-0044.png",
+		"glass-sphere/img-0045.png"
 	];
 
 	// TweenMax can tween any property of any object. We use this object to cycle through the array
@@ -83,7 +94,7 @@
 		{
 			curImg: images.length - 1,	// animate propery curImg to number of images
 			roundProps: "curImg",				// only integers so it can be used as an array index
-			repeat: 3,									// repeat 3 times
+			repeat: 0,									// repeat 3 times
 			immediateRender: true,			// load first image automatically
 			ease: Linear.easeNone,			// show every image the same ammount of time
 			onUpdate: function () {
@@ -96,11 +107,13 @@
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 1000})
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, triggerHook: 0})
 					.setPin('#imagesequence')
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
+	
+
 </script>
 
 </body>
