@@ -28,12 +28,19 @@
 		#imagesequence {
 			margin: 0;
 			padding: 0;
-			width: 1200px;
+			width: 100%;
+			height: 100vh;
 			margin: 0 auto 0 auto;
 		}
 
+		#imagesequence div {
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-position: center bottom;
+		}
+
 		#imagesequence img {
-			display: block;
 			width: 100%;
 		}
 	</style>
@@ -42,6 +49,7 @@
 <!-- <div class="spacer s2"></div> -->
 <div class="spacer s0" id="trigger"></div>
 <div id="imagesequence">
+	<!-- <div id="myimg" style="background-image: url('glass-sphere/img-0010.png');"> -->
 	<img id="myimg" src="glass-sphere/img-0010.png">
 </div>
 <div class="spacer s2"></div>
@@ -90,7 +98,7 @@
 	var obj = {curImg: 0};
 
 	// create tween
-	var tween = TweenMax.to(obj, 0.5,
+	var tween = TweenMax.to(obj, 1,
 		{
 			curImg: images.length - 1,	// animate propery curImg to number of images
 			roundProps: "curImg",				// only integers so it can be used as an array index
@@ -99,6 +107,7 @@
 			ease: Linear.easeNone,			// show every image the same ammount of time
 			onUpdate: function () {
 			  $("#myimg").attr("src", images[obj.curImg]); // set the image source
+			  // $("#myimg").css('background-image', 'url(' + images[obj.curImg] + ')'); // set the image source
 			}
 		}
 	);
@@ -108,7 +117,7 @@
 
 	// build scene
 	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 675, triggerHook: 0})
-					// .setPin('#imagesequence')
+					.setPin('#imagesequence')
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
