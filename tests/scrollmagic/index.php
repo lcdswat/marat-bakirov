@@ -18,7 +18,7 @@
 		}
 
 		.spacer.s2 {
-			min-height: 500px;
+			min-height: 1000px;
 		}
 
 		.spacer.s0 {
@@ -28,7 +28,7 @@
 		#imagesequence {
 			margin: 0;
 			padding: 0;
-			width: 100%;
+			width: 1200px;
 			margin: 0 auto 0 auto;
 		}
 
@@ -107,8 +107,8 @@
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, triggerHook: 0})
-					.setPin('#imagesequence')
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 675, triggerHook: 0})
+					// .setPin('#imagesequence')
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
