@@ -39,8 +39,8 @@
 	</style>
 </head>
 <body>
-<div class="spacer s0"></div>
-<div id="imagesequence">
+<div class="spacer s0" id="trigger"></div>
+<div id="imagesequence" >
 	<img id="myimg" src="hyperspace/hyperspace_bg_00000.png">
 </div>
 <div class="spacer s2"></div>
