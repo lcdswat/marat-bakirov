@@ -162,7 +162,7 @@
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 675, triggerHook: 0})
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 4000, triggerHook: 0})
 					.setPin('#imagesequence')
 					.setTween(tween)
 					.addIndicators() // add indicators (requires plugin)
