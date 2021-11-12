@@ -9,6 +9,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+		<link rel="preload" as="image" href="kv-1/kv-1-0000.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0001.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0002.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0003.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0004.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0005.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0006.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0007.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0008.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0009.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0010.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0011.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0012.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0013.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0014.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0015.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0016.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0017.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0018.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0019.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0020.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0021.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0022.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0023.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0024.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0025.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0026.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0027.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0028.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0029.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0030.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0031.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0032.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0033.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0034.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0035.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0036.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0037.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0038.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0039.jpg">
+		<link rel="preload" as="image" href="kv-1/kv-1-0040.jpg">
 
 	<style type="text/css">
 		body {
@@ -50,48 +91,53 @@
 <div class="spacer s0" id="trigger"></div>
 <div id="imagesequence">
 	<!-- <div id="myimg" style="background-image: url('glass-sphere/img-0010.png');"> -->
-	<img id="myimg" src="glass-sphere/img-0010.png">
+	<img id="myimg" src="kv-1/kv-1-0000.jpg">
 </div>
 <div class="spacer s2"></div>
 <script>
 	// define images
 	var images = [
-		"glass-sphere/img-0010.png",
-		"glass-sphere/img-0011.png",
-		"glass-sphere/img-0012.png",
-		"glass-sphere/img-0013.png",
-		"glass-sphere/img-0014.png",
-		"glass-sphere/img-0015.png",
-		"glass-sphere/img-0016.png",
-		"glass-sphere/img-0017.png",
-		"glass-sphere/img-0018.png",
-		"glass-sphere/img-0019.png",
-		"glass-sphere/img-0020.png",
-		"glass-sphere/img-0021.png",
-		"glass-sphere/img-0022.png",
-		"glass-sphere/img-0023.png",
-		"glass-sphere/img-0024.png",
-		"glass-sphere/img-0025.png",
-		"glass-sphere/img-0026.png",
-		"glass-sphere/img-0027.png",
-		"glass-sphere/img-0028.png",
-		"glass-sphere/img-0029.png",
-		"glass-sphere/img-0030.png",
-		"glass-sphere/img-0031.png",
-		"glass-sphere/img-0032.png",
-		"glass-sphere/img-0033.png",
-		"glass-sphere/img-0034.png",
-		"glass-sphere/img-0035.png",
-		"glass-sphere/img-0036.png",
-		"glass-sphere/img-0037.png",
-		"glass-sphere/img-0038.png",
-		"glass-sphere/img-0039.png",
-		"glass-sphere/img-0040.png",
-		"glass-sphere/img-0041.png",
-		"glass-sphere/img-0042.png",
-		"glass-sphere/img-0043.png",
-		"glass-sphere/img-0044.png",
-		"glass-sphere/img-0045.png"
+		"kv-1/kv-1-0000.jpg",
+		"kv-1/kv-1-0001.jpg",
+		"kv-1/kv-1-0002.jpg",
+		"kv-1/kv-1-0003.jpg",
+		"kv-1/kv-1-0004.jpg",
+		"kv-1/kv-1-0005.jpg",
+		"kv-1/kv-1-0006.jpg",
+		"kv-1/kv-1-0007.jpg",
+		"kv-1/kv-1-0008.jpg",
+		"kv-1/kv-1-0009.jpg",
+		"kv-1/kv-1-0010.jpg",
+		"kv-1/kv-1-0011.jpg",
+		"kv-1/kv-1-0012.jpg",
+		"kv-1/kv-1-0013.jpg",
+		"kv-1/kv-1-0014.jpg",
+		"kv-1/kv-1-0015.jpg",
+		"kv-1/kv-1-0016.jpg",
+		"kv-1/kv-1-0017.jpg",
+		"kv-1/kv-1-0018.jpg",
+		"kv-1/kv-1-0019.jpg",
+		"kv-1/kv-1-0020.jpg",
+		"kv-1/kv-1-0021.jpg",
+		"kv-1/kv-1-0022.jpg",
+		"kv-1/kv-1-0023.jpg",
+		"kv-1/kv-1-0024.jpg",
+		"kv-1/kv-1-0025.jpg",
+		"kv-1/kv-1-0026.jpg",
+		"kv-1/kv-1-0027.jpg",
+		"kv-1/kv-1-0028.jpg",
+		"kv-1/kv-1-0029.jpg",
+		"kv-1/kv-1-0030.jpg",
+		"kv-1/kv-1-0031.jpg",
+		"kv-1/kv-1-0032.jpg",
+		"kv-1/kv-1-0033.jpg",
+		"kv-1/kv-1-0034.jpg",
+		"kv-1/kv-1-0035.jpg",
+		"kv-1/kv-1-0036.jpg",
+		"kv-1/kv-1-0037.jpg",
+		"kv-1/kv-1-0038.jpg",
+		"kv-1/kv-1-0039.jpg",
+		"kv-1/kv-1-0040.jpg"
 	];
 
 	// TweenMax can tween any property of any object. We use this object to cycle through the array
