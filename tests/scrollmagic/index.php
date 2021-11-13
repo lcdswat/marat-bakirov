@@ -9,47 +9,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
-		<link rel="preload" as="image" href="kv-1/kv-1-0000.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0001.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0002.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0003.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0004.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0005.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0006.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0007.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0008.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0009.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0010.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0011.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0012.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0013.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0014.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0015.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0016.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0017.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0018.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0019.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0020.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0021.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0022.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0023.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0024.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0025.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0026.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0027.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0028.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0029.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0030.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0031.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0032.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0033.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0034.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0035.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0036.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0037.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0038.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0039.jpg">
-		<link rel="preload" as="image" href="kv-1/kv-1-0040.jpg">
+	<?php for($i=0; $i<=40; $i++){
+			$s = '<link rel="preload" as="image" href="kv-1/kv-1-'. $i .'.jpg">';
+			printf("%s\n", $s);
+	}?>
+		
 
 	<style type="text/css">
 		body {
@@ -97,47 +61,10 @@
 <script>
 	// define images
 	var images = [
-		"kv-1/kv-1-0000.jpg",
-		"kv-1/kv-1-0001.jpg",
-		"kv-1/kv-1-0002.jpg",
-		"kv-1/kv-1-0003.jpg",
-		"kv-1/kv-1-0004.jpg",
-		"kv-1/kv-1-0005.jpg",
-		"kv-1/kv-1-0006.jpg",
-		"kv-1/kv-1-0007.jpg",
-		"kv-1/kv-1-0008.jpg",
-		"kv-1/kv-1-0009.jpg",
-		"kv-1/kv-1-0010.jpg",
-		"kv-1/kv-1-0011.jpg",
-		"kv-1/kv-1-0012.jpg",
-		"kv-1/kv-1-0013.jpg",
-		"kv-1/kv-1-0014.jpg",
-		"kv-1/kv-1-0015.jpg",
-		"kv-1/kv-1-0016.jpg",
-		"kv-1/kv-1-0017.jpg",
-		"kv-1/kv-1-0018.jpg",
-		"kv-1/kv-1-0019.jpg",
-		"kv-1/kv-1-0020.jpg",
-		"kv-1/kv-1-0021.jpg",
-		"kv-1/kv-1-0022.jpg",
-		"kv-1/kv-1-0023.jpg",
-		"kv-1/kv-1-0024.jpg",
-		"kv-1/kv-1-0025.jpg",
-		"kv-1/kv-1-0026.jpg",
-		"kv-1/kv-1-0027.jpg",
-		"kv-1/kv-1-0028.jpg",
-		"kv-1/kv-1-0029.jpg",
-		"kv-1/kv-1-0030.jpg",
-		"kv-1/kv-1-0031.jpg",
-		"kv-1/kv-1-0032.jpg",
-		"kv-1/kv-1-0033.jpg",
-		"kv-1/kv-1-0034.jpg",
-		"kv-1/kv-1-0035.jpg",
-		"kv-1/kv-1-0036.jpg",
-		"kv-1/kv-1-0037.jpg",
-		"kv-1/kv-1-0038.jpg",
-		"kv-1/kv-1-0039.jpg",
-		"kv-1/kv-1-0040.jpg"
+		<?php for($i=0; $i<=40; $i++){
+			$s = '"kv-1/kv-1-'. $i .'.jpg",';
+			printf("%s\n", $s);
+		}?>
 	];
 
 	// TweenMax can tween any property of any object. We use this object to cycle through the array
