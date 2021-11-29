@@ -9,8 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
-	<?php for($i=0; $i<=40; $i++){
-			$s = '<link rel="preload" as="image" href="kv-1/kv-1-'. $i .'.jpg">';
+	<?php for($i=0; $i<=33; $i++){
+			$s = '<link rel="preload" as="image" href="kv-4/kv-4-'. $i .'.jpg">';
 			printf("%s\n", $s);
 	}?>
 		
@@ -19,7 +19,7 @@
 		body {
 			margin: 0;
 			padding: 0;
-			background-color: black;
+			background-color: #EEEEEE;
 		}
 
 		.spacer.s2 {
@@ -55,14 +55,14 @@
 <div class="spacer s0" id="trigger"></div>
 <div id="imagesequence">
 	<!-- <div id="myimg" style="background-image: url('glass-sphere/img-0010.png');"> -->
-	<img id="myimg" src="kv-1/kv-1-0000.jpg">
+	<img id="myimg" src="kv-4/kv-4-0.jpg">
 </div>
 <div class="spacer s2"></div>
 <script>
 	// define images
 	var images = [
-		<?php for($i=0; $i<=40; $i++){
-			$s = '"kv-1/kv-1-'. $i .'.jpg",';
+		<?php for($i=0; $i<=33; $i++){
+			$s = '"kv-4/kv-4-'. $i .'.jpg",';
 			printf("%s\n", $s);
 		}?>
 	];
