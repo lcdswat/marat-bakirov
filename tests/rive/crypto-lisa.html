@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rive test crypto lisa</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/@rive-app/canvas@1.0.79"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 60px 0;
+			font-family: 'PP Neue Montreal', Arial;
+		}
+
+		#wrapper {
+			width: 1110px;
+			margin: 0 auto 0 auto;
+		}
+
+		#crypto-basics-card {
+			width: 1110px;
+			height: 489px;
+			background-image: url('crypto_lisa_bg.png');
+			background-size: cover;
+			border-radius: 40px;
+			display: flex;
+			flex-direction: row;
+		}
+
+		#canvas-wrapper {
+			width: 650px;
+			height: 489px;
+			overflow: hidden;
+		}
+
+		#canvas {
+			display: block;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+		}
+
+		#crypto-basics-button {
+			display: block;
+			width: 305px;
+			color: white;
+			background-color: #007FFF;
+			border-radius: 40px;
+			text-decoration: none;
+			text-align: center;
+			font-size: 24px;
+			padding: 25px 0;
+			transition: background-color 0.6s ease-in-out;
+		}
+
+		#crypto-basics-button:hover {
+			background-color: #0066CC;
+		}
+
+		#crypto-basics-card #text {
+			width: 400px;
+			padding: 50px 0 50px 60px;
+		}
+
+		#crypto-basics-card h2 {
+			display: block;
+			margin: 0;
+			padding: 0 0 30px 0;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 32px;
+			color: #3E3E3E;
+		}
+
+		#crypto-basics-card p {
+			margin: 0;
+			padding: 0 0 140px 0;
+			font-size: 24px;
+			line-height: 29px;
+			color: #3E3E3E;
+		}
+	</style>
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="crypto-basics-card">
+		<div id="text">
+			<h2>Crypto Basics</h2>
+			<p>In simple terms about complex technologies: an introductory course in&nbsp;cryptocurrency for beginners</p>
+			<a href ="" id="crypto-basics-button">View all 51 articles</a>
+		</div>
+		<div id="canvas-wrapper">
+			<canvas id="canvas" width="1300px" height="978px"></canvas>
+		</div>
+	</div>
+	
+
+	<script>
+	$(document).ready(function() {
+
+					const canvasElement = document.getElementById('canvas');
+
+					const button = document.getElementById('crypto-basics-button');
+					const cryptobasicscard = document.getElementById('crypto-basics-card');
+
+					const r = new rive.Rive({
+						src: 'crypto_lisa.riv',
+						canvas: canvasElement,
+						stateMachines: 'State Machine',
+						autoplay: true,
+						onLoad: (_) => {
+							// Где ищем инпуты
+							const inputs = r.stateMachineInputs('State Machine');
+							
+							// Какие ищем инпуты
+							const lookTrigger = inputs.find(i => i.name === 'button hovered');
+							
+							// Присваиваем инпутам значения
+							button.onmouseover = () => lookTrigger.value = true;
+							button.onmouseleave = () => lookTrigger.value = false;
+
+							cryptobasicscard.onmouseover = () => r.play("stars-rotate");
+							cryptobasicscard.onmouseleave = () => r.pause("stars-rotate");
+
+						},
+					});
+	})();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rive test</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/rive-js@0.7.11/dist/rive.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body {
+			padding: 100vh 0 100vh 60px;
+		}
+		#rubrik {
+			position: relative;
+			text-align: center;
+			display: block;
+			width: 180px;
+			top: 30px;
+			padding: 5px 0px;
+			font-family: 'Formular';
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			letter-spacing: 3%;
+			text-transform: uppercase;
+			background-color: #00E067;
+			border-radius: 5px;
+		}
+		#canvas {
+			margin: -60px 0;
+		}
+	</style>
+</head>
+<body>
+
+<span id="rubrik">Актуальная цифра</span>
+
+<canvas id="canvas" width="860" height="414"></canvas>
+
+<script>
+$(document).ready(function(){   
+
+	//Вызов анимации
+    const r = new rive.Rive({
+	    src: 'digit.riv',
+	    canvas: document.getElementById('canvas'),
+	    animations: ['idle'],
+	    autoplay: true,
+	});
+
+    // Переключение анимации по скроллу
+    var $element = $('#canvas');
+    let counter = 0;
+
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop() + $(window).height();
+		var offset = $element.offset().top + $element.height();
+
+		if (scroll > offset && counter == 0) {
+			r.play(['anim']);
+			counter = 1;
+		  }
+
+		if (scroll < offset && counter == 1) {
+			r.play(['idle']);
+			counter = 0;
+		  }
+	});
+
+});
+</script>
+
+</body>
+</html>
