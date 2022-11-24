@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rive test crypto minutes card</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/@rive-app/canvas@1.0.79"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 60px 0;
+			font-family: 'PP Neue Montreal', Arial;
+		}
+
+		#wrapper {
+			width: 1110px;
+			margin: 0 auto 0 auto;
+		}
+
+		#crypto-minutes-card {
+			width: 1110px;
+			height: 509px;
+			border-radius: 40px;
+			background-color: lightgray;
+		}
+
+		#canvas {
+			display: block;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+		}
+	</style>
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="crypto-minutes-card">
+		<canvas id="canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	
+
+	<script>
+	$(document).ready(function() {
+
+					const canvasElement = document.getElementById('canvas');
+
+					const cryptominutescard = document.getElementById('crypto-minutes-card');
+
+					const r = new rive.Rive({
+						src: 'crypto_minutes_card_bg.riv',
+						canvas: canvasElement,
+						stateMachines: 'State Machine 1',
+						autoplay: true,
+						onLoad: (_) => {
+							cryptominutescard.onmouseover = () => r.play("crystall-wobling");
+							cryptominutescard.onmouseleave = () => r.pause("crystall-wobling");
+						},
+					});
+	})();
+	</script>
+
+</body>
+</html>
