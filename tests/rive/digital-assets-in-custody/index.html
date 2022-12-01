@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>digital assets in custody</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/@rive-app/canvas@1.0.79"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'PP Neue Montreal', Arial;
+			height: 100%;
+		}
+
+		#wrapper {
+			width: 1440px;
+			height: 2080px;
+			margin: 0 auto 0 auto;
+			background-image: url(bg.svg);
+			background-repeat: no-repeat;
+			background-position: top center;
+		}
+
+		#digital-custody-KV {
+			width: 400px;
+			height: 400px;
+			margin: 0 0 -400px 0;
+			position: relative;
+			top: 147px;
+			left: 875px;
+		}
+
+		#digital-custody-KV-canvas {
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+			margin: 0 -400px -400px 0;
+		}
+
+		#report-download {
+			position: relative;
+			text-align: center;
+			top: 739px;
+		}
+
+		#report-download-canvas {
+			display: inline-block;
+			transform: scale(0.5);
+			transform-origin: 50% 0%;
+			margin: 0 -67px -164px -68px;
+		}
+
+		#report-download a {
+			display: inline-block;
+			text-decoration: none;
+			color: #3E3E3E;
+			font-size: 18px;
+			line-height: 22px;
+			padding: 6px 20px;
+			margin: 30px 0 0 0;
+			border-radius: 20px;
+			border: 2px solid #9DDECA;
+			text-align: center;
+			transition: background-color 0.3s ease;
+		}
+
+		#report-download a:hover {
+			background-color: #9DDECA;
+		}
+
+		#report-download span {
+			display: block;
+			padding: 20px 0 0 0;
+		}
+	</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+	<div id="digital-custody-KV">
+		<canvas id="digital-custody-KV-canvas" width="800px" height="800px"></canvas>
+	</div>
+	
+	<div id="report-download">
+		<canvas id="report-download-canvas" width="270px" height="328px"></canvas><br>
+		<a href="" id="report-download-button">weekly balance report</a>
+		<span>24-11-2022</span>
+	</div>
+
+</div>
+	
+	<script>
+	$(document).ready(function() {
+
+		const canvasElement = document.getElementById('report-download-canvas');
+
+		const reportdownloadbutton = document.getElementById('report-download-button');
+
+		const r = new rive.Rive({
+			src: 'report_download.riv',
+			canvas: canvasElement,
+			stateMachines: 'report-download-state',
+			autoplay: true,
+			onLoad: (_) => {
+				// Где ищем инпуты
+				const inputs = r.stateMachineInputs('report-download-state');
+				
+				// Какие ищем инпуты
+				const lookTrigger = inputs.find(i => i.name === 'bttn-hovered');
+				
+				// Присваиваем инпутам значения
+				reportdownloadbutton.onmouseover = () => lookTrigger.value = true;
+				reportdownloadbutton.onmouseleave = () => lookTrigger.value = false;
+
+			},
+		});
+	})();
+	</script>
+
+	<script>
+	$(document).ready(function() {
+
+		const reportdownloadKVcanvas = document.getElementById('digital-custody-KV-canvas');
+
+		const r = new rive.Rive({
+			src: 'digital_assets_in_custody.riv',
+			canvas: reportdownloadKVcanvas,
+			stateMachines: 'digital-custody-state',
+			autoplay: true,
+			onLoad: (_) => {
+
+			},
+		});
+	})();
+	</script>
+
+
+</body>
+</html>
