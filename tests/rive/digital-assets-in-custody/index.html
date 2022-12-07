@@ -14,21 +14,22 @@
 		}
 
 		#wrapper {
-			width: 1440px;
-			height: 2080px;
+			min-width: 1280px;
+			max-width: 1920px;
+			height: 2300px;
 			margin: 0 auto 0 auto;
-			background-image: url(bg.svg);
+			background-image: url(bg-new.svg);
 			background-repeat: no-repeat;
 			background-position: top center;
 		}
 
 		#digital-custody-KV {
-			width: 400px;
+			width: 1110px;
 			height: 400px;
-			margin: 0 0 -400px 0;
+			margin: 0 auto -400px auto;
+			text-align: right;
 			position: relative;
-			top: 147px;
-			left: 875px;
+			top: 149px;
 		}
 
 		#digital-custody-KV-canvas {
@@ -39,8 +40,9 @@
 
 		#report-download {
 			position: relative;
-			text-align: center;
 			top: 739px;
+			text-align: center;
+			margin: 0 0 -275px 0;
 		}
 
 		#report-download-canvas {
@@ -72,6 +74,41 @@
 			display: block;
 			padding: 20px 0 0 0;
 		}
+
+		#learn-how-it-works {
+			width: 1110px;
+			margin: 0 auto 0 auto;
+		}
+
+		#learn-how-it-works-canvas {
+			position: relative;
+			top: 1611px;
+			left: 600px;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+			margin: 0 -515px -1080px 0;
+		}
+
+		#learn-how-it-works a {
+			display: block;
+			width: 272px;
+			text-decoration: none;
+			background-color: #007FFF;
+			color: white;
+			font-size: 24px;
+			line-height: 30px;
+			padding: 25px 0;
+			border-radius: 40px;
+			text-align: center;
+			transition: background-color 0.3s ease;
+			position: relative;
+			top: 2071px;
+			left: 0px;
+		}
+
+		#learn-how-it-works a:hover {
+			background-color: #3e3e3e;
+		}
 	</style>
 </head>
 <body>
@@ -86,6 +123,11 @@
 		<canvas id="report-download-canvas" width="270px" height="328px"></canvas><br>
 		<a href="" id="report-download-button">weekly balance report</a>
 		<span>24-11-2022</span>
+	</div>
+
+	<div id="learn-how-it-works">
+		<canvas id="learn-how-it-works-canvas" width="1030px" height="1080px"></canvas>
+		<a href="" id="view-flowchart-button">View flowchart</a>
 	</div>
 
 </div>
@@ -135,6 +177,33 @@
 	})();
 	</script>
 
+	<script>
+	$(document).ready(function() {
+
+		const learnhowitworkscanvas = document.getElementById('learn-how-it-works-canvas');
+
+		const viewflowchartbutton = document.getElementById('view-flowchart-button');
+
+		const r = new rive.Rive({
+			src: 'learn_how_it_works.riv',
+			canvas: learnhowitworkscanvas,
+			stateMachines: 'squeeze-state',
+			autoplay: true,
+			onLoad: (_) => {
+				// Где ищем инпуты
+				const inputs = r.stateMachineInputs('squeeze-state');
+				
+				// Какие ищем инпуты
+				const squeezetrigger = inputs.find(i => i.name === 'bttn-hovered');
+				
+				// Присваиваем инпутам значения
+				viewflowchartbutton.onmouseover = () => squeezetrigger.value = true;
+				viewflowchartbutton.onmouseleave = () => squeezetrigger.value = false;
+
+			},
+		});
+	})();
+	</script>
 
 </body>
 </html>
