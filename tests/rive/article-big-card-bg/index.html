@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rive test article covers</title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/@rive-app/canvas@1.0.79"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 60px 0;
+			font-family: 'PP Neue Montreal', Arial;
+		}
+
+		.wrapper-row {
+			width: 1110px;
+			margin: 0 auto 0 auto;
+			padding: 0 0 60px 0;
+		}
+
+		.article-card {
+			width: 1100px;
+			height: 429px;
+			padding: 40px 0px;
+			margin: 0 0 80px 0;
+			background-size: cover;
+			border-radius: 40px;
+			color: white;
+			overflow: hidden;
+			cursor: pointer;
+			transition: box-shadow 0.4s ease;
+		}
+
+		.article-card:hover {
+			box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+		}
+
+		.article-card#btc-card {
+			background-image: url('btc-big-article-card-bg.svg');
+		}
+
+		.article-card#pod-card {
+			background-image: url('pod-big-article-card-bg.svg');
+		}
+
+		.article-card#bch-card {
+			background-image: url('bch-big-article-card-bg.svg');
+		}
+
+		.article-card#eth-card {
+			background-image: url('eth-big-article-card-bg.svg');
+		}
+
+		.article-card#rda-card {
+			background-image: url('rda-big-article-card-bg.svg');
+		}
+
+		.article-card#sol-card {
+			background-image: url('sol-big-article-card-bg.svg');
+		}
+
+		.article-card#stl-card {
+			background-image: url('stl-big-article-card-bg.svg');
+		}
+
+		.article-card#xtz-card {
+			background-image: url('xtz-big-article-card-bg.svg');
+		}
+
+		.article-card#ltc-card {
+			background-image: url('ltc-big-article-card-bg.svg');
+		}
+
+		.article-card#uni-card {
+			background-image: url('uni-big-article-card-bg.svg');
+		}
+
+		.article-card#mtc-card {
+			background-image: url('mtc-big-article-card-bg.svg');
+		}
+
+		.article-card#ava-card {
+			background-image: url('ava-big-article-card-bg.svg');
+		}
+
+		.article-card#atom-card {
+			background-image: url('atom-big-article-card-bg.svg');
+		}
+
+		.article-card#xrp-card {
+			background-image: url('xrp-big-article-card-bg.svg');
+		}
+
+		.article-card#ethp-card {
+			background-image: url('ethp-big-article-card-bg.svg');
+		}
+
+		.article-card .canvas {
+			display: block;
+			margin: 0 0 0 0;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+			z-index: 1;
+			position: relative;
+			top: -469px;
+		}
+
+		.article-card .text {
+			position: relative;
+			height: 100%;
+			margin: 0 0 0 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			z-index: 999;
+		}
+
+		.article-card .date {
+			display: block;
+			font-size: 24px;
+			line-height: 28px;
+			letter-spacing: 3%;
+			padding: 0 0 40px 0;
+		}
+
+		.article-card .date img {
+			display: inline-block;
+			padding: 0px 0 0 15px;
+			position: relative;
+			top: 2px;
+		}
+
+		.article-card h2 {
+			display: block;
+			margin: 0;
+			padding: 0 0 30px 0;
+			font-weight: 400;
+			font-size: 52px;
+			line-height: 47px;
+		}
+
+		.article-card h3 {
+			display: block;
+			margin: 0;
+			padding: 0;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 32px;
+			flex-grow: 1;
+		}
+
+		.article-card .badges-container {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+		}
+
+		.article-card .badges {
+			display: flex;
+			gap: 5px;
+		}
+
+		.article-card .badges div {
+			padding: 3px 11px;
+			border-radius: 20px;
+			border: 1px solid white;
+			font-size: 16px;
+			line-height: 17px;
+			letter-spacing: 3%;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out, color 0.3s;
+		}
+
+		.article-card .badges div:hover {
+			background-color: white;
+			color: #3E3E3E;
+		}
+
+		#crypto-minutes-card {
+			background-color: #616CFC;
+			background-image: url('crypto_minutes_card_bg.svg');
+		}
+
+		#crypto-minutes-card .text {
+			margin: 0 0 0 50px;
+		}
+
+		#crypto-minutes-card-canvas {
+			display: block;
+			margin: 0 0 0 0;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+			z-index: 1;
+			position: relative;
+			top: -469px;
+		}
+
+		#mr-september-card {
+			background-color: #616CFC;
+			background-image: url('mrseptember_big_article_card_bg.svg');
+		}
+
+		#mr-september-card .text {
+			margin: 0 0 0 50px;
+		}
+
+		#mr-september-canvas {
+			display: block;
+			transform: scale(0.5);
+			transform-origin: 0% 0%;
+			z-index: 1;
+			position: relative;
+			top: -469px;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="wrapper-row">
+
+	<!-- MR SEPTEMBER -->
+	<div class="article-card" id="mr-september-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>Digital Assets<br>Monthly Review</h2>
+			<h3>September&nbsp;2022</h3>
+			<div class="badges">
+				<div>bitcoin</div>
+				<div>regulatory</div>
+			</div>
+		</div>
+		<canvas id="mr-september-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	
+	<script>
+	$(document).ready(function() {
+
+		const canvasElement = document.getElementById('mr-september-canvas');
+
+		const mrseptembercard = document.getElementById('mr-september-card');
+
+		const mrseptembercardrive = new rive.Rive({
+			src: 'mrseptember_big_article_card_bg.riv',
+			canvas: canvasElement,
+			stateMachines: 'State Machine 1',
+			autoplay: true,
+			onLoad: (_) => {
+				mrseptembercard.onmouseover = () => mrseptembercardrive.play("mr-september");
+				mrseptembercard.onmouseleave = () => mrseptembercardrive.pause("mr-september");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF MR SEPTEMBER -->
+
+	<!-- CRYPTO MINUTES -->
+	<div class="article-card" id="crypto-minutes-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>ETC Group<br>Crypto&nbsp;Minutes</h2>
+			<h3>Week&nbsp;#38 2022</h3>
+			<div class="badges">
+				<div>bitcoin</div>
+				<div>regulatory</div>
+			</div>
+		</div>
+		<canvas id="crypto-minutes-card-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	
+	<script>
+	$(document).ready(function() {
+
+		const canvasElement = document.getElementById('crypto-minutes-card-canvas');
+
+		const cryptominutescard = document.getElementById('crypto-minutes-card');
+
+		const r = new rive.Rive({
+			src: 'crypto_minutes_card_bg.riv',
+			canvas: canvasElement,
+			stateMachines: 'State Machine 1',
+			autoplay: true,
+			onLoad: (_) => {
+				cryptominutescard.onmouseover = () => r.play("crystall-wobling");
+				cryptominutescard.onmouseleave = () => r.pause("crystall-wobling");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF CRYPTO MINUTES -->
+	
+	<!-- BTC -->
+	<div class="article-card" id="btc-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Bitcoin</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>bitcoin</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="btc-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const btccanvas = document.getElementById('btc-canvas');
+		const btccard = document.getElementById('btc-card');
+		const btcrive = new rive.Rive({
+			src: 'btc_big_article_card_bg.riv',
+			canvas: btccanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				btccard.onmouseover = () => btcrive.play("bubble-wiggle");
+				btccard.onmouseleave = () => btcrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF BTC -->
+
+	<!-- POD -->
+	<div class="article-card" id="pod-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Polcadot</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>polcadot</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="pod-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const podcanvas = document.getElementById('pod-canvas');
+		const podcard = document.getElementById('pod-card');
+		const podrive = new rive.Rive({
+			src: 'pod_big_article_card_bg.riv',
+			canvas: podcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				podcard.onmouseover = () => podrive.play("bubble-wiggle");
+				podcard.onmouseleave = () => podrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF POD -->
+
+	<!-- BCH -->
+	<div class="article-card" id="bch-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State<br>of Bitcoin&nbsp;Cash</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>bitcoin cash</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="bch-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const bchcanvas = document.getElementById('bch-canvas');
+		const bchcard = document.getElementById('bch-card');
+		const bchrive = new rive.Rive({
+			src: 'bch_big_article_card_bg.riv',
+			canvas: bchcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				bchcard.onmouseover = () => bchrive.play("bubble-wiggle");
+				bchcard.onmouseleave = () => bchrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF BCH -->
+
+	<!-- ETH -->
+	<div class="article-card" id="eth-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Ethereum</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>ethereum</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="eth-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const ethcanvas = document.getElementById('eth-canvas');
+		const ethcard = document.getElementById('eth-card');
+		const ethrive = new rive.Rive({
+			src: 'eth_big_article_card_bg.riv',
+			canvas: ethcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				ethcard.onmouseover = () => ethrive.play("bubble-wiggle");
+				ethcard.onmouseleave = () => ethrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF ETH -->
+
+	<!-- RDA -->
+	<div class="article-card" id="rda-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Cardano</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>cardano</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="rda-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const rdacanvas = document.getElementById('rda-canvas');
+		const rdacard = document.getElementById('rda-card');
+		const rdarive = new rive.Rive({
+			src: 'rda_big_article_card_bg.riv',
+			canvas: rdacanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				rdacard.onmouseover = () => rdarive.play("bubble-wiggle");
+				rdacard.onmouseleave = () => rdarive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF RDA -->
+
+	<!-- SOL -->
+	<div class="article-card" id="sol-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Solana</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>solana</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="sol-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const solcanvas = document.getElementById('sol-canvas');
+		const solcard = document.getElementById('sol-card');
+		const solrive = new rive.Rive({
+			src: 'sol_big_article_card_bg.riv',
+			canvas: solcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				solcard.onmouseover = () => solrive.play("bubble-wiggle");
+				solcard.onmouseleave = () => solrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF SOL -->
+
+	<!-- STL -->
+	<div class="article-card" id="stl-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Stellar</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>stellar</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="stl-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const stlcanvas = document.getElementById('stl-canvas');
+		const stlcard = document.getElementById('stl-card');
+		const stlrive = new rive.Rive({
+			src: 'stl_big_article_card_bg.riv',
+			canvas: stlcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				stlcard.onmouseover = () => stlrive.play("bubble-wiggle");
+				stlcard.onmouseleave = () => stlrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF STL -->
+
+	<!-- XTZ -->
+	<div class="article-card" id="xtz-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Tezos</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>tezos</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="xtz-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const xtzcanvas = document.getElementById('xtz-canvas');
+		const xtzcard = document.getElementById('xtz-card');
+		const xtzrive = new rive.Rive({
+			src: 'xtz_big_article_card_bg.riv',
+			canvas: xtzcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				xtzcard.onmouseover = () => xtzrive.play("bubble-wiggle");
+				xtzcard.onmouseleave = () => xtzrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF XTZ -->
+
+	<!-- LTC -->
+	<div class="article-card" id="ltc-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Litecoin</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>litecoin</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="ltc-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const ltccanvas = document.getElementById('ltc-canvas');
+		const ltccard = document.getElementById('ltc-card');
+		const ltcrive = new rive.Rive({
+			src: 'ltc_big_article_card_bg.riv',
+			canvas: ltccanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				ltccard.onmouseover = () => ltcrive.play("bubble-wiggle");
+				ltccard.onmouseleave = () => ltcrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF LTC -->
+
+	<!-- UNI -->
+	<div class="article-card" id="uni-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Uniswap</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>uniswap</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="uni-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const unicanvas = document.getElementById('uni-canvas');
+		const unicard = document.getElementById('uni-card');
+		const unirive = new rive.Rive({
+			src: 'uni_big_article_card_bg.riv',
+			canvas: unicanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				unicard.onmouseover = () => unirive.play("bubble-wiggle");
+				unicard.onmouseleave = () => unirive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF UNI -->
+
+	<!-- MTC -->
+	<div class="article-card" id="mtc-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Polygon</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>polygon</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="mtc-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const mtccanvas = document.getElementById('mtc-canvas');
+		const mtccard = document.getElementById('mtc-card');
+		const mtcrive = new rive.Rive({
+			src: 'mtc_big_article_card_bg.riv',
+			canvas: mtccanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				mtccard.onmouseover = () => mtcrive.play("bubble-wiggle");
+				mtccard.onmouseleave = () => mtcrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF MTC -->
+
+	<!-- AVA -->
+	<div class="article-card" id="ava-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Avalanche</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>avalanche</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="ava-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const avacanvas = document.getElementById('ava-canvas');
+		const avacard = document.getElementById('ava-card');
+		const avarive = new rive.Rive({
+			src: 'ava_big_article_card_bg.riv',
+			canvas: avacanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				avacard.onmouseover = () => avarive.play("bubble-wiggle");
+				avacard.onmouseleave = () => avarive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF AVA -->
+
+	<!-- ATOM -->
+	<div class="article-card" id="atom-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of Cosmos</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>cosmos</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="atom-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const atomcanvas = document.getElementById('atom-canvas');
+		const atomcard = document.getElementById('atom-card');
+		const atomrive = new rive.Rive({
+			src: 'atom_big_article_card_bg.riv',
+			canvas: atomcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				atomcard.onmouseover = () => atomrive.play("bubble-wiggle");
+				atomcard.onmouseleave = () => atomrive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF ATOM -->
+
+	<!-- XRP -->
+	<div class="article-card" id="xrp-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State of XRP</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>xrp</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="xrp-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const xrpcanvas = document.getElementById('xrp-canvas');
+		const xrpcard = document.getElementById('xrp-card');
+		const xrprive = new rive.Rive({
+			src: 'xrp_big_article_card_bg.riv',
+			canvas: xrpcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				xrpcard.onmouseover = () => xrprive.play("bubble-wiggle");
+				xrpcard.onmouseleave = () => xrprive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF XRP -->
+
+	<!-- ETHP -->
+	<div class="article-card" id="ethp-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>The State<br>of Ethereum PoW</h2>
+			<h3>Q1 2022</h3>
+			<div class="badges">
+				<div>research</div>
+				<div>ethereum pow</div>
+			</div>
+		</div>
+		<canvas class="canvas" id="ethp-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	<script>
+	$(document).ready(function() {
+		const ethpcanvas = document.getElementById('ethp-canvas');
+		const ethpcard = document.getElementById('ethp-card');
+		const ethprive = new rive.Rive({
+			src: 'ethp_big_article_card_bg.riv',
+			canvas: ethpcanvas,
+			autoplay: false,
+			onLoad: (_) => {
+				ethpcard.onmouseover = () => ethprive.play("bubble-wiggle");
+				ethpcard.onmouseleave = () => ethprive.pause("bubble-wiggle");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF ETHP -->
+
+
+</div>
+	
+</body>
+</html>
