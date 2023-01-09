@@ -101,11 +101,11 @@
 
 					const canvasElement = document.getElementById('canvas');
 
-					const button = document.getElementById('crypto-basics-button');
+					// const button = document.getElementById('crypto-basics-button');
 					const cryptobasicscard = document.getElementById('crypto-basics-card');
 
 					const r = new rive.Rive({
-						src: 'crypto_lisa-new.riv',
+						src: 'crypto_lisa_v1.0.riv',
 						canvas: canvasElement,
 						stateMachines: 'State Machine',
 						autoplay: true,
@@ -117,11 +117,12 @@
 							const lookTrigger = inputs.find(i => i.name === 'button hovered');
 							
 							// Присваиваем инпутам значения
-							button.onmouseover = () => lookTrigger.value = true;
-							button.onmouseleave = () => lookTrigger.value = false;
+							cryptobasicscard.onmouseover = () => lookTrigger.value = true;
+							cryptobasicscard.onmouseleave = () => lookTrigger.value = false;
 
-							cryptobasicscard.onmouseover = () => r.play("stars-rotate");
-							cryptobasicscard.onmouseleave = () => r.pause("stars-rotate");
+							r.play("stars-rotate");
+							// cryptobasicscard.onmouseover = () => r.play("stars-rotate");
+							// cryptobasicscard.onmouseleave = () => r.pause("stars-rotate");
 
 						},
 					});
