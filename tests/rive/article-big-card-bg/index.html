@@ -179,6 +179,7 @@
 		#crypto-minutes-card {
 			background-color: #616CFC;
 			background-image: url('crypto_minutes_card_bg.svg');
+			background-color: blue;
 		}
 
 		#crypto-minutes-card .text {
@@ -219,6 +220,44 @@
 
 <div class="wrapper-row">
 
+	<!-- CRYPTO MINUTES -->
+	<div class="article-card" id="crypto-minutes-card">
+		<div class="text">
+			<div class="date">
+				21-04-2022
+				<img src="badge-language.svg">
+			</div>
+			<h2>ETC Group<br>Crypto&nbsp;Minutes</h2>
+			<h3>Week&nbsp;#38 2022</h3>
+			<div class="badges">
+				<div>bitcoin</div>
+				<div>regulatory</div>
+			</div>
+		</div>
+		<canvas id="crypto-minutes-card-canvas" width="2220px" height="1018px"></canvas>
+	</div>
+	
+	<script>
+	$(document).ready(function() {
+
+		const canvasElement = document.getElementById('crypto-minutes-card-canvas');
+
+		const cryptominutescard = document.getElementById('crypto-minutes-card');
+
+		const r = new rive.Rive({
+			src: 'crypto_minutes_card_bg.riv',
+			canvas: canvasElement,
+			stateMachines: 'State Machine 1',
+			autoplay: true,
+			onLoad: (_) => {
+				cryptominutescard.onmouseover = () => r.play("crystall-wobling");
+				cryptominutescard.onmouseleave = () => r.pause("crystall-wobling");
+			},
+		});
+	})();
+	</script>
+	<!-- EOF CRYPTO MINUTES -->
+
 	<!-- MR SEPTEMBER -->
 	<div class="article-card" id="mr-september-card">
 		<div class="text">
@@ -257,44 +296,6 @@
 	</script>
 	<!-- EOF MR SEPTEMBER -->
 
-	<!-- CRYPTO MINUTES -->
-	<div class="article-card" id="crypto-minutes-card">
-		<div class="text">
-			<div class="date">
-				21-04-2022
-				<img src="badge-language.svg">
-			</div>
-			<h2>ETC Group<br>Crypto&nbsp;Minutes</h2>
-			<h3>Week&nbsp;#38 2022</h3>
-			<div class="badges">
-				<div>bitcoin</div>
-				<div>regulatory</div>
-			</div>
-		</div>
-		<canvas id="crypto-minutes-card-canvas" width="2220px" height="1018px"></canvas>
-	</div>
-	
-	<script>
-	$(document).ready(function() {
-
-		const canvasElement = document.getElementById('crypto-minutes-card-canvas');
-
-		const cryptominutescard = document.getElementById('crypto-minutes-card');
-
-		const r = new rive.Rive({
-			src: 'crypto_minutes_card_bg.riv',
-			canvas: canvasElement,
-			stateMachines: 'State Machine 1',
-			autoplay: true,
-			onLoad: (_) => {
-				cryptominutescard.onmouseover = () => r.play("crystall-wobling");
-				cryptominutescard.onmouseleave = () => r.pause("crystall-wobling");
-			},
-		});
-	})();
-	</script>
-	<!-- EOF CRYPTO MINUTES -->
-	
 	<!-- BTC -->
 	<div class="article-card" id="btc-card">
 		<div class="text">
