@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>light and dark theme switch</title>
+	<style type="text/css">
+		body {
+			background-color: #F1F1F1;
+			color: #3E3E3E;
+			font-size: 64px;
+		}
+
+		#text::before {
+			content: 'Светлая тема';
+		}
+
+		@media (prefers-color-scheme: dark) {
+			body {
+				color: #F1F1F1;
+				background-color: #3E3E3E;
+			}
+
+			#text::before {
+				content: 'Темная тема';
+			}
+		}
+	</style>
+</head>
+<body>
+	<span id="text"></span>
+</body>
+</html>
