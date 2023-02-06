@@ -15,6 +15,15 @@
 			content: 'Светлая тема';
 		}
 
+		#image {
+			width: 120px;
+			height: 120px;
+			background-image: url('https://em-content.zobj.net/thumbs/120/apple/325/full-moon-face_1f31d.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+
 		@media (prefers-color-scheme: dark) {
 			body {
 				color: #F1F1F1;
@@ -24,10 +33,15 @@
 			#text::before {
 				content: 'Темная тема';
 			}
+
+			#image {
+				background-image: url('https://em-content.zobj.net/thumbs/120/apple/325/new-moon-face_1f31a.png');
+			}
 		}
 	</style>
 </head>
 <body>
+	<div id="image"></div>
 	<span id="text"></span>
 </body>
 </html>
