@@ -36,23 +36,32 @@
 		  }, 9500);
 		  setTimeout(function() {
 		    $('#wait').show(400);
-		  }, 15500);
+		  }, 25500);
 		  setTimeout(function() {
 		    $('#wait').hide();
 		    $('#bub-2').hide(400);
 		    $('#bub-5').fadeIn(400);
-		  }, 17000);
+		  }, 27000);
+		  setTimeout(function() {
+		    $('#wait').show(400);
+		  }, 39500);
+		  setTimeout(function() {
+		    $('#wait').hide();
+		    $('#bub-3').hide(400);
+		    $('#bub-6').fadeIn(400);
+		  }, 40500);
 		});
 	</script>
 
 	<div id="aboutme">
 		<img src="/site-files/me-pixel-about.gif">
 		<div id="messages">
-			<div class="bubles" id="bub-1"><span></span>Привет! Меня зовут Марат Бакиров</div>
-			<div class="bubles" id="bub-2">Я занимаюсь графическим дизайном и&nbsp;вёрсткой с&nbsp;2007 года. Обалдеть, конечно. Время летит!</div>
-			<div class="bubles" id="bub-3">Посмотрите портфолио на <a href="https://www.behance.net/marat-bakirov">бихансе</a></div>
-			<div class="bubles" id="bub-4">Если что&nbsp;&mdash; пишите на&nbsp;почту <a href="mailto:lcd-swat@yandex.ru"><nobr>lcd-swat@yandex.ru</nobr></a><br>или в <a href="https://t.me/lcdswat"><nobr>телеграм</nobr></a></div>
-			<div class="bubles" id="bub-5">А я пока тут постою. В майке и шортах зимой и летом</div>
+			<div class="bubles" id="bub-1"><span></span>Hey! My name is Marat Bakirov</div>
+			<div class="bubles" id="bub-2">I’m a designer with over 15 years of experience</div>
+			<div class="bubles" id="bub-3">You can check out my work on <a href="https://www.behance.net/marat-bakirov">Behance</a></div>
+			<div class="bubles" id="bub-4">Feel free to reach out via <a href="mailto:lcd-swat@yandex.ru"><nobr>e-mail</nobr></a> or <a href="https://t.me/lcdswat"><nobr>Telegram</nobr></a>!</div>
+			<div class="bubles" id="bub-5">I will wait you here</div>
+			<div class="bubles" id="bub-6">Hello?</div>
 			<span id="wait"></span>
 		</div>
 	</div>
