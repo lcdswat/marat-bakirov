@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tests/
 Disallow: /indesign/
-Disallow: /indesign/
+Disallow: /visit-dubai/
