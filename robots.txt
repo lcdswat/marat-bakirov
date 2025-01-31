@@ -3,3 +3,4 @@ Disallow: /tests/
 Disallow: /indesign/
 Disallow: /visit-dubai/
 Disallow: /books/
+Disallow: /icons/
