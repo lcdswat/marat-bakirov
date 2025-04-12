@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Scribble</title>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: sans-serif;
+            color: #3e3e3e;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0 0 40px 0;
+        }
+
+        #paramsForm {
+            margin: 40px 0px;
+        }
+
+        #saveButton {
+            
+        }
+
+        #svgContainer {
+/*            background-color: #f7f7f7;*/
+            width: 300px;
+            height: 300px;
+            }
+    </style>
+</head>
+<body>
+    <div id="svgContainer"></div>
+<form id="paramsForm">
+    <label>Loops: </label>
+    <span>1</span><input type="range" id="loops" min="1" max="20" value="5"><span>20</span><br>
+    <label>Noise: </label>
+    <span>0</span><input type="range" id="noise" min="0" max="100" value="20"><span>&nbsp;100</span><br>
+    <label>Points: </label>
+    <span>10</span><input type="range" id="points" min="10" max="200" value="15"><span>200</span><br>
+</form>
+    <button id="saveButton">Save SVG</button>
+
+    <script>
+function generateScribble() {
+    let loops = parseInt($('#loops').val());
+    let noise = parseInt($('#noise').val());
+    let points = parseInt($('#points').val());
+    
+    $.ajax({
+        url: `/generate_svg/${loops}/${noise}/${points}`,
+        type: 'GET',
+        dataType: 'text', // Изменяем на 'text', так как мы возвращаем строку SVG
+        success: data => {
+            let container = $('#svgContainer')[0];
+            if (container) {
+                container.innerHTML = data; // Просто вставляем SVG как строку
+            }
+        },
+        error: (xhr, status, err) => console.error('AJAX:', status, err)
+    });
+}
+
+    $(document).ready(() => {
+        $('#loops, #noise, #points').on('input', generateScribble);
+        generateScribble();
+    });
+
+    $('#saveButton').click(() => {
+        let svg = $('#svgContainer svg')[0];
+        if (svg) {
+            let svgData = new XMLSerializer().serializeToString(svg);
+            let blob = new Blob([svgData], {type: "image/svg+xml"});
+            let url = URL.createObjectURL(blob);
+            let link = document.createElement("a");
+            link.href = url;
+            link.download = "scribble.svg";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    });
+    </script>
+</body>
+</html>
