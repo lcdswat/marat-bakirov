@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf3e7">
+  <meta name="description" content="Котовиатура — маленький кошачий оркестр. Трогай котиков, топай лапками и сочиняй свою мяулодию.">
+  <link rel="icon" href="data:,">
+  <title>Котовиатура</title>
+  <style>html,body{background:#faf3e7;width:100%;height:100%;margin:0;overflow:hidden}#viewport{opacity:0;visibility:hidden;pointer-events:none}#loading{opacity:0;visibility:hidden;z-index:10;background:#faf3e7;place-items:center;display:grid;position:fixed;inset:0}.loading-paw{width:100px;height:106px}html.is-loading #loading{opacity:1;visibility:visible}html.is-ready #viewport{opacity:1;visibility:visible;pointer-events:auto}html.is-ready #loading{opacity:0;pointer-events:none}#loading[hidden]{display:none}</style>
+  <script type="module" crossorigin src="./assets/index-B4AafzIQ.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-89Ms8mc0.css">
+</head>
+<body>
+      <div id="loading">
+        <div class="loading-content">
+          <svg class="loading-paw" viewBox="0 0 64 68" role="progressbar" aria-label="Загрузка клавиатуры" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <defs>
+              <g id="loading-paw-shape"><path d="M21 36c-7 7-14 16-9 22s13-1 20 0 15 5 20-1-3-17-11-24c-6-6-13-5-20 3Z"/><ellipse cx="10" cy="26" rx="6" ry="9" transform="rotate(-25 10 26)"/><ellipse cx="25" cy="13" rx="6" ry="9" transform="rotate(-9 25 13)"/><ellipse cx="42" cy="14" rx="6" ry="9" transform="rotate(13 42 14)"/><ellipse cx="55" cy="29" rx="6" ry="9" transform="rotate(27 55 29)"/></g>
+              <clipPath id="loading-paw-mask"><use href="#loading-paw-shape"/></clipPath>
+            </defs>
+            <use class="loading-paw-base" href="#loading-paw-shape"/>
+            <g clip-path="url(#loading-paw-mask)"><rect id="loading-paw-fill" x="0" y="68" width="64" height="0"/></g>
+            <use class="loading-paw-outline" href="#loading-paw-shape"/>
+          </svg>
+          <p id="loading-message" role="status">Будим котиков…</p>
+          <button id="loading-retry" hidden>Попробовать ещё раз</button>
+        </div>
+      </div>
+  <main id="viewport" aria-label="Котовиатура — кошачий оркестр">
+    <header class="game-header">
+      <a class="other-games" href="/games/">&larr; Другие игры</a><div class="brand"><svg class="brand-paw" viewBox="0 0 46 48" aria-hidden="true"><path d="M14 26c-5 5-9 12-5 15s9-1 14 0 10 4 14 0-1-11-6-16c-5-6-12-6-17 1Z"/><ellipse cx="8" cy="18" rx="4" ry="6" transform="rotate(-24 8 18)"/><ellipse cx="19" cy="10" rx="4" ry="6" transform="rotate(-8 19 10)"/><ellipse cx="31" cy="11" rx="4" ry="6" transform="rotate(15 31 11)"/><ellipse cx="40" cy="21" rx="4" ry="6" transform="rotate(28 40 21)"/></svg><h1>Котовиатура</h1></div>
+      <div class="tools" aria-label="Управление звуком и записью">
+        <button id="record" class="tool" aria-label="Записать мелодию" aria-pressed="false"><svg class="doodle-frame" viewBox="0 0 130 44" preserveAspectRatio="none" aria-hidden="true"><path d="M10 4 Q52 0 114 4 Q128 3 126 18 L125 32 Q129 42 112 40 Q62 44 13 40 Q2 43 4 29 L3 15 Q1 3 10 4Z"/><path class="sketch-line" d="M15 6 Q62 2 109 5 M125 13 Q129 31 121 37 M10 39 Q4 35 5 19"/></svg><span class="record-dot" aria-hidden="true"></span><span class="tool-label">Записать</span></button>
+        <button id="replay" class="tool" aria-label="Повторить мелодию" disabled><svg class="doodle-frame" viewBox="0 0 130 44" preserveAspectRatio="none" aria-hidden="true"><path d="M10 4 Q52 0 114 4 Q128 3 126 18 L125 32 Q129 42 112 40 Q62 44 13 40 Q2 43 4 29 L3 15 Q1 3 10 4Z"/><path class="sketch-line" d="M15 6 Q62 2 109 5 M125 13 Q129 31 121 37 M10 39 Q4 35 5 19"/></svg><span aria-hidden="true">▷</span><span class="tool-label">Повторить</span></button>
+        <button id="mute" class="tool sound-tool" aria-label="Выключить звук" aria-pressed="false"><svg class="doodle-frame" viewBox="0 0 130 44" preserveAspectRatio="none" aria-hidden="true"><path d="M10 4 Q52 0 114 4 Q128 3 126 18 L125 32 Q129 42 112 40 Q62 44 13 40 Q2 43 4 29 L3 15 Q1 3 10 4Z"/><path class="sketch-line" d="M15 6 Q62 2 109 5 M125 13 Q129 31 121 37 M10 39 Q4 35 5 19"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 3c3 2 3 6 0 8m3-11c5 4 5 10 0 14"/></svg></button>
+      </div>
+    </header>
+    <section class="play-area" aria-label="Музыкальная клавиатура">
+      <div id="board-wrap">
+        <div id="board" aria-label="Кошачьи клавиши" aria-busy="true">
+          <img id="board-image" alt="Оранжевая игрушечная клавиатура с котиками, лапками и рыбками" draggable="false">
+          <div id="keys"></div>
+        </div>
+        <div id="bubbles" aria-hidden="true"></div>
+      </div>
+
+    </section>
+    <footer class="game-footer"><p class="copyright">© <a href="https://marat-bakirov.ru">marat-bakirov.ru</a>, 2026</p><span class="keyboard-hint">клавиши тоже играют <span class="hint-keys"><kbd>M</kbd> <kbd>E</kbd> <kbd>O</kbd> <kbd>W</kbd></span></span></footer>
+    <p id="hint" class="sr-only" role="status"></p>
+    <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  </main>
+</body>
+</html>

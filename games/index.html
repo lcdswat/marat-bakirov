@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ec2c42">
+  <title>Игры</title>
+  <link rel="icon" href="data:,">
+  <style>
+    * { box-sizing: border-box; }
+    html { min-height: 100%; background: #ec2c42; }
+    body { margin: 0; min-height: 100dvh; display: grid; place-items: center; padding: 28px; }
+    a { display: block; width: min(400px, 100%); transform: rotate(-3deg); transition: transform .18s; }
+    a:hover { transform: rotate(0deg) scale(1.04); }
+    a:focus-visible { outline: 3px solid #fff3d9; outline-offset: 12px; border-radius: 20px; }
+    img { display: block; width: 100%; height: auto; filter: drop-shadow(0 14px 16px #66102440); }
+    @media (prefers-reduced-motion: reduce) { a { transition: none; } }
+  </style>
+</head>
+<body>
+  <a href="/games/kitten-board/" aria-label="Открыть Котовиатуру"><img src="./kitten-board-thumb.webp" width="640" height="470" alt="Котовиатура"></a>
+</body>
+</html>
