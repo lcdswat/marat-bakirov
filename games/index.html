@@ -12,7 +12,8 @@
     body { margin: 0; min-height: 100dvh; display: grid; grid-template-columns: repeat(2, minmax(0, 400px)); justify-content: center; align-items: center; gap: clamp(28px, 7vw, 100px); padding: 28px; }
     a { display: block; width: min(400px, 100%); transform: rotate(-3deg); transition: transform .18s; }
     a.cardboard { width: min(240px, 100%); justify-self: center; transform: rotate(3deg); }
-    @media (max-width: 600px) { body { grid-template-columns: minmax(0, 400px); gap: 36px; } a.cardboard { width: min(200px, 100%); } }
+    a.milena { width: min(280px, 100%); justify-self: center; transform: rotate(-2deg); }
+    @media (max-width: 600px) { body { grid-template-columns: minmax(0, 400px); gap: 36px; } a.cardboard { width: min(200px, 100%); } a.milena { width: min(230px, 100%); } }
     a:hover { transform: rotate(0deg) scale(1.04); }
     a:focus-visible { outline: 3px solid #fff3d9; outline-offset: 12px; border-radius: 20px; }
     img { display: block; width: 100%; height: auto; filter: drop-shadow(0 14px 16px #66102440); }
@@ -22,5 +23,6 @@
 <body>
   <a href="/games/kitten-board/" aria-label="Открыть Котовиатуру"><img src="./kitten-board-thumb.webp" width="640" height="470" alt="Котовиатура"></a>
   <a class="cardboard" href="/games/capibara-jump-cardboard/" aria-label="Открыть картонные прыжки с капибарой"><img src="./capibara-jump-cardboard-thumb.webp" width="400" height="732" alt="Картонный телефон с капибарой"></a>
+  <a class="milena" href="/games/milena-pop-band/" aria-label="Открыть Милена — поп-группа"><img src="./milena-pop-band-thumb.webp" width="400" height="550" alt="Милена с радужной гитарой"></a>
 </body>
 </html>
