@@ -1,0 +1,30 @@
+{
+  "id": "/games/",
+  "name": "Games",
+  "short_name": "Games",
+  "start_url": "/games/",
+  "scope": "/games/",
+  "display": "standalone",
+  "background_color": "#ec2c42",
+  "theme_color": "#ec2c42",
+  "icons": [
+    {
+      "src": "/games/icons/icon-192-v1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/games/icons/icon-512-v1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/games/icons/icon-512-v1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
